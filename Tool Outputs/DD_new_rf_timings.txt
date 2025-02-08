@@ -1,0 +1,228 @@
+Issue 48221692_faulty.py 
+	Batch 0 layer 3:  Out of Rang Problem, terminating training		 change the activation function to softmax
+Issue 48221692_faulty.py 
+	Batch 0 layer 3:  Out of Rang Problem, terminating training		 change the activation function to softmax
+Issue 48221692_faulty.py 
+	Batch 0 layer 3:  Out of Rang Problem, terminating training		 change the activation function to softmax
+Issue 48221692_faulty.py 
+	Batch 0 layer 3:  Out of Rang Problem, terminating training		 change the activation function to softmax
+Issue 48221692_faulty.py 
+	Batch 0 layer 3:  Out of Rang Problem, terminating training		 change the activation function to softmax
+Issue 48221692_faulty.py 
+	Batch 0 layer 3:  Out of Rang Problem, terminating training		 change the activation function to softmax
+Issue 48221692_faulty.py 
+	Batch 0 layer 3:  Out of Rang Problem, terminating training		 change the activation function to softmax
+Issue 48221692_faulty.py 
+	Batch 0 layer 3:  Out of Rang Problem, terminating training		 change the activation function to softmax
+Issue 48221692_faulty.py 
+	Batch 0 layer 3:  Out of Rang Problem, terminating training		 change the activation function to softmax
+Issue 48221692_faulty.py 
+	Batch 0 layer 3:  Out of Rang Problem, terminating training		 change the activation function to softmax
+Issue 48221692_faulty.py 
+	Batch 0 layer 3:  Out of Rang Problem, terminating training		 change the activation function to softmax
+Issue 48221692_faulty.py 
+	Batch 0 layer 3:  Out of Rang Problem, terminating training		 change the activation function to softmax
+Issue 48221692_faulty.py 
+	Batch 0 layer 3:  Out of Rang Problem, terminating training		 change the activation function to softmax
+Issue 48221692_faulty.py 
+	Batch 0 layer 3:  Out of Rang Problem, terminating training		 change the activation function to softmax
+Issue 48221692_faulty.py 
+	Batch 0 layer 3:  Out of Rang Problem, terminating training		 change the activation function to softmax
+Issue 48221692_faulty.py 
+	Batch 0 layer 3:  Out of Rang Problem, terminating training		 change the activation function to softmax
+Issue 48221692_faulty.py 
+	Batch 0 layer 3:  Out of Rang Problem, terminating training		 change the activation function to softmax
+Issue 48221692_faulty.py 
+	Batch 0 layer 3:  Out of Rang Problem, terminating training		 change the activation function to softmax
+Issue 48221692_faulty.py 
+	Batch 0 layer 3:  Out of Rang Problem, terminating training		 change the activation function to softmax
+Issue 48221692_faulty.py 
+	Batch 0 layer 3:  Out of Rang Problem, terminating training		 change the activation function to softmax
+Issue 48221692_faulty.py 
+
+Issue 50079585_faulty.py 
+Batch 0 layer 14:  Out of Rang Problem, terminating training		  change the activation function to softmax
+Issue 50079585_faulty.py 
+Batch 0 layer 14:  Out of Rang Problem, terminating training		  change the activation function to softmax
+Issue 50079585_faulty.py 
+Batch 0 layer 14:  Out of Rang Problem, terminating training		  change the activation function to softmax
+Issue 50079585_faulty.py 
+Batch 0 layer 14:  Out of Rang Problem, terminating training		  change the activation function to softmax
+Issue 50079585_faulty.py 
+Batch 0 layer 14:  Out of Rang Problem, terminating training		  change the activation function to softmax
+Issue 50079585_faulty.py 
+Batch 0 layer 14:  Out of Rang Problem, terminating training		  change the activation function to softmax
+Issue 50079585_faulty.py 
+Batch 0 layer 14:  Out of Rang Problem, terminating training		  change the activation function to softmax
+Issue 50079585_faulty.py 
+Batch 0 layer 14:  Out of Rang Problem, terminating training		  change the activation function to softmax
+Issue 50079585_faulty.py 
+Batch 0 layer 14:  Out of Rang Problem, terminating training		  change the activation function to softmax
+Issue 50079585_faulty.py 
+Batch 0 layer 14:  Out of Rang Problem, terminating training		  change the activation function to softmax
+Issue 50079585_faulty.py 
+Batch 0 layer 14:  Out of Rang Problem, terminating training		  change the activation function to softmax
+Issue 50079585_faulty.py 
+Batch 0 layer 14:  Out of Rang Problem, terminating training		  change the activation function to softmax
+Issue 50079585_faulty.py 
+Batch 0 layer 14:  Out of Rang Problem, terminating training		  change the activation function to softmax
+Issue 50079585_faulty.py 
+Batch 0 layer 14:  Out of Rang Problem, terminating training		  change the activation function to softmax
+Issue 50079585_faulty.py 
+Batch 0 layer 14:  Out of Rang Problem, terminating training		  change the activation function to softmax
+Issue 50079585_faulty.py 
+Batch 0 layer 14:  Out of Rang Problem, terminating training		  change the activation function to softmax
+Issue 50079585_faulty.py 
+Batch 0 layer 14:  Out of Rang Problem, terminating training		  change the activation function to softmax
+Issue 50079585_faulty.py 
+Batch 0 layer 14:  Out of Rang Problem, terminating training		  change the activation function to softmax
+Issue 50079585_faulty.py 
+Batch 0 layer 14:  Out of Rang Problem, terminating training		  change the activation function to softmax
+Issue 50079585_faulty.py 
+Batch 0 layer 14:  Out of Rang Problem, terminating training		  change the activation function to softmax
+
+
+
+Issue kerasma_faulty.py 
+Issue kerasma_faulty.py 
+Issue kerasma_faulty.py 
+Issue kerasma_faulty.py 
+Issue kerasma_faulty.py 
+Issue kerasma_faulty.py 
+Issue kerasma_faulty.py 
+Issue kerasma_faulty.py 
+Issue kerasma_faulty.py 
+Issue kerasma_faulty.py 
+Issue kerasma_faulty.py 
+Issue kerasma_faulty.py 
+Issue kerasma_faulty.py 
+Issue kerasma_faulty.py 
+Issue kerasma_faulty.py 
+Issue kerasma_faulty.py 
+Issue kerasma_faulty.py 
+Issue kerasma_faulty.py 
+Issue kerasma_faulty.py 
+Issue kerasma_faulty.py 
+
+
+
+Issue 068.py 
+Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 Please change the loss function 	 OR Please change the activaton function at layer: 7
+Issue 068.py 
+Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 Please change the loss function 	 OR Please change the activaton function at layer: 7
+Issue 068.py 
+Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 Please change the loss function 	 OR Please change the activaton function at layer: 7
+Issue 068.py 
+Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 Please change the loss function 	 OR Please change the activaton function at layer: 7
+Issue 068.py 
+Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 Please change the loss function 	 OR Please change the activaton function at layer: 7
+Issue 068.py 
+Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 Please change the loss function 	 OR Please change the activaton function at layer: 7
+Issue 068.py 
+Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 Please change the loss function 	 OR Please change the activaton function at layer: 7
+Issue 068.py 
+Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 Please change the loss function 	 OR Please change the activaton function at layer: 7
+Issue 068.py 
+Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 Please change the loss function 	 OR Please change the activaton function at layer: 7
+Issue 068.py 
+Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 Please change the loss function 	 OR Please change the activaton function at layer: 7
+Issue 068.py 
+Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 Please change the loss function 	 OR Please change the activaton function at layer: 7
+Issue 068.py 
+Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 Please change the loss function 	 OR Please change the activaton function at layer: 7
+Issue 068.py 
+Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 Please change the loss function 	 OR Please change the activaton function at layer: 7
+Issue 068.py 
+Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 Please change the loss function 	 OR Please change the activaton function at layer: 7
+Issue 068.py 
+Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 Please change the loss function 	 OR Please change the activaton function at layer: 7
+Issue 068.py 
+Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 Please change the loss function 	 OR Please change the activaton function at layer: 7
+Issue 068.py 
+Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 Please change the loss function 	 OR Please change the activaton function at layer: 7
+Issue 068.py 
+Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 Please change the loss function 	 OR Please change the activaton function at layer: 7
+Issue 068.py 
+Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 Please change the loss function 	 OR Please change the activaton function at layer: 7
+Issue 068.py 
+Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 Please change the loss function 	 OR Please change the activaton function at layer: 7
+
+Batch 0 layer 1:  Out of Rang Problem, terminating training	change the activation function to softmax
+Issue 099.py 
+Batch 0 layer 1:  Out of Rang Problem, terminating training	change the activation function to softmax
+Issue 099.py 
+Batch 0 layer 1:  Out of Rang Problem, terminating training	change the activation function to softmax
+Issue 099.py 
+Batch 0 layer 1:  Out of Rang Problem, terminating training	change the activation function to softmax
+Issue 099.py 
+Batch 0 layer 1:  Out of Rang Problem, terminating training	change the activation function to softmax
+Issue 099.py 
+Batch 0 layer 1:  Out of Rang Problem, terminating training	change the activation function to softmax
+Issue 099.py 
+Batch 0 layer 1:  Out of Rang Problem, terminating training	change the activation function to softmax
+Issue 099.py 
+Batch 0 layer 1:  Out of Rang Problem, terminating training	change the activation function to softmax
+Issue 099.py 
+Batch 0 layer 1:  Out of Rang Problem, terminating training	change the activation function to softmax
+Issue 099.py 
+Batch 0 layer 1:  Out of Rang Problem, terminating training	change the activation function to softmax
+Issue 099.py 
+Batch 0 layer 1:  Out of Rang Problem, terminating training	change the activation function to softmax
+Issue 099.py 
+Batch 0 layer 1:  Out of Rang Problem, terminating training	change the activation function to softmax
+Issue 099.py 
+Batch 0 layer 1:  Out of Rang Problem, terminating training	change the activation function to softmax
+Issue 099.py 
+Batch 0 layer 1:  Out of Rang Problem, terminating training	change the activation function to softmax
+Issue 099.py 
+Batch 0 layer 1:  Out of Rang Problem, terminating training	change the activation function to softmax
+Issue 099.py 
+Batch 0 layer 1:  Out of Rang Problem, terminating training	change the activation function to softmax
+Issue 099.py 
+Batch 0 layer 1:  Out of Rang Problem, terminating training	change the activation function to softmax
+Issue 099.py 
+Batch 0 layer 1:  Out of Rang Problem, terminating training	change the activation function to softmax
+Issue 099.py 
+Batch 0 layer 1:  Out of Rang Problem, terminating training	change the activation function to softmax
+Issue 099.py 
+Batch 0 layer 1:  Out of Rang Problem, terminating training	change the activation function to softmax
+Issue 024_faulty.py 
+Batch 0 layer 2:  Out of Rang Problem, terminating training change the activation function to softmax 	
+Issue 024_faulty.py 
+Batch 0 layer 2:  Out of Rang Problem, terminating training change the activation function to softmax 
+Issue 024_faulty.py 
+Batch 0 layer 2:  Out of Rang Problem, terminating training change the activation function to softmax 	
+Issue 024_faulty.py 
+Batch 0 layer 2:  Out of Rang Problem, terminating training change the activation function to softmax 
+Issue 024_faulty.py 
+Batch 0 layer 2:  Out of Rang Problem, terminating training change the activation function to softmax 	
+Issue 024_faulty.py 
+Batch 0 layer 2:  Out of Rang Problem, terminating training change the activation function to softmax 
+Issue 024_faulty.py 
+Batch 0 layer 2:  Out of Rang Problem, terminating training change the activation function to softmax 	
+Issue 024_faulty.py 
+Batch 0 layer 2:  Out of Rang Problem, terminating training change the activation function to softmax 
+Issue 024_faulty.py 
+Batch 0 layer 2:  Out of Rang Problem, terminating training change the activation function to softmax 	
+Issue 024_faulty.py 
+Batch 0 layer 2:  Out of Rang Problem, terminating training change the activation function to softmax 
+Issue 024_faulty.py 
+Batch 0 layer 2:  Out of Rang Problem, terminating training change the activation function to softmax 	
+Issue 024_faulty.py 
+Batch 0 layer 2:  Out of Rang Problem, terminating training change the activation function to softmax 
+Issue 024_faulty.py 
+Batch 0 layer 2:  Out of Rang Problem, terminating training change the activation function to softmax 	
+Issue 024_faulty.py 
+Batch 0 layer 2:  Out of Rang Problem, terminating training change the activation function to softmax 
+Issue 024_faulty.py 
+Batch 0 layer 2:  Out of Rang Problem, terminating training change the activation function to softmax 	
+Issue 024_faulty.py 
+Batch 0 layer 2:  Out of Rang Problem, terminating training change the activation function to softmax 
+Issue 024_faulty.py 
+Batch 0 layer 2:  Out of Rang Problem, terminating training change the activation function to softmax 	
+Issue 024_faulty.py 
+Batch 0 layer 2:  Out of Rang Problem, terminating training change the activation function to softmax 
+Issue 024_faulty.py 
+Batch 0 layer 2:  Out of Rang Problem, terminating training change the activation function to softmax 	
+Issue 024_faulty.py 
+Batch 0 layer 2:  Out of Rang Problem, terminating training change the activation function to softmax 

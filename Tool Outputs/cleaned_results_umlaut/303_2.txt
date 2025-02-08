@@ -1,0 +1,420 @@
+D:\nargiz\github\umlaut\venvUMLT\Scripts\python.exe D:/nargiz/github/umlaut/56380303.py
+Using TensorFlow backend.
+2023-03-21 21:59:07.201202: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudart64_101.dll
+D:/nargiz/github/umlaut/56380303.py:44: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  Y = np.vstack(map(get_mod_result_vector, X))
+2023-03-21 21:59:09.272067: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library nvcuda.dll
+2023-03-21 21:59:09.297794: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:0b:00.0 name: NVIDIA GeForce RTX 2060 SUPER computeCapability: 7.5
+coreClock: 1.65GHz coreCount: 34 deviceMemorySize: 8.00GiB deviceMemoryBandwidth: 417.29GiB/s
+2023-03-21 21:59:09.297961: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudart64_101.dll
+2023-03-21 21:59:09.302277: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cublas64_10.dll
+2023-03-21 21:59:09.304946: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cufft64_10.dll
+2023-03-21 21:59:09.306093: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library curand64_10.dll
+2023-03-21 21:59:09.309429: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cusolver64_10.dll
+2023-03-21 21:59:09.311830: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cusparse64_10.dll
+2023-03-21 21:59:09.318434: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudnn64_7.dll
+2023-03-21 21:59:09.318549: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+2023-03-21 21:59:09.318823: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2023-03-21 21:59:09.319589: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:0b:00.0 name: NVIDIA GeForce RTX 2060 SUPER computeCapability: 7.5
+coreClock: 1.65GHz coreCount: 34 deviceMemorySize: 8.00GiB deviceMemoryBandwidth: 417.29GiB/s
+2023-03-21 21:59:09.319898: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudart64_101.dll
+2023-03-21 21:59:09.319985: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cublas64_10.dll
+2023-03-21 21:59:09.320063: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cufft64_10.dll
+2023-03-21 21:59:09.320138: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library curand64_10.dll
+2023-03-21 21:59:09.320215: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cusolver64_10.dll
+2023-03-21 21:59:09.320295: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cusparse64_10.dll
+2023-03-21 21:59:09.320377: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudnn64_7.dll
+2023-03-21 21:59:09.320494: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+2023-03-21 21:59:09.746814: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1096] Device interconnect StreamExecutor with strength 1 edge matrix:
+2023-03-21 21:59:09.746907: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102]      0 
+2023-03-21 21:59:09.746955: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] 0:   N 
+2023-03-21 21:59:09.747101: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1241] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6704 MB memory) -> physical GPU (device: 0, name: NVIDIA GeForce RTX 2060 SUPER, pci bus id: 0000:0b:00.0, compute capability: 7.5)
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+2023-03-21 21:59:10.550106: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cublas64_10.dll
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Possible overfitting>, <Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+  32/2000 [..............................] - ETA: 0s
+1472/2000 [=====================>........] - ETA: 0s
+2000/2000 [==============================] - 0s 35us/step
+[6.740813436508179, 0.574999988079071]
+D:/nargiz/github/umlaut/56380303.py:44: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  Y = np.vstack(map(get_mod_result_vector, X))
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+  32/2000 [..............................] - ETA: 0s
+1312/2000 [==================>...........] - ETA: 0s
+2000/2000 [==============================] - 0s 39us/step
+[61.99728820800781, 0.5755000114440918]
+D:/nargiz/github/umlaut/56380303.py:44: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  Y = np.vstack(map(get_mod_result_vector, X))
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Possible overfitting>, <Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+  32/2000 [..............................] - ETA: 0s
+1248/2000 [=================>............] - ETA: 0s
+D:/nargiz/github/umlaut/56380303.py:44: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  Y = np.vstack(map(get_mod_result_vector, X))
+2000/2000 [==============================] - 0s 41us/step
+[2.4768194437026976, 0.4034999907016754]
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Possible overfitting>, <Warning: Check validation accuracy>]
+
+  32/2000 [..............................] - ETA: 0s
+1248/2000 [=================>............] - ETA: 0s
+D:/nargiz/github/umlaut/56380303.py:44: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  Y = np.vstack(map(get_mod_result_vector, X))
+2000/2000 [==============================] - 0s 42us/step
+[1.801460485458374, 0.2705000042915344]
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+  32/2000 [..............................] - ETA: 0s
+1184/2000 [================>.............] - ETA: 0s
+D:/nargiz/github/umlaut/56380303.py:44: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  Y = np.vstack(map(get_mod_result_vector, X))
+2000/2000 [==============================] - 0s 44us/step
+[6684.713875, 0.5494999885559082]
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+  32/2000 [..............................] - ETA: 0s
+1248/2000 [=================>............] - ETA: 0s
+D:/nargiz/github/umlaut/56380303.py:44: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  Y = np.vstack(map(get_mod_result_vector, X))
+2000/2000 [==============================] - 0s 43us/step
+[1.777022834777832, 0.5245000123977661]
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+  32/2000 [..............................] - ETA: 0s
+1248/2000 [=================>............] - ETA: 0s
+D:/nargiz/github/umlaut/56380303.py:44: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  Y = np.vstack(map(get_mod_result_vector, X))
+2000/2000 [==============================] - 0s 42us/step
+[307463.3425, 0.5580000281333923]
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+  32/2000 [..............................] - ETA: 0s
+1408/2000 [====================>.........] - ETA: 0s
+D:/nargiz/github/umlaut/56380303.py:44: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  Y = np.vstack(map(get_mod_result_vector, X))
+2000/2000 [==============================] - 0s 39us/step
+[409.6937368164063, 0.2865000069141388]
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Possible overfitting>, <Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+  32/2000 [..............................] - ETA: 0s
+1248/2000 [=================>............] - ETA: 0s
+1952/2000 [============================>.] - ETA: 0s
+D:/nargiz/github/umlaut/56380303.py:44: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  Y = np.vstack(map(get_mod_result_vector, X))
+2000/2000 [==============================] - 0s 58us/step
+[3.518902458190918, 0.5849999785423279]
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Possible overfitting>, <Warning: Check validation accuracy>]
+
+  32/2000 [..............................] - ETA: 0s
+1408/2000 [====================>.........] - ETA: 0s
+D:/nargiz/github/umlaut/56380303.py:44: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  Y = np.vstack(map(get_mod_result_vector, X))
+2000/2000 [==============================] - 0s 38us/step
+[473.62428125, 0.5554999709129333]
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Possible overfitting>, <Warning: Check validation accuracy>]
+
+  32/2000 [..............................] - ETA: 0s
+1216/2000 [=================>............] - ETA: 0s
+2000/2000 [==============================] - 0s 43us/step
+[2856.062609375, 0.15449999272823334]
+D:/nargiz/github/umlaut/56380303.py:44: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  Y = np.vstack(map(get_mod_result_vector, X))
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Warning: Possible overfitting>, <Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Possible overfitting>, <Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Possible overfitting>, <Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+  32/2000 [..............................] - ETA: 0s
+1312/2000 [==================>...........] - ETA: 0s
+2000/2000 [==============================] - 0s 41us/step
+[547.121515625, 0.5740000009536743]
+D:/nargiz/github/umlaut/56380303.py:44: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  Y = np.vstack(map(get_mod_result_vector, X))
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Possible overfitting>, <Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Possible overfitting>, <Warning: Check validation accuracy>]
+
+  32/2000 [..............................] - ETA: 0s
+1280/2000 [==================>...........] - ETA: 0s
+D:/nargiz/github/umlaut/56380303.py:44: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  Y = np.vstack(map(get_mod_result_vector, X))
+2000/2000 [==============================] - 0s 41us/step
+[298.9906953125, 0.28299999237060547]
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+  32/2000 [..............................] - ETA: 0s
+ 896/2000 [============>.................] - ETA: 0s
+1696/2000 [========================>.....] - ETA: 0s
+2000/2000 [==============================] - 0s 61us/step
+[3.7369818058013915, 0.5820000171661377]
+D:/nargiz/github/umlaut/56380303.py:44: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  Y = np.vstack(map(get_mod_result_vector, X))
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Possible overfitting>, <Warning: Check validation accuracy>]
+
+  32/2000 [..............................] - ETA: 0s
+1376/2000 [===================>..........] - ETA: 0s
+2000/2000 [==============================] - 0s 37us/step
+[6.0281178169250484, 0.5724999904632568]
+D:/nargiz/github/umlaut/56380303.py:44: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  Y = np.vstack(map(get_mod_result_vector, X))
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+  32/2000 [..............................] - ETA: 0s
+1280/2000 [==================>...........] - ETA: 0s
+D:/nargiz/github/umlaut/56380303.py:44: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  Y = np.vstack(map(get_mod_result_vector, X))
+2000/2000 [==============================] - 0s 41us/step
+[1.6413337802886963, 0.2784999907016754]
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+  32/2000 [..............................] - ETA: 0s
+1184/2000 [================>.............] - ETA: 0s
+2000/2000 [==============================] - 0s 44us/step
+[1.707984429359436, 0.1535000056028366]
+D:/nargiz/github/umlaut/56380303.py:44: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  Y = np.vstack(map(get_mod_result_vector, X))
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Possible overfitting>, <Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+  32/2000 [..............................] - ETA: 0s
+1344/2000 [===================>..........] - ETA: 0s
+D:/nargiz/github/umlaut/56380303.py:44: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  Y = np.vstack(map(get_mod_result_vector, X))
+2000/2000 [==============================] - 0s 39us/step
+[80.6032978515625, 0.5759999752044678]
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Possible overfitting>, <Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+  32/2000 [..............................] - ETA: 0s
+1184/2000 [================>.............] - ETA: 0s
+D:/nargiz/github/umlaut/56380303.py:44: FutureWarning: arrays to stack must be passed as a "sequence" type such as list or tuple. Support for non-sequence iterables such as generators is deprecated as of NumPy 1.16 and will raise an error in the future.
+  Y = np.vstack(map(get_mod_result_vector, X))
+2000/2000 [==============================] - 0s 46us/step
+[1262.8816953125, 0.5605000257492065]
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Warning: Possible overfitting>, <Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+  32/2000 [..............................] - ETA: 0s
+1312/2000 [==================>...........] - ETA: 0s
+2000/2000 [==============================] - 0s 39us/step
+[369.2936121826172, 0.15049999952316284]
+
+Process finished with exit code 0

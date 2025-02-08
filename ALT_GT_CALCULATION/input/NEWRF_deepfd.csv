@@ -1,0 +1,4 @@
+﻿68,1,OCH | ACH | LCH,optimizer,act,loss,
+98,0,,,,,
+99,0,OCH | HLR | HNE,optimizer,lr,epochs,
+48221692,1,HLR | ACH | LCH | HNE,lr,act,loss,epochs

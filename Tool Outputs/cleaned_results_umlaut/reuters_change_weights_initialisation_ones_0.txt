@@ -1,0 +1,2227 @@
+D:\nargiz\github\umlaut\venvUMLT\Scripts\python.exe D:/nargiz/github/umlaut/reuters_change_weights_initialisation_ones_0.py
+Using TensorFlow backend.
+2023-03-20 08:02:57.057511: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudart64_101.dll
+# of Training Samples: 8982
+# of Test Samples: 2246
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+2023-03-20 08:02:59.912329: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library nvcuda.dll
+2023-03-20 08:02:59.954412: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:0b:00.0 name: NVIDIA GeForce RTX 2060 SUPER computeCapability: 7.5
+coreClock: 1.65GHz coreCount: 34 deviceMemorySize: 8.00GiB deviceMemoryBandwidth: 417.29GiB/s
+2023-03-20 08:02:59.954567: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudart64_101.dll
+2023-03-20 08:02:59.959196: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cublas64_10.dll
+2023-03-20 08:02:59.961659: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cufft64_10.dll
+2023-03-20 08:02:59.962651: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library curand64_10.dll
+2023-03-20 08:02:59.965948: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cusolver64_10.dll
+2023-03-20 08:02:59.968299: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cusparse64_10.dll
+2023-03-20 08:02:59.974215: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudnn64_7.dll
+2023-03-20 08:02:59.974333: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+2023-03-20 08:02:59.974598: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2023-03-20 08:02:59.975411: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:0b:00.0 name: NVIDIA GeForce RTX 2060 SUPER computeCapability: 7.5
+coreClock: 1.65GHz coreCount: 34 deviceMemorySize: 8.00GiB deviceMemoryBandwidth: 417.29GiB/s
+2023-03-20 08:02:59.975618: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudart64_101.dll
+2023-03-20 08:02:59.975719: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cublas64_10.dll
+2023-03-20 08:02:59.975806: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cufft64_10.dll
+2023-03-20 08:02:59.975893: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library curand64_10.dll
+2023-03-20 08:02:59.975981: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cusolver64_10.dll
+2023-03-20 08:02:59.976067: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cusparse64_10.dll
+2023-03-20 08:02:59.976144: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudnn64_7.dll
+2023-03-20 08:02:59.976230: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+2023-03-20 08:03:00.434975: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1096] Device interconnect StreamExecutor with strength 1 edge matrix:
+2023-03-20 08:03:00.435075: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102]      0 
+2023-03-20 08:03:00.435122: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] 0:   N 
+2023-03-20 08:03:00.435266: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1241] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6704 MB memory) -> physical GPU (device: 0, name: NVIDIA GeForce RTX 2060 SUPER, pci bus id: 0000:0b:00.0, compute capability: 7.5)
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+2023-03-20 08:03:01.232702: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cublas64_10.dll
+
+  32/7185 [..............................] - ETA: 56s - loss: 386.4078 - accuracy: 0.0000e+00
+ 384/7185 [>.............................] - ETA: 5s - loss: 213.8376 - accuracy: 0.1094     
+ 704/7185 [=>............................] - ETA: 3s - loss: 206.4522 - accuracy: 0.1463
+1056/7185 [===>..........................] - ETA: 2s - loss: 203.0897 - accuracy: 0.1458
+1408/7185 [====>.........................] - ETA: 1s - loss: 194.9655 - accuracy: 0.1413
+1760/7185 [======>.......................] - ETA: 1s - loss: 193.0318 - accuracy: 0.1472
+2080/7185 [=======>......................] - ETA: 1s - loss: 189.8972 - accuracy: 0.1543
+2400/7185 [=========>....................] - ETA: 1s - loss: 188.3953 - accuracy: 0.1579
+2752/7185 [==========>...................] - ETA: 1s - loss: 187.8481 - accuracy: 0.1621
+3104/7185 [===========>..................] - ETA: 0s - loss: 186.8315 - accuracy: 0.1614
+3456/7185 [=============>................] - ETA: 0s - loss: 186.6798 - accuracy: 0.1678
+3776/7185 [==============>...............] - ETA: 0s - loss: 186.3707 - accuracy: 0.1676
+4096/7185 [================>.............] - ETA: 0s - loss: 186.1413 - accuracy: 0.1702
+4448/7185 [=================>............] - ETA: 0s - loss: 185.8497 - accuracy: 0.1702
+4800/7185 [===================>..........] - ETA: 0s - loss: 184.7854 - accuracy: 0.1746
+5120/7185 [====================>.........] - ETA: 0s - loss: 184.1792 - accuracy: 0.1770
+5472/7185 [=====================>........] - ETA: 0s - loss: 183.0157 - accuracy: 0.1780
+5824/7185 [=======================>......] - ETA: 0s - loss: 181.1744 - accuracy: 0.1815
+6176/7185 [========================>.....] - ETA: 0s - loss: 180.3138 - accuracy: 0.1854
+6528/7185 [==========================>...] - ETA: 0s - loss: 178.9012 - accuracy: 0.1880
+6848/7185 [===========================>..] - ETA: 0s - loss: 178.4229 - accuracy: 0.1890
+7168/7185 [============================>.] - ETA: 0s - loss: 178.7467 - accuracy: 0.1904
+7185/7185 [==============================] - 2s 217us/step - loss: 178.5160 - accuracy: 0.1908 - val_loss: 57.3562 - val_accuracy: 0.5075
+Epoch 2/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 164.1789 - accuracy: 0.1875
+ 384/7185 [>.............................] - ETA: 1s - loss: 148.3086 - accuracy: 0.2422
+ 736/7185 [==>...........................] - ETA: 0s - loss: 142.5344 - accuracy: 0.2582
+1056/7185 [===>..........................] - ETA: 0s - loss: 142.2954 - accuracy: 0.2670
+1408/7185 [====>.........................] - ETA: 0s - loss: 140.4654 - accuracy: 0.2635
+1728/7185 [======>.......................] - ETA: 0s - loss: 138.9702 - accuracy: 0.2726
+2048/7185 [=======>......................] - ETA: 0s - loss: 138.0463 - accuracy: 0.2700
+2368/7185 [========>.....................] - ETA: 0s - loss: 142.0723 - accuracy: 0.2711
+2720/7185 [==========>...................] - ETA: 0s - loss: 143.3362 - accuracy: 0.2669
+3072/7185 [===========>..................] - ETA: 0s - loss: 144.1344 - accuracy: 0.2692
+3424/7185 [=============>................] - ETA: 0s - loss: 146.0447 - accuracy: 0.2669
+3776/7185 [==============>...............] - ETA: 0s - loss: 146.7791 - accuracy: 0.2669
+4128/7185 [================>.............] - ETA: 0s - loss: 146.8749 - accuracy: 0.2626
+4480/7185 [=================>............] - ETA: 0s - loss: 145.9427 - accuracy: 0.2654
+4800/7185 [===================>..........] - ETA: 0s - loss: 146.3145 - accuracy: 0.2656
+5120/7185 [====================>.........] - ETA: 0s - loss: 145.4522 - accuracy: 0.2670
+5440/7185 [=====================>........] - ETA: 0s - loss: 144.2100 - accuracy: 0.2669
+5792/7185 [=======================>......] - ETA: 0s - loss: 143.3661 - accuracy: 0.2683
+6144/7185 [========================>.....] - ETA: 0s - loss: 143.6070 - accuracy: 0.2674
+6496/7185 [==========================>...] - ETA: 0s - loss: 142.7680 - accuracy: 0.2686
+6816/7185 [===========================>..] - ETA: 0s - loss: 142.3302 - accuracy: 0.2685
+7168/7185 [============================>.] - ETA: 0s - loss: 142.6200 - accuracy: 0.2699
+7185/7185 [==============================] - 1s 179us/step - loss: 142.7185 - accuracy: 0.2700 - val_loss: 54.0893 - val_accuracy: 0.5136
+Epoch 3/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 147.7002 - accuracy: 0.2188
+ 384/7185 [>.............................] - ETA: 1s - loss: 112.0033 - accuracy: 0.3177
+ 736/7185 [==>...........................] - ETA: 0s - loss: 126.7875 - accuracy: 0.3139
+1088/7185 [===>..........................] - ETA: 0s - loss: 123.5627 - accuracy: 0.3051
+1440/7185 [=====>........................] - ETA: 0s - loss: 121.4739 - accuracy: 0.3194
+1760/7185 [======>.......................] - ETA: 0s - loss: 122.0124 - accuracy: 0.3244
+2080/7185 [=======>......................] - ETA: 0s - loss: 123.6087 - accuracy: 0.3236
+2432/7185 [=========>....................] - ETA: 0s - loss: 123.1186 - accuracy: 0.3211
+2784/7185 [==========>...................] - ETA: 0s - loss: 124.2177 - accuracy: 0.3129
+3104/7185 [===========>..................] - ETA: 0s - loss: 123.6514 - accuracy: 0.3135
+3424/7185 [=============>................] - ETA: 0s - loss: 125.0813 - accuracy: 0.3143
+3776/7185 [==============>...............] - ETA: 0s - loss: 125.0032 - accuracy: 0.3112
+4128/7185 [================>.............] - ETA: 0s - loss: 124.1411 - accuracy: 0.3178
+4480/7185 [=================>............] - ETA: 0s - loss: 121.6642 - accuracy: 0.3239
+4800/7185 [===================>..........] - ETA: 0s - loss: 120.8294 - accuracy: 0.3267
+5120/7185 [====================>.........] - ETA: 0s - loss: 120.6898 - accuracy: 0.3307
+5440/7185 [=====================>........] - ETA: 0s - loss: 121.8825 - accuracy: 0.3290
+5792/7185 [=======================>......] - ETA: 0s - loss: 121.9804 - accuracy: 0.3265
+6144/7185 [========================>.....] - ETA: 0s - loss: 121.8439 - accuracy: 0.3301
+6464/7185 [=========================>....] - ETA: 0s - loss: 121.8944 - accuracy: 0.3314
+6784/7185 [===========================>..] - ETA: 0s - loss: 120.6475 - accuracy: 0.3342
+7136/7185 [============================>.] - ETA: 0s - loss: 120.4664 - accuracy: 0.3332
+7185/7185 [==============================] - 1s 179us/step - loss: 120.1603 - accuracy: 0.3340 - val_loss: 65.4513 - val_accuracy: 0.5481
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+  32/2246 [..............................] - ETA: 0s
+ 608/2246 [=======>......................] - ETA: 0s
+1184/2246 [==============>...............] - ETA: 0s
+1760/2246 [======================>.......] - ETA: 0s
+2246/2246 [==============================] - 0s 91us/step
+Test loss: 61.47848322894673
+Test accuracy: 0.5574354529380798
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+
+  32/7185 [..............................] - ETA: 15s - loss: 380.3403 - accuracy: 0.0000e+00
+ 288/7185 [>.............................] - ETA: 3s - loss: 262.3026 - accuracy: 0.1007     
+ 544/7185 [=>............................] - ETA: 2s - loss: 236.5357 - accuracy: 0.1287
+ 800/7185 [==>...........................] - ETA: 1s - loss: 215.7064 - accuracy: 0.1425
+1056/7185 [===>..........................] - ETA: 1s - loss: 206.9993 - accuracy: 0.1458
+1312/7185 [====>.........................] - ETA: 1s - loss: 207.1942 - accuracy: 0.1486
+1600/7185 [=====>........................] - ETA: 1s - loss: 203.5971 - accuracy: 0.1381
+1888/7185 [======>.......................] - ETA: 1s - loss: 202.0711 - accuracy: 0.1367
+2176/7185 [========>.....................] - ETA: 1s - loss: 200.7951 - accuracy: 0.1397
+2496/7185 [=========>....................] - ETA: 1s - loss: 196.3047 - accuracy: 0.1579
+2816/7185 [==========>...................] - ETA: 0s - loss: 192.1907 - accuracy: 0.1612
+3136/7185 [============>.................] - ETA: 0s - loss: 190.7434 - accuracy: 0.1626
+3456/7185 [=============>................] - ETA: 0s - loss: 189.8649 - accuracy: 0.1678
+3808/7185 [==============>...............] - ETA: 0s - loss: 190.1670 - accuracy: 0.1712
+4128/7185 [================>.............] - ETA: 0s - loss: 189.4545 - accuracy: 0.1734
+4448/7185 [=================>............] - ETA: 0s - loss: 187.8935 - accuracy: 0.1736
+4768/7185 [==================>...........] - ETA: 0s - loss: 186.1495 - accuracy: 0.1776
+5120/7185 [====================>.........] - ETA: 0s - loss: 184.7793 - accuracy: 0.1785
+5472/7185 [=====================>........] - ETA: 0s - loss: 183.4099 - accuracy: 0.1820
+5824/7185 [=======================>......] - ETA: 0s - loss: 182.5293 - accuracy: 0.1865
+6144/7185 [========================>.....] - ETA: 0s - loss: 181.2757 - accuracy: 0.1883
+6496/7185 [==========================>...] - ETA: 0s - loss: 179.8900 - accuracy: 0.1940
+6848/7185 [===========================>..] - ETA: 0s - loss: 178.3740 - accuracy: 0.1989
+7168/7185 [============================>.] - ETA: 0s - loss: 177.0439 - accuracy: 0.2019
+7185/7185 [==============================] - 1s 208us/step - loss: 176.9967 - accuracy: 0.2021 - val_loss: 74.3676 - val_accuracy: 0.4474
+Epoch 2/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 110.1340 - accuracy: 0.3438
+ 352/7185 [>.............................] - ETA: 1s - loss: 154.5995 - accuracy: 0.2528
+ 672/7185 [=>............................] - ETA: 1s - loss: 157.7469 - accuracy: 0.2455
+ 992/7185 [===>..........................] - ETA: 1s - loss: 159.3006 - accuracy: 0.2399
+1344/7185 [====>.........................] - ETA: 0s - loss: 157.9020 - accuracy: 0.2448
+1696/7185 [======>.......................] - ETA: 0s - loss: 154.7103 - accuracy: 0.2529
+2016/7185 [=======>......................] - ETA: 0s - loss: 152.2935 - accuracy: 0.2644
+2336/7185 [========>.....................] - ETA: 0s - loss: 150.4980 - accuracy: 0.2611
+2656/7185 [==========>...................] - ETA: 0s - loss: 150.6507 - accuracy: 0.2639
+2944/7185 [===========>..................] - ETA: 0s - loss: 149.9080 - accuracy: 0.2653
+3296/7185 [============>.................] - ETA: 0s - loss: 148.7858 - accuracy: 0.2709
+3616/7185 [==============>...............] - ETA: 0s - loss: 149.8613 - accuracy: 0.2688
+3936/7185 [===============>..............] - ETA: 0s - loss: 150.0804 - accuracy: 0.2668
+4288/7185 [================>.............] - ETA: 0s - loss: 147.8225 - accuracy: 0.2691
+4640/7185 [==================>...........] - ETA: 0s - loss: 145.9071 - accuracy: 0.2782
+4928/7185 [===================>..........] - ETA: 0s - loss: 145.9288 - accuracy: 0.2778
+5248/7185 [====================>.........] - ETA: 0s - loss: 144.4332 - accuracy: 0.2816
+5568/7185 [======================>.......] - ETA: 0s - loss: 144.9285 - accuracy: 0.2795
+5920/7185 [=======================>......] - ETA: 0s - loss: 144.0327 - accuracy: 0.2796
+6272/7185 [=========================>....] - ETA: 0s - loss: 143.8269 - accuracy: 0.2830
+6592/7185 [==========================>...] - ETA: 0s - loss: 143.0990 - accuracy: 0.2840
+6912/7185 [===========================>..] - ETA: 0s - loss: 142.0276 - accuracy: 0.2831
+7185/7185 [==============================] - 1s 186us/step - loss: 142.2614 - accuracy: 0.2836 - val_loss: 62.8766 - val_accuracy: 0.5281
+Epoch 3/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 121.7924 - accuracy: 0.4062
+ 352/7185 [>.............................] - ETA: 1s - loss: 130.2743 - accuracy: 0.3125
+ 704/7185 [=>............................] - ETA: 1s - loss: 143.2712 - accuracy: 0.3125
+1056/7185 [===>..........................] - ETA: 0s - loss: 134.5057 - accuracy: 0.3172
+1408/7185 [====>.........................] - ETA: 0s - loss: 130.9668 - accuracy: 0.3189
+1728/7185 [======>.......................] - ETA: 0s - loss: 128.1599 - accuracy: 0.3218
+2048/7185 [=======>......................] - ETA: 0s - loss: 126.9355 - accuracy: 0.3247
+2368/7185 [========>.....................] - ETA: 0s - loss: 124.9973 - accuracy: 0.3323
+2688/7185 [==========>...................] - ETA: 0s - loss: 123.2814 - accuracy: 0.3318
+3040/7185 [===========>..................] - ETA: 0s - loss: 124.1960 - accuracy: 0.3309
+3360/7185 [=============>................] - ETA: 0s - loss: 124.8231 - accuracy: 0.3295
+3680/7185 [==============>...............] - ETA: 0s - loss: 123.9333 - accuracy: 0.3307
+4032/7185 [===============>..............] - ETA: 0s - loss: 123.7457 - accuracy: 0.3291
+4384/7185 [=================>............] - ETA: 0s - loss: 123.1257 - accuracy: 0.3312
+4736/7185 [==================>...........] - ETA: 0s - loss: 122.0558 - accuracy: 0.3323
+5056/7185 [====================>.........] - ETA: 0s - loss: 122.1001 - accuracy: 0.3321
+5376/7185 [=====================>........] - ETA: 0s - loss: 122.1224 - accuracy: 0.3291
+5696/7185 [======================>.......] - ETA: 0s - loss: 121.4317 - accuracy: 0.3318
+6016/7185 [========================>.....] - ETA: 0s - loss: 120.6315 - accuracy: 0.3351
+6336/7185 [=========================>....] - ETA: 0s - loss: 121.2937 - accuracy: 0.3344
+6656/7185 [==========================>...] - ETA: 0s - loss: 121.5649 - accuracy: 0.3337
+6976/7185 [============================>.] - ETA: 0s - loss: 121.0338 - accuracy: 0.3341
+7185/7185 [==============================] - 1s 184us/step - loss: 120.3254 - accuracy: 0.3360 - val_loss: 50.2391 - val_accuracy: 0.5237
+
+  32/2246 [..............................] - ETA: 0s
+ 576/2246 [======>.......................] - ETA: 0s
+1120/2246 [=============>................] - ETA: 0s
+1600/2246 [====================>.........] - ETA: 0s
+2112/2246 [===========================>..] - ETA: 0s
+2246/2246 [==============================] - 0s 100us/step
+Test loss: 49.13312302926557
+Test accuracy: 0.5365093350410461
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+
+  32/7185 [..............................] - ETA: 16s - loss: 270.7306 - accuracy: 0.0000e+00
+ 288/7185 [>.............................] - ETA: 3s - loss: 261.1281 - accuracy: 0.0590     
+ 544/7185 [=>............................] - ETA: 2s - loss: 249.9894 - accuracy: 0.1287
+ 832/7185 [==>...........................] - ETA: 1s - loss: 238.5246 - accuracy: 0.1382
+1120/7185 [===>..........................] - ETA: 1s - loss: 224.1561 - accuracy: 0.1411
+1408/7185 [====>.........................] - ETA: 1s - loss: 217.8907 - accuracy: 0.1406
+1696/7185 [======>.......................] - ETA: 1s - loss: 210.8682 - accuracy: 0.1486
+2016/7185 [=======>......................] - ETA: 1s - loss: 205.1181 - accuracy: 0.1483
+2336/7185 [========>.....................] - ETA: 1s - loss: 200.1889 - accuracy: 0.1503
+2656/7185 [==========>...................] - ETA: 0s - loss: 195.7474 - accuracy: 0.1585
+2976/7185 [===========>..................] - ETA: 0s - loss: 197.4081 - accuracy: 0.1603
+3296/7185 [============>.................] - ETA: 0s - loss: 198.3366 - accuracy: 0.1626
+3616/7185 [==============>...............] - ETA: 0s - loss: 196.9216 - accuracy: 0.1601
+3936/7185 [===============>..............] - ETA: 0s - loss: 195.0602 - accuracy: 0.1644
+4224/7185 [================>.............] - ETA: 0s - loss: 192.7209 - accuracy: 0.1641
+4512/7185 [=================>............] - ETA: 0s - loss: 190.7559 - accuracy: 0.1693
+4832/7185 [===================>..........] - ETA: 0s - loss: 190.2556 - accuracy: 0.1714
+5152/7185 [====================>.........] - ETA: 0s - loss: 188.6350 - accuracy: 0.1747
+5472/7185 [=====================>........] - ETA: 0s - loss: 188.8539 - accuracy: 0.1791
+5792/7185 [=======================>......] - ETA: 0s - loss: 188.1345 - accuracy: 0.1796
+6112/7185 [========================>.....] - ETA: 0s - loss: 186.1630 - accuracy: 0.1823
+6432/7185 [=========================>....] - ETA: 0s - loss: 185.7965 - accuracy: 0.1858
+6752/7185 [===========================>..] - ETA: 0s - loss: 184.6536 - accuracy: 0.1882
+7104/7185 [============================>.] - ETA: 0s - loss: 183.9039 - accuracy: 0.1902
+7185/7185 [==============================] - 1s 208us/step - loss: 183.7031 - accuracy: 0.1903 - val_loss: 61.5653 - val_accuracy: 0.5019
+Epoch 2/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 183.3962 - accuracy: 0.2188
+ 352/7185 [>.............................] - ETA: 1s - loss: 162.8732 - accuracy: 0.2244
+ 672/7185 [=>............................] - ETA: 1s - loss: 165.5112 - accuracy: 0.2560
+ 992/7185 [===>..........................] - ETA: 1s - loss: 161.8288 - accuracy: 0.2450
+1312/7185 [====>.........................] - ETA: 0s - loss: 160.8646 - accuracy: 0.2447
+1632/7185 [=====>........................] - ETA: 0s - loss: 164.3473 - accuracy: 0.2390
+1952/7185 [=======>......................] - ETA: 0s - loss: 160.4187 - accuracy: 0.2433
+2272/7185 [========>.....................] - ETA: 0s - loss: 160.9217 - accuracy: 0.2500
+2592/7185 [=========>....................] - ETA: 0s - loss: 158.6451 - accuracy: 0.2535
+2912/7185 [===========>..................] - ETA: 0s - loss: 156.5999 - accuracy: 0.2545
+3232/7185 [============>.................] - ETA: 0s - loss: 155.0421 - accuracy: 0.2574
+3552/7185 [=============>................] - ETA: 0s - loss: 152.5022 - accuracy: 0.2627
+3904/7185 [===============>..............] - ETA: 0s - loss: 151.9683 - accuracy: 0.2626
+4256/7185 [================>.............] - ETA: 0s - loss: 148.6884 - accuracy: 0.2679
+4576/7185 [==================>...........] - ETA: 0s - loss: 148.1238 - accuracy: 0.2721
+4864/7185 [===================>..........] - ETA: 0s - loss: 148.3658 - accuracy: 0.2712
+5184/7185 [====================>.........] - ETA: 0s - loss: 148.1953 - accuracy: 0.2689
+5536/7185 [======================>.......] - ETA: 0s - loss: 147.5858 - accuracy: 0.2738
+5856/7185 [=======================>......] - ETA: 0s - loss: 147.0113 - accuracy: 0.2758
+6176/7185 [========================>.....] - ETA: 0s - loss: 146.5242 - accuracy: 0.2764
+6496/7185 [==========================>...] - ETA: 0s - loss: 146.3232 - accuracy: 0.2760
+6784/7185 [===========================>..] - ETA: 0s - loss: 145.4496 - accuracy: 0.2777
+7104/7185 [============================>.] - ETA: 0s - loss: 145.0909 - accuracy: 0.2765
+7185/7185 [==============================] - 1s 191us/step - loss: 144.9952 - accuracy: 0.2761 - val_loss: 57.0783 - val_accuracy: 0.5342
+Epoch 3/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 177.4145 - accuracy: 0.2188
+ 320/7185 [>.............................] - ETA: 1s - loss: 145.2094 - accuracy: 0.3344
+ 640/7185 [=>............................] - ETA: 1s - loss: 136.6655 - accuracy: 0.3172
+ 960/7185 [===>..........................] - ETA: 1s - loss: 133.0311 - accuracy: 0.3302
+1280/7185 [====>.........................] - ETA: 0s - loss: 127.4334 - accuracy: 0.3305
+1600/7185 [=====>........................] - ETA: 0s - loss: 124.5511 - accuracy: 0.3406
+1920/7185 [=======>......................] - ETA: 0s - loss: 126.4860 - accuracy: 0.3354
+2176/7185 [========>.....................] - ETA: 0s - loss: 127.0722 - accuracy: 0.3313
+2464/7185 [=========>....................] - ETA: 0s - loss: 124.7258 - accuracy: 0.3300
+2752/7185 [==========>...................] - ETA: 0s - loss: 125.7313 - accuracy: 0.3328
+3072/7185 [===========>..................] - ETA: 0s - loss: 125.1668 - accuracy: 0.3285
+3392/7185 [=============>................] - ETA: 0s - loss: 125.6249 - accuracy: 0.3293
+3712/7185 [==============>...............] - ETA: 0s - loss: 125.1445 - accuracy: 0.3217
+4000/7185 [===============>..............] - ETA: 0s - loss: 124.3698 - accuracy: 0.3235
+4288/7185 [================>.............] - ETA: 0s - loss: 125.5475 - accuracy: 0.3251
+4576/7185 [==================>...........] - ETA: 0s - loss: 124.2133 - accuracy: 0.3280
+4864/7185 [===================>..........] - ETA: 0s - loss: 124.1767 - accuracy: 0.3296
+5184/7185 [====================>.........] - ETA: 0s - loss: 124.1365 - accuracy: 0.3281
+5504/7185 [=====================>........] - ETA: 0s - loss: 122.9759 - accuracy: 0.3301
+5824/7185 [=======================>......] - ETA: 0s - loss: 123.2838 - accuracy: 0.3293
+6112/7185 [========================>.....] - ETA: 0s - loss: 123.3460 - accuracy: 0.3302
+6432/7185 [=========================>....] - ETA: 0s - loss: 122.9866 - accuracy: 0.3287
+6752/7185 [===========================>..] - ETA: 0s - loss: 122.7526 - accuracy: 0.3294
+7072/7185 [============================>.] - ETA: 0s - loss: 122.0616 - accuracy: 0.3296
+7185/7185 [==============================] - 1s 197us/step - loss: 121.8599 - accuracy: 0.3300 - val_loss: 52.6716 - val_accuracy: 0.5409
+
+  32/2246 [..............................] - ETA: 0s
+ 576/2246 [======>.......................] - ETA: 0s
+1088/2246 [=============>................] - ETA: 0s
+1600/2246 [====================>.........] - ETA: 0s
+2112/2246 [===========================>..] - ETA: 0s
+2246/2246 [==============================] - 0s 101us/step
+Test loss: 51.88832818623217
+Test accuracy: 0.5503116846084595
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+
+  32/7185 [..............................] - ETA: 16s - loss: 291.4155 - accuracy: 0.0000e+00
+ 288/7185 [>.............................] - ETA: 3s - loss: 230.5543 - accuracy: 0.0868     
+ 544/7185 [=>............................] - ETA: 2s - loss: 224.7105 - accuracy: 0.1379
+ 800/7185 [==>...........................] - ETA: 1s - loss: 221.7248 - accuracy: 0.1325
+1088/7185 [===>..........................] - ETA: 1s - loss: 220.4107 - accuracy: 0.1369
+1344/7185 [====>.........................] - ETA: 1s - loss: 213.0691 - accuracy: 0.1436
+1600/7185 [=====>........................] - ETA: 1s - loss: 209.9537 - accuracy: 0.1481
+1888/7185 [======>.......................] - ETA: 1s - loss: 206.6677 - accuracy: 0.1525
+2176/7185 [========>.....................] - ETA: 1s - loss: 202.9189 - accuracy: 0.1521
+2464/7185 [=========>....................] - ETA: 1s - loss: 200.7931 - accuracy: 0.1623
+2752/7185 [==========>...................] - ETA: 0s - loss: 197.6767 - accuracy: 0.1653
+3072/7185 [===========>..................] - ETA: 0s - loss: 194.8534 - accuracy: 0.1663
+3392/7185 [=============>................] - ETA: 0s - loss: 193.6575 - accuracy: 0.1686
+3712/7185 [==============>...............] - ETA: 0s - loss: 191.9029 - accuracy: 0.1668
+4032/7185 [===============>..............] - ETA: 0s - loss: 190.8169 - accuracy: 0.1691
+4352/7185 [=================>............] - ETA: 0s - loss: 188.3848 - accuracy: 0.1723
+4672/7185 [==================>...........] - ETA: 0s - loss: 185.6691 - accuracy: 0.1774
+4992/7185 [===================>..........] - ETA: 0s - loss: 184.4555 - accuracy: 0.1809
+5344/7185 [=====================>........] - ETA: 0s - loss: 182.7414 - accuracy: 0.1841
+5664/7185 [======================>.......] - ETA: 0s - loss: 182.0796 - accuracy: 0.1879
+5984/7185 [=======================>......] - ETA: 0s - loss: 181.1947 - accuracy: 0.1890
+6336/7185 [=========================>....] - ETA: 0s - loss: 179.9202 - accuracy: 0.1944
+6656/7185 [==========================>...] - ETA: 0s - loss: 179.1212 - accuracy: 0.1956
+6976/7185 [============================>.] - ETA: 0s - loss: 177.6706 - accuracy: 0.1964
+7185/7185 [==============================] - 2s 210us/step - loss: 176.8573 - accuracy: 0.1986 - val_loss: 74.7727 - val_accuracy: 0.3567
+Epoch 2/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 224.3885 - accuracy: 0.1875
+ 352/7185 [>.............................] - ETA: 1s - loss: 172.4003 - accuracy: 0.1733
+ 672/7185 [=>............................] - ETA: 1s - loss: 153.6587 - accuracy: 0.2039
+1024/7185 [===>..........................] - ETA: 0s - loss: 158.6963 - accuracy: 0.2246
+1344/7185 [====>.........................] - ETA: 0s - loss: 154.7903 - accuracy: 0.2366
+1664/7185 [=====>........................] - ETA: 0s - loss: 154.1791 - accuracy: 0.2422
+1984/7185 [=======>......................] - ETA: 0s - loss: 153.9452 - accuracy: 0.2440
+2304/7185 [========>.....................] - ETA: 0s - loss: 153.6487 - accuracy: 0.2400
+2624/7185 [=========>....................] - ETA: 0s - loss: 151.6983 - accuracy: 0.2431
+2944/7185 [===========>..................] - ETA: 0s - loss: 149.3364 - accuracy: 0.2449
+3264/7185 [============>.................] - ETA: 0s - loss: 149.6995 - accuracy: 0.2475
+3584/7185 [=============>................] - ETA: 0s - loss: 150.1515 - accuracy: 0.2492
+3904/7185 [===============>..............] - ETA: 0s - loss: 149.1418 - accuracy: 0.2513
+4224/7185 [================>.............] - ETA: 0s - loss: 147.9879 - accuracy: 0.2562
+4512/7185 [=================>............] - ETA: 0s - loss: 147.4969 - accuracy: 0.2606
+4832/7185 [===================>..........] - ETA: 0s - loss: 147.8287 - accuracy: 0.2647
+5184/7185 [====================>.........] - ETA: 0s - loss: 146.5131 - accuracy: 0.2704
+5536/7185 [======================>.......] - ETA: 0s - loss: 145.8982 - accuracy: 0.2717
+5856/7185 [=======================>......] - ETA: 0s - loss: 144.3437 - accuracy: 0.2737
+6176/7185 [========================>.....] - ETA: 0s - loss: 143.9181 - accuracy: 0.2751
+6496/7185 [==========================>...] - ETA: 0s - loss: 143.3584 - accuracy: 0.2779
+6784/7185 [===========================>..] - ETA: 0s - loss: 143.1468 - accuracy: 0.2780
+7136/7185 [============================>.] - ETA: 0s - loss: 142.4885 - accuracy: 0.2797
+7185/7185 [==============================] - 1s 186us/step - loss: 142.5176 - accuracy: 0.2796 - val_loss: 67.0920 - val_accuracy: 0.4769
+Epoch 3/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 159.4837 - accuracy: 0.2500
+ 352/7185 [>.............................] - ETA: 1s - loss: 136.8525 - accuracy: 0.3097
+ 672/7185 [=>............................] - ETA: 1s - loss: 135.8999 - accuracy: 0.3170
+1024/7185 [===>..........................] - ETA: 0s - loss: 135.3662 - accuracy: 0.2979
+1344/7185 [====>.........................] - ETA: 0s - loss: 134.3576 - accuracy: 0.3147
+1664/7185 [=====>........................] - ETA: 0s - loss: 131.4664 - accuracy: 0.3137
+1984/7185 [=======>......................] - ETA: 0s - loss: 129.5803 - accuracy: 0.3155
+2336/7185 [========>.....................] - ETA: 0s - loss: 128.8802 - accuracy: 0.3211
+2688/7185 [==========>...................] - ETA: 0s - loss: 128.7493 - accuracy: 0.3177
+3008/7185 [===========>..................] - ETA: 0s - loss: 127.3546 - accuracy: 0.3138
+3360/7185 [=============>................] - ETA: 0s - loss: 125.3364 - accuracy: 0.3199
+3680/7185 [==============>...............] - ETA: 0s - loss: 125.6076 - accuracy: 0.3201
+4000/7185 [===============>..............] - ETA: 0s - loss: 124.6835 - accuracy: 0.3190
+4352/7185 [=================>............] - ETA: 0s - loss: 123.8071 - accuracy: 0.3187
+4704/7185 [==================>...........] - ETA: 0s - loss: 123.6073 - accuracy: 0.3189
+5024/7185 [===================>..........] - ETA: 0s - loss: 121.9582 - accuracy: 0.3199
+5376/7185 [=====================>........] - ETA: 0s - loss: 122.6237 - accuracy: 0.3205
+5696/7185 [======================>.......] - ETA: 0s - loss: 121.8074 - accuracy: 0.3237
+6048/7185 [========================>.....] - ETA: 0s - loss: 120.8537 - accuracy: 0.3259
+6368/7185 [=========================>....] - ETA: 0s - loss: 120.6717 - accuracy: 0.3249
+6688/7185 [==========================>...] - ETA: 0s - loss: 120.0072 - accuracy: 0.3282
+7008/7185 [============================>.] - ETA: 0s - loss: 118.9011 - accuracy: 0.3292
+7185/7185 [==============================] - 1s 182us/step - loss: 119.3972 - accuracy: 0.3289 - val_loss: 63.8543 - val_accuracy: 0.5142
+
+  32/2246 [..............................] - ETA: 0s
+ 576/2246 [======>.......................] - ETA: 0s
+1120/2246 [=============>................] - ETA: 0s
+1696/2246 [=====================>........] - ETA: 0s
+2240/2246 [============================>.] - ETA: 0s
+2246/2246 [==============================] - 0s 94us/step
+Test loss: 60.27341862692965
+Test accuracy: 0.5253784656524658
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+
+  32/7185 [..............................] - ETA: 16s - loss: 276.2841 - accuracy: 0.0000e+00
+ 288/7185 [>.............................] - ETA: 2s - loss: 234.5013 - accuracy: 0.0868     
+ 544/7185 [=>............................] - ETA: 2s - loss: 223.5596 - accuracy: 0.1507
+ 800/7185 [==>...........................] - ETA: 1s - loss: 211.5438 - accuracy: 0.1513
+1056/7185 [===>..........................] - ETA: 1s - loss: 208.2640 - accuracy: 0.1468
+1312/7185 [====>.........................] - ETA: 1s - loss: 208.0855 - accuracy: 0.1448
+1568/7185 [=====>........................] - ETA: 1s - loss: 208.4994 - accuracy: 0.1441
+1856/7185 [======>.......................] - ETA: 1s - loss: 203.8990 - accuracy: 0.1455
+2144/7185 [=======>......................] - ETA: 1s - loss: 199.4287 - accuracy: 0.1521
+2432/7185 [=========>....................] - ETA: 1s - loss: 197.1562 - accuracy: 0.1488
+2720/7185 [==========>...................] - ETA: 0s - loss: 193.0282 - accuracy: 0.1522
+3040/7185 [===========>..................] - ETA: 0s - loss: 191.5188 - accuracy: 0.1589
+3360/7185 [=============>................] - ETA: 0s - loss: 192.9913 - accuracy: 0.1583
+3648/7185 [==============>...............] - ETA: 0s - loss: 191.7959 - accuracy: 0.1582
+3968/7185 [===============>..............] - ETA: 0s - loss: 191.7021 - accuracy: 0.1593
+4288/7185 [================>.............] - ETA: 0s - loss: 189.6031 - accuracy: 0.1630
+4608/7185 [==================>...........] - ETA: 0s - loss: 188.6090 - accuracy: 0.1664
+4928/7185 [===================>..........] - ETA: 0s - loss: 188.1179 - accuracy: 0.1636
+5248/7185 [====================>.........] - ETA: 0s - loss: 186.4198 - accuracy: 0.1675
+5568/7185 [======================>.......] - ETA: 0s - loss: 186.3118 - accuracy: 0.1730
+5888/7185 [=======================>......] - ETA: 0s - loss: 183.8626 - accuracy: 0.1761
+6240/7185 [=========================>....] - ETA: 0s - loss: 182.5515 - accuracy: 0.1793
+6560/7185 [==========================>...] - ETA: 0s - loss: 179.8914 - accuracy: 0.1831
+6880/7185 [===========================>..] - ETA: 0s - loss: 179.2765 - accuracy: 0.1860
+7185/7185 [==============================] - 2s 212us/step - loss: 178.2012 - accuracy: 0.1896 - val_loss: 88.0086 - val_accuracy: 0.5298
+Epoch 2/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 253.4105 - accuracy: 0.2188
+ 352/7185 [>.............................] - ETA: 1s - loss: 155.6238 - accuracy: 0.2756
+ 672/7185 [=>............................] - ETA: 1s - loss: 148.2167 - accuracy: 0.2440
+ 992/7185 [===>..........................] - ETA: 0s - loss: 143.6523 - accuracy: 0.2702
+1312/7185 [====>.........................] - ETA: 0s - loss: 150.1408 - accuracy: 0.2591
+1632/7185 [=====>........................] - ETA: 0s - loss: 153.7465 - accuracy: 0.2506
+1952/7185 [=======>......................] - ETA: 0s - loss: 152.1317 - accuracy: 0.2531
+2272/7185 [========>.....................] - ETA: 0s - loss: 152.7247 - accuracy: 0.2535
+2592/7185 [=========>....................] - ETA: 0s - loss: 151.7803 - accuracy: 0.2581
+2912/7185 [===========>..................] - ETA: 0s - loss: 150.3137 - accuracy: 0.2593
+3232/7185 [============>.................] - ETA: 0s - loss: 149.3932 - accuracy: 0.2645
+3552/7185 [=============>................] - ETA: 0s - loss: 148.5034 - accuracy: 0.2677
+3872/7185 [===============>..............] - ETA: 0s - loss: 147.1417 - accuracy: 0.2704
+4192/7185 [================>.............] - ETA: 0s - loss: 146.1805 - accuracy: 0.2712
+4512/7185 [=================>............] - ETA: 0s - loss: 144.9814 - accuracy: 0.2722
+4832/7185 [===================>..........] - ETA: 0s - loss: 143.8785 - accuracy: 0.2750
+5120/7185 [====================>.........] - ETA: 0s - loss: 143.7177 - accuracy: 0.2736
+5440/7185 [=====================>........] - ETA: 0s - loss: 142.8845 - accuracy: 0.2756
+5792/7185 [=======================>......] - ETA: 0s - loss: 142.3329 - accuracy: 0.2759
+6112/7185 [========================>.....] - ETA: 0s - loss: 141.4628 - accuracy: 0.2785
+6368/7185 [=========================>....] - ETA: 0s - loss: 142.2799 - accuracy: 0.2787
+6560/7185 [==========================>...] - ETA: 0s - loss: 141.7904 - accuracy: 0.2799
+6784/7185 [===========================>..] - ETA: 0s - loss: 141.1279 - accuracy: 0.2820
+6944/7185 [===========================>..] - ETA: 0s - loss: 141.6415 - accuracy: 0.2823
+7185/7185 [==============================] - 1s 202us/step - loss: 141.9530 - accuracy: 0.2814 - val_loss: 52.5468 - val_accuracy: 0.5765
+Epoch 3/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 120.4017 - accuracy: 0.1875
+ 352/7185 [>.............................] - ETA: 1s - loss: 127.3675 - accuracy: 0.3182
+ 640/7185 [=>............................] - ETA: 1s - loss: 128.8147 - accuracy: 0.3453
+ 960/7185 [===>..........................] - ETA: 1s - loss: 129.9638 - accuracy: 0.3396
+1280/7185 [====>.........................] - ETA: 1s - loss: 129.3444 - accuracy: 0.3156
+1600/7185 [=====>........................] - ETA: 0s - loss: 130.7927 - accuracy: 0.3144
+1920/7185 [=======>......................] - ETA: 0s - loss: 131.2027 - accuracy: 0.3104
+2240/7185 [========>.....................] - ETA: 0s - loss: 131.6073 - accuracy: 0.3143
+2560/7185 [=========>....................] - ETA: 0s - loss: 129.2655 - accuracy: 0.3184
+2880/7185 [===========>..................] - ETA: 0s - loss: 130.8665 - accuracy: 0.3170
+3200/7185 [============>.................] - ETA: 0s - loss: 132.2416 - accuracy: 0.3113
+3520/7185 [=============>................] - ETA: 0s - loss: 131.6997 - accuracy: 0.3142
+3840/7185 [===============>..............] - ETA: 0s - loss: 129.6031 - accuracy: 0.3185
+4160/7185 [================>.............] - ETA: 0s - loss: 128.5130 - accuracy: 0.3178
+4480/7185 [=================>............] - ETA: 0s - loss: 127.8533 - accuracy: 0.3185
+4800/7185 [===================>..........] - ETA: 0s - loss: 127.5823 - accuracy: 0.3181
+5152/7185 [====================>.........] - ETA: 0s - loss: 126.6455 - accuracy: 0.3216
+5504/7185 [=====================>........] - ETA: 0s - loss: 126.1000 - accuracy: 0.3236
+5824/7185 [=======================>......] - ETA: 0s - loss: 123.9274 - accuracy: 0.3276
+6144/7185 [========================>.....] - ETA: 0s - loss: 122.9078 - accuracy: 0.3280
+6464/7185 [=========================>....] - ETA: 0s - loss: 122.2959 - accuracy: 0.3297
+6784/7185 [===========================>..] - ETA: 0s - loss: 120.9309 - accuracy: 0.3284
+7104/7185 [============================>.] - ETA: 0s - loss: 119.8201 - accuracy: 0.3302
+7185/7185 [==============================] - 1s 186us/step - loss: 119.8966 - accuracy: 0.3294 - val_loss: 65.1183 - val_accuracy: 0.4936
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+  32/2246 [..............................] - ETA: 0s
+ 576/2246 [======>.......................] - ETA: 0s
+1088/2246 [=============>................] - ETA: 0s
+1568/2246 [===================>..........] - ETA: 0s
+2080/2246 [==========================>...] - ETA: 0s
+2246/2246 [==============================] - 0s 105us/step
+Test loss: 63.70944539967755
+Test accuracy: 0.5173642039299011
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+
+  32/7185 [..............................] - ETA: 16s - loss: 271.6185 - accuracy: 0.0312
+ 288/7185 [>.............................] - ETA: 3s - loss: 238.7938 - accuracy: 0.1146 
+ 544/7185 [=>............................] - ETA: 2s - loss: 216.3104 - accuracy: 0.1232
+ 768/7185 [==>...........................] - ETA: 2s - loss: 215.8132 - accuracy: 0.1198
+1024/7185 [===>..........................] - ETA: 1s - loss: 215.6014 - accuracy: 0.1230
+1280/7185 [====>.........................] - ETA: 1s - loss: 207.6963 - accuracy: 0.1195
+1568/7185 [=====>........................] - ETA: 1s - loss: 202.4619 - accuracy: 0.1346
+1824/7185 [======>.......................] - ETA: 1s - loss: 201.6859 - accuracy: 0.1371
+2112/7185 [=======>......................] - ETA: 1s - loss: 201.5408 - accuracy: 0.1454
+2432/7185 [=========>....................] - ETA: 1s - loss: 201.8811 - accuracy: 0.1398
+2752/7185 [==========>...................] - ETA: 0s - loss: 198.8220 - accuracy: 0.1457
+3072/7185 [===========>..................] - ETA: 0s - loss: 194.6144 - accuracy: 0.1520
+3392/7185 [=============>................] - ETA: 0s - loss: 193.6064 - accuracy: 0.1554
+3712/7185 [==============>...............] - ETA: 0s - loss: 192.7670 - accuracy: 0.1573
+4032/7185 [===============>..............] - ETA: 0s - loss: 189.6115 - accuracy: 0.1597
+4352/7185 [=================>............] - ETA: 0s - loss: 187.5315 - accuracy: 0.1643
+4672/7185 [==================>...........] - ETA: 0s - loss: 185.7284 - accuracy: 0.1719
+4960/7185 [===================>..........] - ETA: 0s - loss: 185.0106 - accuracy: 0.1764
+5280/7185 [=====================>........] - ETA: 0s - loss: 184.7120 - accuracy: 0.1759
+5600/7185 [======================>.......] - ETA: 0s - loss: 183.8546 - accuracy: 0.1796
+5952/7185 [=======================>......] - ETA: 0s - loss: 184.1121 - accuracy: 0.1804
+6304/7185 [=========================>....] - ETA: 0s - loss: 182.2365 - accuracy: 0.1858
+6624/7185 [==========================>...] - ETA: 0s - loss: 182.0067 - accuracy: 0.1898
+6944/7185 [===========================>..] - ETA: 0s - loss: 179.7586 - accuracy: 0.1935
+7185/7185 [==============================] - 2s 212us/step - loss: 179.3457 - accuracy: 0.1981 - val_loss: 94.3567 - val_accuracy: 0.3567
+Epoch 2/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 130.6940 - accuracy: 0.2812
+ 352/7185 [>.............................] - ETA: 1s - loss: 150.1582 - accuracy: 0.2756
+ 640/7185 [=>............................] - ETA: 1s - loss: 155.4085 - accuracy: 0.2891
+ 960/7185 [===>..........................] - ETA: 1s - loss: 155.8773 - accuracy: 0.2865
+1280/7185 [====>.........................] - ETA: 0s - loss: 162.2028 - accuracy: 0.2727
+1600/7185 [=====>........................] - ETA: 0s - loss: 159.0865 - accuracy: 0.2669
+1888/7185 [======>.......................] - ETA: 0s - loss: 159.2558 - accuracy: 0.2643
+2208/7185 [========>.....................] - ETA: 0s - loss: 159.2993 - accuracy: 0.2636
+2496/7185 [=========>....................] - ETA: 0s - loss: 158.3500 - accuracy: 0.2624
+2816/7185 [==========>...................] - ETA: 0s - loss: 156.2923 - accuracy: 0.2638
+3136/7185 [============>.................] - ETA: 0s - loss: 154.1251 - accuracy: 0.2666
+3424/7185 [=============>................] - ETA: 0s - loss: 154.7032 - accuracy: 0.2693
+3744/7185 [==============>...............] - ETA: 0s - loss: 151.3149 - accuracy: 0.2714
+4064/7185 [===============>..............] - ETA: 0s - loss: 151.5113 - accuracy: 0.2734
+4416/7185 [=================>............] - ETA: 0s - loss: 151.9126 - accuracy: 0.2688
+4736/7185 [==================>...........] - ETA: 0s - loss: 152.4616 - accuracy: 0.2715
+5088/7185 [====================>.........] - ETA: 0s - loss: 150.4073 - accuracy: 0.2734
+5408/7185 [=====================>........] - ETA: 0s - loss: 150.5673 - accuracy: 0.2753
+5760/7185 [=======================>......] - ETA: 0s - loss: 150.1033 - accuracy: 0.2753
+6080/7185 [========================>.....] - ETA: 0s - loss: 149.9594 - accuracy: 0.2778
+6432/7185 [=========================>....] - ETA: 0s - loss: 148.8021 - accuracy: 0.2764
+6752/7185 [===========================>..] - ETA: 0s - loss: 146.9440 - accuracy: 0.2821
+7072/7185 [============================>.] - ETA: 0s - loss: 146.6673 - accuracy: 0.2829
+7185/7185 [==============================] - 1s 188us/step - loss: 146.6978 - accuracy: 0.2818 - val_loss: 75.6770 - val_accuracy: 0.3561
+Epoch 3/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 146.3160 - accuracy: 0.3125
+ 320/7185 [>.............................] - ETA: 1s - loss: 123.8346 - accuracy: 0.3531
+ 640/7185 [=>............................] - ETA: 1s - loss: 145.8873 - accuracy: 0.3125
+ 992/7185 [===>..........................] - ETA: 1s - loss: 144.7064 - accuracy: 0.3004
+1312/7185 [====>.........................] - ETA: 0s - loss: 144.1277 - accuracy: 0.2988
+1632/7185 [=====>........................] - ETA: 0s - loss: 141.0233 - accuracy: 0.2978
+1952/7185 [=======>......................] - ETA: 0s - loss: 138.0533 - accuracy: 0.3110
+2304/7185 [========>.....................] - ETA: 0s - loss: 137.8551 - accuracy: 0.3082
+2624/7185 [=========>....................] - ETA: 0s - loss: 135.8351 - accuracy: 0.3129
+2976/7185 [===========>..................] - ETA: 0s - loss: 133.3928 - accuracy: 0.3149
+3264/7185 [============>.................] - ETA: 0s - loss: 132.6851 - accuracy: 0.3177
+3584/7185 [=============>................] - ETA: 0s - loss: 132.1145 - accuracy: 0.3150
+3872/7185 [===============>..............] - ETA: 0s - loss: 130.9331 - accuracy: 0.3161
+4192/7185 [================>.............] - ETA: 0s - loss: 128.9079 - accuracy: 0.3163
+4544/7185 [=================>............] - ETA: 0s - loss: 127.7211 - accuracy: 0.3176
+4864/7185 [===================>..........] - ETA: 0s - loss: 126.6559 - accuracy: 0.3164
+5184/7185 [====================>.........] - ETA: 0s - loss: 124.7790 - accuracy: 0.3191
+5504/7185 [=====================>........] - ETA: 0s - loss: 123.9731 - accuracy: 0.3243
+5824/7185 [=======================>......] - ETA: 0s - loss: 123.2042 - accuracy: 0.3237
+6144/7185 [========================>.....] - ETA: 0s - loss: 122.9852 - accuracy: 0.3245
+6464/7185 [=========================>....] - ETA: 0s - loss: 122.6982 - accuracy: 0.3247
+6784/7185 [===========================>..] - ETA: 0s - loss: 122.4280 - accuracy: 0.3240
+7104/7185 [============================>.] - ETA: 0s - loss: 121.4258 - accuracy: 0.3280
+7185/7185 [==============================] - 1s 189us/step - loss: 121.4756 - accuracy: 0.3285 - val_loss: 53.2239 - val_accuracy: 0.5353
+
+  32/2246 [..............................] - ETA: 0s
+ 576/2246 [======>.......................] - ETA: 0s
+1120/2246 [=============>................] - ETA: 0s
+1600/2246 [====================>.........] - ETA: 0s
+2080/2246 [==========================>...] - ETA: 0s
+2246/2246 [==============================] - 0s 102us/step
+Test loss: 50.88562528384337
+Test accuracy: 0.5552092790603638
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+
+  32/7185 [..............................] - ETA: 16s - loss: 287.8653 - accuracy: 0.0312
+ 288/7185 [>.............................] - ETA: 3s - loss: 227.8154 - accuracy: 0.1042 
+ 544/7185 [=>............................] - ETA: 2s - loss: 212.7213 - accuracy: 0.1250
+ 800/7185 [==>...........................] - ETA: 1s - loss: 208.8247 - accuracy: 0.1225
+1056/7185 [===>..........................] - ETA: 1s - loss: 207.1276 - accuracy: 0.1326
+1312/7185 [====>.........................] - ETA: 1s - loss: 204.1010 - accuracy: 0.1311
+1568/7185 [=====>........................] - ETA: 1s - loss: 200.2931 - accuracy: 0.1371
+1824/7185 [======>.......................] - ETA: 1s - loss: 201.6908 - accuracy: 0.1371
+2080/7185 [=======>......................] - ETA: 1s - loss: 203.6069 - accuracy: 0.1413
+2368/7185 [========>.....................] - ETA: 1s - loss: 201.8246 - accuracy: 0.1410
+2656/7185 [==========>...................] - ETA: 1s - loss: 196.1903 - accuracy: 0.1431
+2944/7185 [===========>..................] - ETA: 0s - loss: 191.0124 - accuracy: 0.1495
+3264/7185 [============>.................] - ETA: 0s - loss: 191.3766 - accuracy: 0.1559
+3584/7185 [=============>................] - ETA: 0s - loss: 190.2993 - accuracy: 0.1621
+3904/7185 [===============>..............] - ETA: 0s - loss: 188.1144 - accuracy: 0.1639
+4224/7185 [================>.............] - ETA: 0s - loss: 185.5174 - accuracy: 0.1695
+4544/7185 [=================>............] - ETA: 0s - loss: 185.0335 - accuracy: 0.1706
+4864/7185 [===================>..........] - ETA: 0s - loss: 183.1645 - accuracy: 0.1750
+5184/7185 [====================>.........] - ETA: 0s - loss: 181.1396 - accuracy: 0.1794
+5504/7185 [=====================>........] - ETA: 0s - loss: 179.4665 - accuracy: 0.1824
+5824/7185 [=======================>......] - ETA: 0s - loss: 179.9853 - accuracy: 0.1808
+6144/7185 [========================>.....] - ETA: 0s - loss: 179.1043 - accuracy: 0.1862
+6464/7185 [=========================>....] - ETA: 0s - loss: 177.5553 - accuracy: 0.1894
+6816/7185 [===========================>..] - ETA: 0s - loss: 174.6451 - accuracy: 0.1938
+7136/7185 [============================>.] - ETA: 0s - loss: 175.3774 - accuracy: 0.1955
+7185/7185 [==============================] - 2s 213us/step - loss: 175.1772 - accuracy: 0.1951 - val_loss: 97.4636 - val_accuracy: 0.2638
+Epoch 2/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 137.2918 - accuracy: 0.1562
+ 352/7185 [>.............................] - ETA: 1s - loss: 171.8445 - accuracy: 0.1733
+ 672/7185 [=>............................] - ETA: 1s - loss: 153.4042 - accuracy: 0.1935
+ 992/7185 [===>..........................] - ETA: 0s - loss: 147.1775 - accuracy: 0.2308
+1312/7185 [====>.........................] - ETA: 0s - loss: 151.4629 - accuracy: 0.2325
+1632/7185 [=====>........................] - ETA: 0s - loss: 146.6117 - accuracy: 0.2384
+1952/7185 [=======>......................] - ETA: 0s - loss: 144.2775 - accuracy: 0.2444
+2272/7185 [========>.....................] - ETA: 0s - loss: 143.5262 - accuracy: 0.2548
+2592/7185 [=========>....................] - ETA: 0s - loss: 143.8445 - accuracy: 0.2546
+2912/7185 [===========>..................] - ETA: 0s - loss: 145.1332 - accuracy: 0.2586
+3232/7185 [============>.................] - ETA: 0s - loss: 145.5759 - accuracy: 0.2574
+3552/7185 [=============>................] - ETA: 0s - loss: 145.7434 - accuracy: 0.2615
+3872/7185 [===============>..............] - ETA: 0s - loss: 145.7756 - accuracy: 0.2639
+4224/7185 [================>.............] - ETA: 0s - loss: 143.9992 - accuracy: 0.2692
+4544/7185 [=================>............] - ETA: 0s - loss: 143.4160 - accuracy: 0.2702
+4864/7185 [===================>..........] - ETA: 0s - loss: 144.3087 - accuracy: 0.2706
+5184/7185 [====================>.........] - ETA: 0s - loss: 143.8372 - accuracy: 0.2708
+5504/7185 [=====================>........] - ETA: 0s - loss: 142.5377 - accuracy: 0.2740
+5824/7185 [=======================>......] - ETA: 0s - loss: 142.4066 - accuracy: 0.2742
+6144/7185 [========================>.....] - ETA: 0s - loss: 141.6476 - accuracy: 0.2752
+6464/7185 [=========================>....] - ETA: 0s - loss: 141.1141 - accuracy: 0.2788
+6784/7185 [===========================>..] - ETA: 0s - loss: 140.2808 - accuracy: 0.2786
+7104/7185 [============================>.] - ETA: 0s - loss: 139.4118 - accuracy: 0.2800
+7185/7185 [==============================] - 1s 186us/step - loss: 138.9073 - accuracy: 0.2811 - val_loss: 71.7373 - val_accuracy: 0.5042
+Epoch 3/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 127.4887 - accuracy: 0.4062
+ 352/7185 [>.............................] - ETA: 1s - loss: 111.7690 - accuracy: 0.3068
+ 672/7185 [=>............................] - ETA: 1s - loss: 121.5812 - accuracy: 0.3244
+ 992/7185 [===>..........................] - ETA: 1s - loss: 129.5204 - accuracy: 0.2964
+1312/7185 [====>.........................] - ETA: 0s - loss: 127.2032 - accuracy: 0.3056
+1632/7185 [=====>........................] - ETA: 0s - loss: 131.3490 - accuracy: 0.3143
+1952/7185 [=======>......................] - ETA: 0s - loss: 131.1698 - accuracy: 0.3079
+2272/7185 [========>.....................] - ETA: 0s - loss: 131.4815 - accuracy: 0.3046
+2592/7185 [=========>....................] - ETA: 0s - loss: 131.0410 - accuracy: 0.3021
+2912/7185 [===========>..................] - ETA: 0s - loss: 127.2096 - accuracy: 0.3142
+3232/7185 [============>.................] - ETA: 0s - loss: 126.6674 - accuracy: 0.3156
+3552/7185 [=============>................] - ETA: 0s - loss: 124.6388 - accuracy: 0.3204
+3872/7185 [===============>..............] - ETA: 0s - loss: 123.8823 - accuracy: 0.3252
+4192/7185 [================>.............] - ETA: 0s - loss: 123.5741 - accuracy: 0.3254
+4512/7185 [=================>............] - ETA: 0s - loss: 122.8698 - accuracy: 0.3267
+4832/7185 [===================>..........] - ETA: 0s - loss: 121.6622 - accuracy: 0.3301
+5152/7185 [====================>.........] - ETA: 0s - loss: 120.9346 - accuracy: 0.3292
+5472/7185 [=====================>........] - ETA: 0s - loss: 120.5271 - accuracy: 0.3288
+5792/7185 [=======================>......] - ETA: 0s - loss: 120.4284 - accuracy: 0.3267
+6112/7185 [========================>.....] - ETA: 0s - loss: 120.5162 - accuracy: 0.3284
+6432/7185 [=========================>....] - ETA: 0s - loss: 119.7497 - accuracy: 0.3294
+6752/7185 [===========================>..] - ETA: 0s - loss: 120.0293 - accuracy: 0.3275
+7072/7185 [============================>.] - ETA: 0s - loss: 119.4142 - accuracy: 0.3276
+7185/7185 [==============================] - 1s 185us/step - loss: 119.4372 - accuracy: 0.3290 - val_loss: 62.8838 - val_accuracy: 0.4847
+
+  32/2246 [..............................] - ETA: 0s
+ 576/2246 [======>.......................] - ETA: 0s
+1088/2246 [=============>................] - ETA: 0s
+1600/2246 [====================>.........] - ETA: 0s
+2112/2246 [===========================>..] - ETA: 0s
+2246/2246 [==============================] - 0s 98us/step
+Test loss: 62.33773830885985
+Test accuracy: 0.5075690150260925
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+
+  32/7185 [..............................] - ETA: 16s - loss: 390.8621 - accuracy: 0.0000e+00
+ 288/7185 [>.............................] - ETA: 2s - loss: 315.6448 - accuracy: 0.0174     
+ 544/7185 [=>............................] - ETA: 2s - loss: 275.4745 - accuracy: 0.0827
+ 800/7185 [==>...........................] - ETA: 1s - loss: 252.7171 - accuracy: 0.1238
+1056/7185 [===>..........................] - ETA: 1s - loss: 241.2055 - accuracy: 0.1184
+1312/7185 [====>.........................] - ETA: 1s - loss: 238.1313 - accuracy: 0.1258
+1568/7185 [=====>........................] - ETA: 1s - loss: 228.6045 - accuracy: 0.1295
+1824/7185 [======>.......................] - ETA: 1s - loss: 218.5149 - accuracy: 0.1387
+2112/7185 [=======>......................] - ETA: 1s - loss: 214.6117 - accuracy: 0.1458
+2432/7185 [=========>....................] - ETA: 1s - loss: 211.2384 - accuracy: 0.1488
+2720/7185 [==========>...................] - ETA: 0s - loss: 209.9205 - accuracy: 0.1529
+3040/7185 [===========>..................] - ETA: 0s - loss: 206.0639 - accuracy: 0.1543
+3360/7185 [=============>................] - ETA: 0s - loss: 203.7967 - accuracy: 0.1607
+3680/7185 [==============>...............] - ETA: 0s - loss: 201.5462 - accuracy: 0.1633
+4000/7185 [===============>..............] - ETA: 0s - loss: 198.1464 - accuracy: 0.1647
+4320/7185 [=================>............] - ETA: 0s - loss: 197.0807 - accuracy: 0.1674
+4640/7185 [==================>...........] - ETA: 0s - loss: 196.6066 - accuracy: 0.1688
+4960/7185 [===================>..........] - ETA: 0s - loss: 194.8179 - accuracy: 0.1702
+5280/7185 [=====================>........] - ETA: 0s - loss: 192.0575 - accuracy: 0.1748
+5536/7185 [======================>.......] - ETA: 0s - loss: 190.3616 - accuracy: 0.1774
+5856/7185 [=======================>......] - ETA: 0s - loss: 189.6044 - accuracy: 0.1796
+6208/7185 [========================>.....] - ETA: 0s - loss: 188.7875 - accuracy: 0.1809
+6528/7185 [==========================>...] - ETA: 0s - loss: 188.2932 - accuracy: 0.1840
+6848/7185 [===========================>..] - ETA: 0s - loss: 186.7999 - accuracy: 0.1863
+7168/7185 [============================>.] - ETA: 0s - loss: 184.9396 - accuracy: 0.1911
+7185/7185 [==============================] - 2s 211us/step - loss: 185.0380 - accuracy: 0.1915 - val_loss: 82.7507 - val_accuracy: 0.4797
+Epoch 2/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 112.7377 - accuracy: 0.4688
+ 352/7185 [>.............................] - ETA: 1s - loss: 145.9329 - accuracy: 0.2955
+ 672/7185 [=>............................] - ETA: 1s - loss: 150.4536 - accuracy: 0.2723
+1024/7185 [===>..........................] - ETA: 0s - loss: 145.6968 - accuracy: 0.2803
+1312/7185 [====>.........................] - ETA: 0s - loss: 147.4742 - accuracy: 0.2706
+1632/7185 [=====>........................] - ETA: 0s - loss: 148.2216 - accuracy: 0.2653
+1952/7185 [=======>......................] - ETA: 0s - loss: 147.5036 - accuracy: 0.2643
+2272/7185 [========>.....................] - ETA: 0s - loss: 147.0068 - accuracy: 0.2707
+2592/7185 [=========>....................] - ETA: 0s - loss: 147.5950 - accuracy: 0.2654
+2880/7185 [===========>..................] - ETA: 0s - loss: 147.6240 - accuracy: 0.2625
+3168/7185 [============>.................] - ETA: 0s - loss: 146.3269 - accuracy: 0.2655
+3488/7185 [=============>................] - ETA: 0s - loss: 145.2837 - accuracy: 0.2715
+3840/7185 [===============>..............] - ETA: 0s - loss: 146.4108 - accuracy: 0.2693
+4192/7185 [================>.............] - ETA: 0s - loss: 145.4416 - accuracy: 0.2717
+4544/7185 [=================>............] - ETA: 0s - loss: 144.7270 - accuracy: 0.2722
+4896/7185 [===================>..........] - ETA: 0s - loss: 144.2042 - accuracy: 0.2714
+5216/7185 [====================>.........] - ETA: 0s - loss: 144.7425 - accuracy: 0.2711
+5568/7185 [======================>.......] - ETA: 0s - loss: 144.3778 - accuracy: 0.2685
+5920/7185 [=======================>......] - ETA: 0s - loss: 143.7321 - accuracy: 0.2736
+6272/7185 [=========================>....] - ETA: 0s - loss: 143.4979 - accuracy: 0.2744
+6560/7185 [==========================>...] - ETA: 0s - loss: 142.8300 - accuracy: 0.2736
+6880/7185 [===========================>..] - ETA: 0s - loss: 142.4411 - accuracy: 0.2776
+7185/7185 [==============================] - 1s 187us/step - loss: 142.7711 - accuracy: 0.2781 - val_loss: 59.2586 - val_accuracy: 0.5342
+Epoch 3/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 134.3867 - accuracy: 0.4375
+ 352/7185 [>.............................] - ETA: 1s - loss: 135.1054 - accuracy: 0.3466
+ 672/7185 [=>............................] - ETA: 1s - loss: 130.0130 - accuracy: 0.3333
+ 992/7185 [===>..........................] - ETA: 0s - loss: 126.5283 - accuracy: 0.3286
+1312/7185 [====>.........................] - ETA: 0s - loss: 124.9772 - accuracy: 0.3285
+1632/7185 [=====>........................] - ETA: 0s - loss: 121.3547 - accuracy: 0.3297
+1952/7185 [=======>......................] - ETA: 0s - loss: 119.7803 - accuracy: 0.3294
+2272/7185 [========>.....................] - ETA: 0s - loss: 123.1459 - accuracy: 0.3253
+2624/7185 [=========>....................] - ETA: 0s - loss: 125.3297 - accuracy: 0.3201
+2976/7185 [===========>..................] - ETA: 0s - loss: 127.1002 - accuracy: 0.3236
+3296/7185 [============>.................] - ETA: 0s - loss: 126.7024 - accuracy: 0.3207
+3648/7185 [==============>...............] - ETA: 0s - loss: 127.9009 - accuracy: 0.3188
+3968/7185 [===============>..............] - ETA: 0s - loss: 127.6601 - accuracy: 0.3221
+4288/7185 [================>.............] - ETA: 0s - loss: 126.3764 - accuracy: 0.3190
+4608/7185 [==================>...........] - ETA: 0s - loss: 127.1176 - accuracy: 0.3160
+4928/7185 [===================>..........] - ETA: 0s - loss: 126.9999 - accuracy: 0.3157
+5216/7185 [====================>.........] - ETA: 0s - loss: 127.2089 - accuracy: 0.3177
+5536/7185 [======================>.......] - ETA: 0s - loss: 125.5671 - accuracy: 0.3195
+5856/7185 [=======================>......] - ETA: 0s - loss: 124.2936 - accuracy: 0.3234
+6176/7185 [========================>.....] - ETA: 0s - loss: 124.0815 - accuracy: 0.3248
+6496/7185 [==========================>...] - ETA: 0s - loss: 123.7320 - accuracy: 0.3231
+6816/7185 [===========================>..] - ETA: 0s - loss: 123.5159 - accuracy: 0.3244
+7136/7185 [============================>.] - ETA: 0s - loss: 122.8718 - accuracy: 0.3240
+7185/7185 [==============================] - 1s 186us/step - loss: 122.6641 - accuracy: 0.3236 - val_loss: 46.2121 - val_accuracy: 0.5843
+
+  32/2246 [..............................] - ETA: 0s
+ 544/2246 [======>.......................] - ETA: 0s
+1088/2246 [=============>................] - ETA: 0s
+1632/2246 [====================>.........] - ETA: 0s
+2144/2246 [===========================>..] - ETA: 0s
+2246/2246 [==============================] - 0s 98us/step
+Test loss: 45.15213978938088
+Test accuracy: 0.5970614552497864
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+
+  32/7185 [..............................] - ETA: 16s - loss: 371.5182 - accuracy: 0.0000e+00
+ 256/7185 [>.............................] - ETA: 3s - loss: 298.1312 - accuracy: 0.0820     
+ 512/7185 [=>............................] - ETA: 2s - loss: 248.5490 - accuracy: 0.1289
+ 768/7185 [==>...........................] - ETA: 1s - loss: 227.9753 - accuracy: 0.1432
+1024/7185 [===>..........................] - ETA: 1s - loss: 230.4138 - accuracy: 0.1338
+1280/7185 [====>.........................] - ETA: 1s - loss: 219.0114 - accuracy: 0.1383
+1536/7185 [=====>........................] - ETA: 1s - loss: 212.5657 - accuracy: 0.1484
+1824/7185 [======>.......................] - ETA: 1s - loss: 210.4720 - accuracy: 0.1508
+2112/7185 [=======>......................] - ETA: 1s - loss: 204.1147 - accuracy: 0.1506
+2400/7185 [=========>....................] - ETA: 1s - loss: 204.2501 - accuracy: 0.1529
+2720/7185 [==========>...................] - ETA: 0s - loss: 202.0521 - accuracy: 0.1485
+3040/7185 [===========>..................] - ETA: 0s - loss: 199.5069 - accuracy: 0.1523
+3360/7185 [=============>................] - ETA: 0s - loss: 195.0591 - accuracy: 0.1577
+3680/7185 [==============>...............] - ETA: 0s - loss: 191.5320 - accuracy: 0.1666
+4000/7185 [===============>..............] - ETA: 0s - loss: 191.6890 - accuracy: 0.1667
+4320/7185 [=================>............] - ETA: 0s - loss: 190.3885 - accuracy: 0.1706
+4640/7185 [==================>...........] - ETA: 0s - loss: 191.0495 - accuracy: 0.1737
+4960/7185 [===================>..........] - ETA: 0s - loss: 188.9521 - accuracy: 0.1722
+5312/7185 [=====================>........] - ETA: 0s - loss: 187.6291 - accuracy: 0.1785
+5632/7185 [======================>.......] - ETA: 0s - loss: 185.9071 - accuracy: 0.1811
+5952/7185 [=======================>......] - ETA: 0s - loss: 184.4638 - accuracy: 0.1818
+6272/7185 [=========================>....] - ETA: 0s - loss: 183.4296 - accuracy: 0.1826
+6592/7185 [==========================>...] - ETA: 0s - loss: 181.6579 - accuracy: 0.1869
+6944/7185 [===========================>..] - ETA: 0s - loss: 180.9284 - accuracy: 0.1905
+7185/7185 [==============================] - 2s 212us/step - loss: 180.4901 - accuracy: 0.1925 - val_loss: 56.0522 - val_accuracy: 0.5214
+Epoch 2/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 153.3437 - accuracy: 0.1562
+ 352/7185 [>.............................] - ETA: 1s - loss: 159.8801 - accuracy: 0.2074
+ 704/7185 [=>............................] - ETA: 1s - loss: 154.2055 - accuracy: 0.2472
+1024/7185 [===>..........................] - ETA: 0s - loss: 149.6555 - accuracy: 0.2705
+1376/7185 [====>.........................] - ETA: 0s - loss: 147.5746 - accuracy: 0.2645
+1696/7185 [======>.......................] - ETA: 0s - loss: 147.4422 - accuracy: 0.2647
+1984/7185 [=======>......................] - ETA: 0s - loss: 147.2166 - accuracy: 0.2656
+2304/7185 [========>.....................] - ETA: 0s - loss: 144.9495 - accuracy: 0.2726
+2624/7185 [=========>....................] - ETA: 0s - loss: 146.9527 - accuracy: 0.2656
+2944/7185 [===========>..................] - ETA: 0s - loss: 145.8449 - accuracy: 0.2680
+3264/7185 [============>.................] - ETA: 0s - loss: 144.2929 - accuracy: 0.2647
+3584/7185 [=============>................] - ETA: 0s - loss: 144.7279 - accuracy: 0.2651
+3904/7185 [===============>..............] - ETA: 0s - loss: 145.2756 - accuracy: 0.2628
+4256/7185 [================>.............] - ETA: 0s - loss: 145.0940 - accuracy: 0.2610
+4576/7185 [==================>...........] - ETA: 0s - loss: 145.1054 - accuracy: 0.2609
+4896/7185 [===================>..........] - ETA: 0s - loss: 143.5786 - accuracy: 0.2625
+5216/7185 [====================>.........] - ETA: 0s - loss: 144.7303 - accuracy: 0.2650
+5536/7185 [======================>.......] - ETA: 0s - loss: 143.4651 - accuracy: 0.2672
+5888/7185 [=======================>......] - ETA: 0s - loss: 143.3024 - accuracy: 0.2695
+6208/7185 [========================>.....] - ETA: 0s - loss: 143.2143 - accuracy: 0.2693
+6528/7185 [==========================>...] - ETA: 0s - loss: 143.9194 - accuracy: 0.2705
+6848/7185 [===========================>..] - ETA: 0s - loss: 143.7522 - accuracy: 0.2718
+7168/7185 [============================>.] - ETA: 0s - loss: 143.0106 - accuracy: 0.2755
+7185/7185 [==============================] - 1s 186us/step - loss: 142.9279 - accuracy: 0.2761 - val_loss: 78.4238 - val_accuracy: 0.4636
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+Epoch 3/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 192.2464 - accuracy: 0.2188
+ 352/7185 [>.............................] - ETA: 1s - loss: 126.1981 - accuracy: 0.3040
+ 704/7185 [=>............................] - ETA: 1s - loss: 129.7467 - accuracy: 0.3082
+1024/7185 [===>..........................] - ETA: 0s - loss: 124.9059 - accuracy: 0.2891
+1344/7185 [====>.........................] - ETA: 0s - loss: 125.2934 - accuracy: 0.2887
+1632/7185 [=====>........................] - ETA: 0s - loss: 124.1146 - accuracy: 0.3021
+1920/7185 [=======>......................] - ETA: 0s - loss: 121.9397 - accuracy: 0.3089
+2240/7185 [========>.....................] - ETA: 0s - loss: 125.5624 - accuracy: 0.3107
+2592/7185 [=========>....................] - ETA: 0s - loss: 126.7701 - accuracy: 0.3067
+2912/7185 [===========>..................] - ETA: 0s - loss: 126.0831 - accuracy: 0.3084
+3232/7185 [============>.................] - ETA: 0s - loss: 126.1600 - accuracy: 0.3069
+3552/7185 [=============>................] - ETA: 0s - loss: 125.8002 - accuracy: 0.3080
+3904/7185 [===============>..............] - ETA: 0s - loss: 124.6535 - accuracy: 0.3099
+4224/7185 [================>.............] - ETA: 0s - loss: 123.9647 - accuracy: 0.3104
+4544/7185 [=================>............] - ETA: 0s - loss: 122.6016 - accuracy: 0.3132
+4864/7185 [===================>..........] - ETA: 0s - loss: 122.0545 - accuracy: 0.3154
+5184/7185 [====================>.........] - ETA: 0s - loss: 121.6108 - accuracy: 0.3171
+5504/7185 [=====================>........] - ETA: 0s - loss: 122.2759 - accuracy: 0.3170
+5856/7185 [=======================>......] - ETA: 0s - loss: 121.0212 - accuracy: 0.3216
+6176/7185 [========================>.....] - ETA: 0s - loss: 120.7590 - accuracy: 0.3225
+6496/7185 [==========================>...] - ETA: 0s - loss: 121.0481 - accuracy: 0.3236
+6816/7185 [===========================>..] - ETA: 0s - loss: 120.9266 - accuracy: 0.3250
+7136/7185 [============================>.] - ETA: 0s - loss: 119.5121 - accuracy: 0.3278
+7185/7185 [==============================] - 1s 187us/step - loss: 119.2184 - accuracy: 0.3283 - val_loss: 62.0687 - val_accuracy: 0.4997
+
+  32/2246 [..............................] - ETA: 0s
+ 576/2246 [======>.......................] - ETA: 0s
+1120/2246 [=============>................] - ETA: 0s
+1664/2246 [=====================>........] - ETA: 0s
+2176/2246 [============================>.] - ETA: 0s
+2246/2246 [==============================] - 0s 95us/step
+Test loss: 59.901961639961385
+Test accuracy: 0.5244879722595215
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+
+  32/7185 [..............................] - ETA: 16s - loss: 280.1838 - accuracy: 0.0625
+ 288/7185 [>.............................] - ETA: 2s - loss: 236.7017 - accuracy: 0.1111 
+ 544/7185 [=>............................] - ETA: 2s - loss: 217.7444 - accuracy: 0.1305
+ 800/7185 [==>...........................] - ETA: 1s - loss: 211.7950 - accuracy: 0.1388
+1024/7185 [===>..........................] - ETA: 1s - loss: 206.7842 - accuracy: 0.1338
+1280/7185 [====>.........................] - ETA: 1s - loss: 199.6461 - accuracy: 0.1406
+1536/7185 [=====>........................] - ETA: 1s - loss: 191.4707 - accuracy: 0.1523
+1824/7185 [======>.......................] - ETA: 1s - loss: 193.1969 - accuracy: 0.1530
+2112/7185 [=======>......................] - ETA: 1s - loss: 193.7697 - accuracy: 0.1482
+2400/7185 [=========>....................] - ETA: 1s - loss: 189.3349 - accuracy: 0.1508
+2688/7185 [==========>...................] - ETA: 0s - loss: 189.6174 - accuracy: 0.1566
+3008/7185 [===========>..................] - ETA: 0s - loss: 190.1485 - accuracy: 0.1569
+3328/7185 [============>.................] - ETA: 0s - loss: 190.6408 - accuracy: 0.1532
+3616/7185 [==============>...............] - ETA: 0s - loss: 189.3986 - accuracy: 0.1621
+3936/7185 [===============>..............] - ETA: 0s - loss: 187.9220 - accuracy: 0.1664
+4256/7185 [================>.............] - ETA: 0s - loss: 186.2576 - accuracy: 0.1675
+4544/7185 [=================>............] - ETA: 0s - loss: 185.7726 - accuracy: 0.1679
+4864/7185 [===================>..........] - ETA: 0s - loss: 184.2226 - accuracy: 0.1719
+5184/7185 [====================>.........] - ETA: 0s - loss: 182.7033 - accuracy: 0.1753
+5504/7185 [=====================>........] - ETA: 0s - loss: 181.8681 - accuracy: 0.1755
+5824/7185 [=======================>......] - ETA: 0s - loss: 181.7312 - accuracy: 0.1791
+6144/7185 [========================>.....] - ETA: 0s - loss: 180.8895 - accuracy: 0.1805
+6464/7185 [=========================>....] - ETA: 0s - loss: 179.7236 - accuracy: 0.1847
+6784/7185 [===========================>..] - ETA: 0s - loss: 179.1439 - accuracy: 0.1904
+7072/7185 [============================>.] - ETA: 0s - loss: 177.9620 - accuracy: 0.1906
+7185/7185 [==============================] - 2s 216us/step - loss: 177.6113 - accuracy: 0.1907 - val_loss: 79.1899 - val_accuracy: 0.4741
+Epoch 2/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 132.0748 - accuracy: 0.2812
+ 352/7185 [>.............................] - ETA: 1s - loss: 160.5423 - accuracy: 0.2472
+ 704/7185 [=>............................] - ETA: 1s - loss: 148.8775 - accuracy: 0.2528
+1024/7185 [===>..........................] - ETA: 0s - loss: 145.7867 - accuracy: 0.2529
+1344/7185 [====>.........................] - ETA: 0s - loss: 145.6125 - accuracy: 0.2626
+1632/7185 [=====>........................] - ETA: 0s - loss: 151.3340 - accuracy: 0.2475
+1952/7185 [=======>......................] - ETA: 0s - loss: 154.3883 - accuracy: 0.2480
+2272/7185 [========>.....................] - ETA: 0s - loss: 153.0341 - accuracy: 0.2491
+2592/7185 [=========>....................] - ETA: 0s - loss: 152.4750 - accuracy: 0.2612
+2912/7185 [===========>..................] - ETA: 0s - loss: 152.5847 - accuracy: 0.2641
+3232/7185 [============>.................] - ETA: 0s - loss: 151.9229 - accuracy: 0.2593
+3552/7185 [=============>................] - ETA: 0s - loss: 150.8715 - accuracy: 0.2618
+3872/7185 [===============>..............] - ETA: 0s - loss: 150.9965 - accuracy: 0.2611
+4192/7185 [================>.............] - ETA: 0s - loss: 151.1809 - accuracy: 0.2612
+4512/7185 [=================>............] - ETA: 0s - loss: 150.6347 - accuracy: 0.2633
+4832/7185 [===================>..........] - ETA: 0s - loss: 150.3513 - accuracy: 0.2653
+5152/7185 [====================>.........] - ETA: 0s - loss: 149.4322 - accuracy: 0.2644
+5440/7185 [=====================>........] - ETA: 0s - loss: 148.5125 - accuracy: 0.2673
+5792/7185 [=======================>......] - ETA: 0s - loss: 148.2954 - accuracy: 0.2676
+6112/7185 [========================>.....] - ETA: 0s - loss: 146.6449 - accuracy: 0.2731
+6368/7185 [=========================>....] - ETA: 0s - loss: 146.2423 - accuracy: 0.2737
+6688/7185 [==========================>...] - ETA: 0s - loss: 145.1961 - accuracy: 0.2775
+6976/7185 [============================>.] - ETA: 0s - loss: 144.3067 - accuracy: 0.2787
+7185/7185 [==============================] - 1s 193us/step - loss: 143.3838 - accuracy: 0.2791 - val_loss: 70.7469 - val_accuracy: 0.3689
+Epoch 3/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 156.8828 - accuracy: 0.1562
+ 320/7185 [>.............................] - ETA: 1s - loss: 140.0356 - accuracy: 0.2969
+ 640/7185 [=>............................] - ETA: 1s - loss: 134.3082 - accuracy: 0.3187
+ 960/7185 [===>..........................] - ETA: 1s - loss: 131.1604 - accuracy: 0.3052
+1280/7185 [====>.........................] - ETA: 1s - loss: 129.4413 - accuracy: 0.3141
+1600/7185 [=====>........................] - ETA: 0s - loss: 128.2828 - accuracy: 0.3075
+1920/7185 [=======>......................] - ETA: 0s - loss: 124.9531 - accuracy: 0.3120
+2240/7185 [========>.....................] - ETA: 0s - loss: 124.8672 - accuracy: 0.3121
+2560/7185 [=========>....................] - ETA: 0s - loss: 125.4027 - accuracy: 0.3074
+2880/7185 [===========>..................] - ETA: 0s - loss: 125.0687 - accuracy: 0.3139
+3200/7185 [============>.................] - ETA: 0s - loss: 126.8744 - accuracy: 0.3125
+3520/7185 [=============>................] - ETA: 0s - loss: 125.8532 - accuracy: 0.3114
+3872/7185 [===============>..............] - ETA: 0s - loss: 123.3881 - accuracy: 0.3182
+4192/7185 [================>.............] - ETA: 0s - loss: 124.7573 - accuracy: 0.3187
+4512/7185 [=================>............] - ETA: 0s - loss: 124.8208 - accuracy: 0.3189
+4800/7185 [===================>..........] - ETA: 0s - loss: 125.0821 - accuracy: 0.3196
+5120/7185 [====================>.........] - ETA: 0s - loss: 124.6125 - accuracy: 0.3193
+5440/7185 [=====================>........] - ETA: 0s - loss: 124.5952 - accuracy: 0.3206
+5728/7185 [======================>.......] - ETA: 0s - loss: 123.7646 - accuracy: 0.3209
+6016/7185 [========================>.....] - ETA: 0s - loss: 123.0522 - accuracy: 0.3218
+6336/7185 [=========================>....] - ETA: 0s - loss: 122.1954 - accuracy: 0.3229
+6656/7185 [==========================>...] - ETA: 0s - loss: 121.7095 - accuracy: 0.3253
+6976/7185 [============================>.] - ETA: 0s - loss: 121.5679 - accuracy: 0.3257
+7185/7185 [==============================] - 1s 191us/step - loss: 121.2959 - accuracy: 0.3253 - val_loss: 61.2309 - val_accuracy: 0.5253
+
+  32/2246 [..............................] - ETA: 0s
+ 512/2246 [=====>........................] - ETA: 0s
+1056/2246 [=============>................] - ETA: 0s
+1600/2246 [====================>.........] - ETA: 0s
+2112/2246 [===========================>..] - ETA: 0s
+2246/2246 [==============================] - 0s 99us/step
+Test loss: 58.926679045625384
+Test accuracy: 0.5436331033706665
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+
+  32/7185 [..............................] - ETA: 16s - loss: 257.3950 - accuracy: 0.0000e+00
+ 288/7185 [>.............................] - ETA: 3s - loss: 226.8513 - accuracy: 0.1562     
+ 544/7185 [=>............................] - ETA: 2s - loss: 226.1704 - accuracy: 0.1342
+ 800/7185 [==>...........................] - ETA: 1s - loss: 220.1182 - accuracy: 0.1213
+1088/7185 [===>..........................] - ETA: 1s - loss: 213.0224 - accuracy: 0.1434
+1344/7185 [====>.........................] - ETA: 1s - loss: 202.0970 - accuracy: 0.1577
+1632/7185 [=====>........................] - ETA: 1s - loss: 200.5385 - accuracy: 0.1550
+1920/7185 [=======>......................] - ETA: 1s - loss: 198.6488 - accuracy: 0.1594
+2240/7185 [========>.....................] - ETA: 1s - loss: 196.0085 - accuracy: 0.1603
+2560/7185 [=========>....................] - ETA: 1s - loss: 196.1159 - accuracy: 0.1562
+2880/7185 [===========>..................] - ETA: 0s - loss: 193.5974 - accuracy: 0.1597
+3200/7185 [============>.................] - ETA: 0s - loss: 191.7566 - accuracy: 0.1603
+3520/7185 [=============>................] - ETA: 0s - loss: 190.3205 - accuracy: 0.1602
+3808/7185 [==============>...............] - ETA: 0s - loss: 189.1101 - accuracy: 0.1633
+4096/7185 [================>.............] - ETA: 0s - loss: 185.9732 - accuracy: 0.1699
+4416/7185 [=================>............] - ETA: 0s - loss: 185.1446 - accuracy: 0.1705
+4736/7185 [==================>...........] - ETA: 0s - loss: 183.7598 - accuracy: 0.1717
+5024/7185 [===================>..........] - ETA: 0s - loss: 183.6256 - accuracy: 0.1716
+5344/7185 [=====================>........] - ETA: 0s - loss: 183.3205 - accuracy: 0.1735
+5664/7185 [======================>.......] - ETA: 0s - loss: 181.6661 - accuracy: 0.1801
+5984/7185 [=======================>......] - ETA: 0s - loss: 180.3221 - accuracy: 0.1825
+6304/7185 [=========================>....] - ETA: 0s - loss: 179.3919 - accuracy: 0.1872
+6624/7185 [==========================>...] - ETA: 0s - loss: 178.1411 - accuracy: 0.1910
+6944/7185 [===========================>..] - ETA: 0s - loss: 177.7241 - accuracy: 0.1904
+7185/7185 [==============================] - 2s 213us/step - loss: 176.8577 - accuracy: 0.1942 - val_loss: 66.7654 - val_accuracy: 0.5264
+Epoch 2/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 250.7288 - accuracy: 0.0000e+00
+ 352/7185 [>.............................] - ETA: 1s - loss: 159.4033 - accuracy: 0.1932    
+ 672/7185 [=>............................] - ETA: 1s - loss: 160.7461 - accuracy: 0.2336
+ 992/7185 [===>..........................] - ETA: 0s - loss: 161.4062 - accuracy: 0.2198
+1312/7185 [====>.........................] - ETA: 0s - loss: 158.0392 - accuracy: 0.2393
+1632/7185 [=====>........................] - ETA: 0s - loss: 153.8432 - accuracy: 0.2292
+1952/7185 [=======>......................] - ETA: 0s - loss: 152.2150 - accuracy: 0.2377
+2272/7185 [========>.....................] - ETA: 0s - loss: 149.7142 - accuracy: 0.2500
+2592/7185 [=========>....................] - ETA: 0s - loss: 148.1143 - accuracy: 0.2527
+2912/7185 [===========>..................] - ETA: 0s - loss: 146.4377 - accuracy: 0.2521
+3200/7185 [============>.................] - ETA: 0s - loss: 145.8048 - accuracy: 0.2575
+3520/7185 [=============>................] - ETA: 0s - loss: 147.3315 - accuracy: 0.2554
+3840/7185 [===============>..............] - ETA: 0s - loss: 146.5347 - accuracy: 0.2573
+4192/7185 [================>.............] - ETA: 0s - loss: 146.1226 - accuracy: 0.2629
+4512/7185 [=================>............] - ETA: 0s - loss: 145.9009 - accuracy: 0.2666
+4832/7185 [===================>..........] - ETA: 0s - loss: 146.2131 - accuracy: 0.2653
+5184/7185 [====================>.........] - ETA: 0s - loss: 146.1717 - accuracy: 0.2664
+5504/7185 [=====================>........] - ETA: 0s - loss: 145.2247 - accuracy: 0.2722
+5824/7185 [=======================>......] - ETA: 0s - loss: 144.1800 - accuracy: 0.2751
+6144/7185 [========================>.....] - ETA: 0s - loss: 143.1150 - accuracy: 0.2769
+6464/7185 [=========================>....] - ETA: 0s - loss: 143.6787 - accuracy: 0.2757
+6784/7185 [===========================>..] - ETA: 0s - loss: 143.5559 - accuracy: 0.2777
+7104/7185 [============================>.] - ETA: 0s - loss: 142.8694 - accuracy: 0.2780
+7185/7185 [==============================] - 1s 187us/step - loss: 142.7835 - accuracy: 0.2784 - val_loss: 69.9137 - val_accuracy: 0.4942
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+Epoch 3/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 87.9921 - accuracy: 0.6250
+ 352/7185 [>.............................] - ETA: 1s - loss: 123.0753 - accuracy: 0.3239
+ 672/7185 [=>............................] - ETA: 1s - loss: 130.5816 - accuracy: 0.3199
+ 992/7185 [===>..........................] - ETA: 0s - loss: 131.8972 - accuracy: 0.3115
+1312/7185 [====>.........................] - ETA: 0s - loss: 133.5113 - accuracy: 0.3026
+1600/7185 [=====>........................] - ETA: 0s - loss: 130.3941 - accuracy: 0.3131
+1920/7185 [=======>......................] - ETA: 0s - loss: 130.3176 - accuracy: 0.3005
+2240/7185 [========>.....................] - ETA: 0s - loss: 127.3042 - accuracy: 0.3089
+2560/7185 [=========>....................] - ETA: 0s - loss: 125.6345 - accuracy: 0.3082
+2912/7185 [===========>..................] - ETA: 0s - loss: 124.7341 - accuracy: 0.3063
+3232/7185 [============>.................] - ETA: 0s - loss: 124.5748 - accuracy: 0.3100
+3552/7185 [=============>................] - ETA: 0s - loss: 124.3444 - accuracy: 0.3060
+3872/7185 [===============>..............] - ETA: 0s - loss: 123.8082 - accuracy: 0.3094
+4192/7185 [================>.............] - ETA: 0s - loss: 122.1257 - accuracy: 0.3135
+4512/7185 [=================>............] - ETA: 0s - loss: 122.0936 - accuracy: 0.3165
+4832/7185 [===================>..........] - ETA: 0s - loss: 121.3881 - accuracy: 0.3175
+5152/7185 [====================>.........] - ETA: 0s - loss: 121.3849 - accuracy: 0.3189
+5472/7185 [=====================>........] - ETA: 0s - loss: 120.6530 - accuracy: 0.3187
+5792/7185 [=======================>......] - ETA: 0s - loss: 119.6347 - accuracy: 0.3235
+6112/7185 [========================>.....] - ETA: 0s - loss: 118.6941 - accuracy: 0.3253
+6432/7185 [=========================>....] - ETA: 0s - loss: 118.9202 - accuracy: 0.3254
+6752/7185 [===========================>..] - ETA: 0s - loss: 118.3300 - accuracy: 0.3260
+7072/7185 [============================>.] - ETA: 0s - loss: 118.1808 - accuracy: 0.3262
+7185/7185 [==============================] - 1s 189us/step - loss: 118.0319 - accuracy: 0.3273 - val_loss: 76.4147 - val_accuracy: 0.4997
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+  32/2246 [..............................] - ETA: 0s
+ 608/2246 [=======>......................] - ETA: 0s
+1152/2246 [==============>...............] - ETA: 0s
+1696/2246 [=====================>........] - ETA: 0s
+2208/2246 [============================>.] - ETA: 0s
+2246/2246 [==============================] - 0s 98us/step
+Test loss: 73.10061341826659
+Test accuracy: 0.519145131111145
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+
+  32/7185 [..............................] - ETA: 15s - loss: 377.0547 - accuracy: 0.0312
+ 288/7185 [>.............................] - ETA: 3s - loss: 277.6798 - accuracy: 0.0833 
+ 544/7185 [=>............................] - ETA: 2s - loss: 252.6531 - accuracy: 0.1121
+ 800/7185 [==>...........................] - ETA: 1s - loss: 234.4686 - accuracy: 0.1175
+1056/7185 [===>..........................] - ETA: 1s - loss: 225.0436 - accuracy: 0.1288
+1312/7185 [====>.........................] - ETA: 1s - loss: 216.7519 - accuracy: 0.1303
+1568/7185 [=====>........................] - ETA: 1s - loss: 208.7836 - accuracy: 0.1378
+1856/7185 [======>.......................] - ETA: 1s - loss: 206.8960 - accuracy: 0.1401
+2144/7185 [=======>......................] - ETA: 1s - loss: 203.1516 - accuracy: 0.1371
+2464/7185 [=========>....................] - ETA: 1s - loss: 200.3256 - accuracy: 0.1441
+2752/7185 [==========>...................] - ETA: 0s - loss: 197.9212 - accuracy: 0.1526
+3072/7185 [===========>..................] - ETA: 0s - loss: 195.9815 - accuracy: 0.1523
+3392/7185 [=============>................] - ETA: 0s - loss: 194.6408 - accuracy: 0.1509
+3712/7185 [==============>...............] - ETA: 0s - loss: 191.8854 - accuracy: 0.1589
+4032/7185 [===============>..............] - ETA: 0s - loss: 190.8620 - accuracy: 0.1632
+4352/7185 [=================>............] - ETA: 0s - loss: 189.1583 - accuracy: 0.1673
+4672/7185 [==================>...........] - ETA: 0s - loss: 187.0667 - accuracy: 0.1725
+4992/7185 [===================>..........] - ETA: 0s - loss: 186.0167 - accuracy: 0.1757
+5312/7185 [=====================>........] - ETA: 0s - loss: 185.9621 - accuracy: 0.1768
+5632/7185 [======================>.......] - ETA: 0s - loss: 182.8611 - accuracy: 0.1808
+5952/7185 [=======================>......] - ETA: 0s - loss: 184.1115 - accuracy: 0.1808
+6240/7185 [=========================>....] - ETA: 0s - loss: 182.9356 - accuracy: 0.1830
+6560/7185 [==========================>...] - ETA: 0s - loss: 180.9150 - accuracy: 0.1870
+6912/7185 [===========================>..] - ETA: 0s - loss: 179.2137 - accuracy: 0.1926
+7185/7185 [==============================] - 2s 214us/step - loss: 178.5368 - accuracy: 0.1936 - val_loss: 78.8794 - val_accuracy: 0.4530
+Epoch 2/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 136.0178 - accuracy: 0.2500
+ 352/7185 [>.............................] - ETA: 1s - loss: 147.1329 - accuracy: 0.2415
+ 672/7185 [=>............................] - ETA: 1s - loss: 151.0415 - accuracy: 0.2485
+ 992/7185 [===>..........................] - ETA: 0s - loss: 155.2396 - accuracy: 0.2480
+1312/7185 [====>.........................] - ETA: 0s - loss: 154.3009 - accuracy: 0.2439
+1632/7185 [=====>........................] - ETA: 0s - loss: 153.7926 - accuracy: 0.2457
+1952/7185 [=======>......................] - ETA: 0s - loss: 152.2622 - accuracy: 0.2392
+2272/7185 [========>.....................] - ETA: 0s - loss: 152.7987 - accuracy: 0.2434
+2592/7185 [=========>....................] - ETA: 0s - loss: 152.0669 - accuracy: 0.2481
+2912/7185 [===========>..................] - ETA: 0s - loss: 150.7870 - accuracy: 0.2517
+3232/7185 [============>.................] - ETA: 0s - loss: 151.5995 - accuracy: 0.2525
+3552/7185 [=============>................] - ETA: 0s - loss: 152.2017 - accuracy: 0.2559
+3872/7185 [===============>..............] - ETA: 0s - loss: 150.1210 - accuracy: 0.2632
+4192/7185 [================>.............] - ETA: 0s - loss: 150.3314 - accuracy: 0.2662
+4512/7185 [=================>............] - ETA: 0s - loss: 151.3757 - accuracy: 0.2642
+4832/7185 [===================>..........] - ETA: 0s - loss: 151.0957 - accuracy: 0.2668
+5152/7185 [====================>.........] - ETA: 0s - loss: 151.3171 - accuracy: 0.2682
+5504/7185 [=====================>........] - ETA: 0s - loss: 149.6595 - accuracy: 0.2680
+5824/7185 [=======================>......] - ETA: 0s - loss: 149.9393 - accuracy: 0.2699
+6144/7185 [========================>.....] - ETA: 0s - loss: 149.2688 - accuracy: 0.2726
+6464/7185 [=========================>....] - ETA: 0s - loss: 147.2999 - accuracy: 0.2735
+6784/7185 [===========================>..] - ETA: 0s - loss: 145.9850 - accuracy: 0.2748
+7104/7185 [============================>.] - ETA: 0s - loss: 145.1116 - accuracy: 0.2769
+7185/7185 [==============================] - 1s 190us/step - loss: 144.6861 - accuracy: 0.2772 - val_loss: 48.2531 - val_accuracy: 0.5237
+Epoch 3/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 94.7778 - accuracy: 0.2500
+ 352/7185 [>.............................] - ETA: 1s - loss: 140.5074 - accuracy: 0.3210
+ 672/7185 [=>............................] - ETA: 1s - loss: 131.3090 - accuracy: 0.3036
+ 960/7185 [===>..........................] - ETA: 1s - loss: 129.2466 - accuracy: 0.3052
+1280/7185 [====>.........................] - ETA: 0s - loss: 127.6342 - accuracy: 0.3109
+1568/7185 [=====>........................] - ETA: 0s - loss: 127.8490 - accuracy: 0.3106
+1888/7185 [======>.......................] - ETA: 0s - loss: 128.9293 - accuracy: 0.3183
+2208/7185 [========>.....................] - ETA: 0s - loss: 127.4822 - accuracy: 0.3148
+2560/7185 [=========>....................] - ETA: 0s - loss: 126.3966 - accuracy: 0.3191
+2880/7185 [===========>..................] - ETA: 0s - loss: 126.3726 - accuracy: 0.3139
+3200/7185 [============>.................] - ETA: 0s - loss: 126.7821 - accuracy: 0.3131
+3520/7185 [=============>................] - ETA: 0s - loss: 125.5125 - accuracy: 0.3134
+3840/7185 [===============>..............] - ETA: 0s - loss: 124.7203 - accuracy: 0.3117
+4128/7185 [================>.............] - ETA: 0s - loss: 125.3527 - accuracy: 0.3125
+4416/7185 [=================>............] - ETA: 0s - loss: 125.2529 - accuracy: 0.3120
+4736/7185 [==================>...........] - ETA: 0s - loss: 124.7054 - accuracy: 0.3131
+5056/7185 [====================>.........] - ETA: 0s - loss: 124.7628 - accuracy: 0.3141
+5376/7185 [=====================>........] - ETA: 0s - loss: 124.4643 - accuracy: 0.3101
+5696/7185 [======================>.......] - ETA: 0s - loss: 123.6660 - accuracy: 0.3129
+6016/7185 [========================>.....] - ETA: 0s - loss: 122.9517 - accuracy: 0.3137
+6336/7185 [=========================>....] - ETA: 0s - loss: 122.0826 - accuracy: 0.3177
+6656/7185 [==========================>...] - ETA: 0s - loss: 121.9379 - accuracy: 0.3184
+6976/7185 [============================>.] - ETA: 0s - loss: 121.0366 - accuracy: 0.3214
+7185/7185 [==============================] - 1s 192us/step - loss: 120.7305 - accuracy: 0.3208 - val_loss: 66.1690 - val_accuracy: 0.4647
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+  32/2246 [..............................] - ETA: 0s
+ 512/2246 [=====>........................] - ETA: 0s
+ 960/2246 [===========>..................] - ETA: 0s
+1440/2246 [==================>...........] - ETA: 0s
+1920/2246 [========================>.....] - ETA: 0s
+2246/2246 [==============================] - 0s 111us/step
+Test loss: 64.63429024850059
+Test accuracy: 0.48619768023490906
+# of Training Samples: 8982
+# of Test Samples: 2246
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+
+  32/7185 [..............................] - ETA: 16s - loss: 394.8639 - accuracy: 0.0000e+00
+ 256/7185 [>.............................] - ETA: 3s - loss: 231.9702 - accuracy: 0.1445     
+ 512/7185 [=>............................] - ETA: 2s - loss: 217.7276 - accuracy: 0.1836
+ 768/7185 [==>...........................] - ETA: 1s - loss: 213.9459 - accuracy: 0.1641
+1056/7185 [===>..........................] - ETA: 1s - loss: 208.0426 - accuracy: 0.1487
+1312/7185 [====>.........................] - ETA: 1s - loss: 208.2250 - accuracy: 0.1578
+1568/7185 [=====>........................] - ETA: 1s - loss: 209.5701 - accuracy: 0.1550
+1856/7185 [======>.......................] - ETA: 1s - loss: 206.8399 - accuracy: 0.1584
+2144/7185 [=======>......................] - ETA: 1s - loss: 205.8071 - accuracy: 0.1586
+2368/7185 [========>.....................] - ETA: 1s - loss: 203.0723 - accuracy: 0.1575
+2624/7185 [=========>....................] - ETA: 1s - loss: 201.5103 - accuracy: 0.1585
+2944/7185 [===========>..................] - ETA: 0s - loss: 198.9759 - accuracy: 0.1637
+3264/7185 [============>.................] - ETA: 0s - loss: 197.7753 - accuracy: 0.1645
+3584/7185 [=============>................] - ETA: 0s - loss: 195.4296 - accuracy: 0.1694
+3904/7185 [===============>..............] - ETA: 0s - loss: 193.0696 - accuracy: 0.1701
+4192/7185 [================>.............] - ETA: 0s - loss: 192.9498 - accuracy: 0.1694
+4512/7185 [=================>............] - ETA: 0s - loss: 190.9945 - accuracy: 0.1751
+4832/7185 [===================>..........] - ETA: 0s - loss: 189.0682 - accuracy: 0.1765
+5152/7185 [====================>.........] - ETA: 0s - loss: 188.0916 - accuracy: 0.1774
+5472/7185 [=====================>........] - ETA: 0s - loss: 185.8646 - accuracy: 0.1831
+5792/7185 [=======================>......] - ETA: 0s - loss: 184.9661 - accuracy: 0.1847
+6048/7185 [========================>.....] - ETA: 0s - loss: 183.5095 - accuracy: 0.1834
+6368/7185 [=========================>....] - ETA: 0s - loss: 182.6876 - accuracy: 0.1873
+6720/7185 [===========================>..] - ETA: 0s - loss: 182.1119 - accuracy: 0.1912
+7040/7185 [============================>.] - ETA: 0s - loss: 181.4118 - accuracy: 0.1937
+7185/7185 [==============================] - 2s 219us/step - loss: 181.1560 - accuracy: 0.1942 - val_loss: 70.6684 - val_accuracy: 0.5131
+Epoch 2/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 127.0824 - accuracy: 0.1250
+ 352/7185 [>.............................] - ETA: 1s - loss: 163.3516 - accuracy: 0.2472
+ 672/7185 [=>............................] - ETA: 1s - loss: 158.5981 - accuracy: 0.2321
+ 992/7185 [===>..........................] - ETA: 1s - loss: 146.6930 - accuracy: 0.2379
+1312/7185 [====>.........................] - ETA: 0s - loss: 140.7884 - accuracy: 0.2584
+1632/7185 [=====>........................] - ETA: 0s - loss: 144.9617 - accuracy: 0.2555
+1920/7185 [=======>......................] - ETA: 0s - loss: 146.9220 - accuracy: 0.2615
+2240/7185 [========>.....................] - ETA: 0s - loss: 146.7827 - accuracy: 0.2629
+2560/7185 [=========>....................] - ETA: 0s - loss: 146.4278 - accuracy: 0.2617
+2880/7185 [===========>..................] - ETA: 0s - loss: 145.5920 - accuracy: 0.2618
+3168/7185 [============>.................] - ETA: 0s - loss: 144.2736 - accuracy: 0.2614
+3488/7185 [=============>................] - ETA: 0s - loss: 143.4230 - accuracy: 0.2655
+3808/7185 [==============>...............] - ETA: 0s - loss: 144.0027 - accuracy: 0.2679
+4096/7185 [================>.............] - ETA: 0s - loss: 144.1673 - accuracy: 0.2717
+4448/7185 [=================>............] - ETA: 0s - loss: 146.1838 - accuracy: 0.2709
+4768/7185 [==================>...........] - ETA: 0s - loss: 145.9526 - accuracy: 0.2703
+5088/7185 [====================>.........] - ETA: 0s - loss: 145.7621 - accuracy: 0.2718
+5408/7185 [=====================>........] - ETA: 0s - loss: 144.8365 - accuracy: 0.2716
+5760/7185 [=======================>......] - ETA: 0s - loss: 144.5845 - accuracy: 0.2714
+6112/7185 [========================>.....] - ETA: 0s - loss: 143.9546 - accuracy: 0.2739
+6432/7185 [=========================>....] - ETA: 0s - loss: 143.1696 - accuracy: 0.2758
+6752/7185 [===========================>..] - ETA: 0s - loss: 143.1143 - accuracy: 0.2778
+7072/7185 [============================>.] - ETA: 0s - loss: 143.0867 - accuracy: 0.2769
+7185/7185 [==============================] - 1s 189us/step - loss: 142.5784 - accuracy: 0.2781 - val_loss: 75.1088 - val_accuracy: 0.4485
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+Epoch 3/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 183.2417 - accuracy: 0.1562
+ 384/7185 [>.............................] - ETA: 1s - loss: 141.4650 - accuracy: 0.2552
+ 704/7185 [=>............................] - ETA: 1s - loss: 134.5828 - accuracy: 0.2528
+1056/7185 [===>..........................] - ETA: 0s - loss: 128.7501 - accuracy: 0.2765
+1376/7185 [====>.........................] - ETA: 0s - loss: 131.0711 - accuracy: 0.2740
+1696/7185 [======>.......................] - ETA: 0s - loss: 127.2348 - accuracy: 0.2919
+2016/7185 [=======>......................] - ETA: 0s - loss: 122.8408 - accuracy: 0.3070
+2336/7185 [========>.....................] - ETA: 0s - loss: 122.2239 - accuracy: 0.3086
+2688/7185 [==========>...................] - ETA: 0s - loss: 122.1869 - accuracy: 0.3069
+3008/7185 [===========>..................] - ETA: 0s - loss: 123.7126 - accuracy: 0.3095
+3328/7185 [============>.................] - ETA: 0s - loss: 124.8676 - accuracy: 0.3065
+3648/7185 [==============>...............] - ETA: 0s - loss: 121.1763 - accuracy: 0.3152
+3968/7185 [===============>..............] - ETA: 0s - loss: 122.2824 - accuracy: 0.3143
+4320/7185 [=================>............] - ETA: 0s - loss: 121.5599 - accuracy: 0.3162
+4640/7185 [==================>...........] - ETA: 0s - loss: 121.2954 - accuracy: 0.3203
+4960/7185 [===================>..........] - ETA: 0s - loss: 120.7532 - accuracy: 0.3230
+5280/7185 [=====================>........] - ETA: 0s - loss: 120.7020 - accuracy: 0.3239
+5632/7185 [======================>.......] - ETA: 0s - loss: 120.2498 - accuracy: 0.3239
+5952/7185 [=======================>......] - ETA: 0s - loss: 120.0772 - accuracy: 0.3253
+6272/7185 [=========================>....] - ETA: 0s - loss: 119.9896 - accuracy: 0.3246
+6592/7185 [==========================>...] - ETA: 0s - loss: 119.2117 - accuracy: 0.3275
+6912/7185 [===========================>..] - ETA: 0s - loss: 118.7334 - accuracy: 0.3294
+7185/7185 [==============================] - 1s 184us/step - loss: 118.5570 - accuracy: 0.3301 - val_loss: 53.9769 - val_accuracy: 0.4919
+
+  32/2246 [..............................] - ETA: 0s
+ 576/2246 [======>.......................] - ETA: 0s
+1120/2246 [=============>................] - ETA: 0s
+1664/2246 [=====================>........] - ETA: 0s
+2176/2246 [============================>.] - ETA: 0s
+2246/2246 [==============================] - 0s 96us/step
+Test loss: 52.06752748226122
+Test accuracy: 0.512911856174469
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+
+  32/7185 [..............................] - ETA: 16s - loss: 454.0942 - accuracy: 0.0625
+ 320/7185 [>.............................] - ETA: 2s - loss: 262.3289 - accuracy: 0.0406 
+ 608/7185 [=>............................] - ETA: 1s - loss: 241.9271 - accuracy: 0.1036
+ 864/7185 [==>...........................] - ETA: 1s - loss: 234.9130 - accuracy: 0.1123
+1120/7185 [===>..........................] - ETA: 1s - loss: 236.6656 - accuracy: 0.1187
+1408/7185 [====>.........................] - ETA: 1s - loss: 223.4284 - accuracy: 0.1286
+1728/7185 [======>.......................] - ETA: 1s - loss: 218.3419 - accuracy: 0.1325
+2048/7185 [=======>......................] - ETA: 1s - loss: 214.1568 - accuracy: 0.1357
+2336/7185 [========>.....................] - ETA: 1s - loss: 208.8047 - accuracy: 0.1417
+2656/7185 [==========>...................] - ETA: 0s - loss: 204.2601 - accuracy: 0.1457
+2976/7185 [===========>..................] - ETA: 0s - loss: 202.7194 - accuracy: 0.1515
+3296/7185 [============>.................] - ETA: 0s - loss: 201.4352 - accuracy: 0.1575
+3616/7185 [==============>...............] - ETA: 0s - loss: 200.0642 - accuracy: 0.1568
+3936/7185 [===============>..............] - ETA: 0s - loss: 199.1383 - accuracy: 0.1621
+4256/7185 [================>.............] - ETA: 0s - loss: 197.9825 - accuracy: 0.1678
+4576/7185 [==================>...........] - ETA: 0s - loss: 194.7502 - accuracy: 0.1689
+4896/7185 [===================>..........] - ETA: 0s - loss: 192.7996 - accuracy: 0.1734
+5216/7185 [====================>.........] - ETA: 0s - loss: 189.9806 - accuracy: 0.1771
+5536/7185 [======================>.......] - ETA: 0s - loss: 189.8590 - accuracy: 0.1776
+5856/7185 [=======================>......] - ETA: 0s - loss: 188.3039 - accuracy: 0.1795
+6176/7185 [========================>.....] - ETA: 0s - loss: 186.7762 - accuracy: 0.1833
+6496/7185 [==========================>...] - ETA: 0s - loss: 185.8445 - accuracy: 0.1858
+6816/7185 [===========================>..] - ETA: 0s - loss: 184.9338 - accuracy: 0.1893
+7136/7185 [============================>.] - ETA: 0s - loss: 183.4727 - accuracy: 0.1921
+7185/7185 [==============================] - 1s 206us/step - loss: 183.3236 - accuracy: 0.1932 - val_loss: 66.2969 - val_accuracy: 0.5242
+Epoch 2/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 188.0524 - accuracy: 0.1875
+ 352/7185 [>.............................] - ETA: 1s - loss: 149.6411 - accuracy: 0.2415
+ 704/7185 [=>............................] - ETA: 1s - loss: 145.9707 - accuracy: 0.2571
+1024/7185 [===>..........................] - ETA: 0s - loss: 147.9429 - accuracy: 0.2666
+1344/7185 [====>.........................] - ETA: 0s - loss: 145.3135 - accuracy: 0.2626
+1664/7185 [=====>........................] - ETA: 0s - loss: 143.8314 - accuracy: 0.2680
+1984/7185 [=======>......................] - ETA: 0s - loss: 143.1684 - accuracy: 0.2666
+2304/7185 [========>.....................] - ETA: 0s - loss: 142.3067 - accuracy: 0.2626
+2624/7185 [=========>....................] - ETA: 0s - loss: 141.7432 - accuracy: 0.2687
+2976/7185 [===========>..................] - ETA: 0s - loss: 143.3313 - accuracy: 0.2648
+3296/7185 [============>.................] - ETA: 0s - loss: 144.7432 - accuracy: 0.2594
+3616/7185 [==============>...............] - ETA: 0s - loss: 143.8888 - accuracy: 0.2636
+3968/7185 [===============>..............] - ETA: 0s - loss: 143.9875 - accuracy: 0.2613
+4288/7185 [================>.............] - ETA: 0s - loss: 143.7215 - accuracy: 0.2659
+4608/7185 [==================>...........] - ETA: 0s - loss: 143.7728 - accuracy: 0.2684
+4928/7185 [===================>..........] - ETA: 0s - loss: 144.1062 - accuracy: 0.2711
+5280/7185 [=====================>........] - ETA: 0s - loss: 143.7646 - accuracy: 0.2748
+5600/7185 [======================>.......] - ETA: 0s - loss: 142.9300 - accuracy: 0.2770
+5920/7185 [=======================>......] - ETA: 0s - loss: 144.1025 - accuracy: 0.2755
+6240/7185 [=========================>....] - ETA: 0s - loss: 143.3997 - accuracy: 0.2766
+6560/7185 [==========================>...] - ETA: 0s - loss: 143.6649 - accuracy: 0.2780
+6880/7185 [===========================>..] - ETA: 0s - loss: 143.1989 - accuracy: 0.2795
+7185/7185 [==============================] - 1s 185us/step - loss: 143.2396 - accuracy: 0.2796 - val_loss: 61.0489 - val_accuracy: 0.5504
+Epoch 3/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 137.8739 - accuracy: 0.2500
+ 352/7185 [>.............................] - ETA: 1s - loss: 135.9673 - accuracy: 0.3295
+ 672/7185 [=>............................] - ETA: 1s - loss: 119.1651 - accuracy: 0.3214
+1024/7185 [===>..........................] - ETA: 0s - loss: 121.4403 - accuracy: 0.3223
+1344/7185 [====>.........................] - ETA: 0s - loss: 128.1786 - accuracy: 0.3170
+1664/7185 [=====>........................] - ETA: 0s - loss: 130.9569 - accuracy: 0.3173
+1952/7185 [=======>......................] - ETA: 0s - loss: 130.6868 - accuracy: 0.3181
+2272/7185 [========>.....................] - ETA: 0s - loss: 129.5548 - accuracy: 0.3129
+2624/7185 [=========>....................] - ETA: 0s - loss: 126.8603 - accuracy: 0.3182
+2944/7185 [===========>..................] - ETA: 0s - loss: 124.6429 - accuracy: 0.3207
+3264/7185 [============>.................] - ETA: 0s - loss: 124.0986 - accuracy: 0.3244
+3584/7185 [=============>................] - ETA: 0s - loss: 125.0046 - accuracy: 0.3270
+3904/7185 [===============>..............] - ETA: 0s - loss: 123.8841 - accuracy: 0.3284
+4224/7185 [================>.............] - ETA: 0s - loss: 123.8713 - accuracy: 0.3286
+4576/7185 [==================>...........] - ETA: 0s - loss: 123.1944 - accuracy: 0.3289
+4896/7185 [===================>..........] - ETA: 0s - loss: 123.5690 - accuracy: 0.3309
+5216/7185 [====================>.........] - ETA: 0s - loss: 121.3352 - accuracy: 0.3311
+5504/7185 [=====================>........] - ETA: 0s - loss: 120.9303 - accuracy: 0.3314
+5824/7185 [=======================>......] - ETA: 0s - loss: 120.3374 - accuracy: 0.3317
+6144/7185 [========================>.....] - ETA: 0s - loss: 120.1109 - accuracy: 0.3348
+6464/7185 [=========================>....] - ETA: 0s - loss: 120.7853 - accuracy: 0.3328
+6752/7185 [===========================>..] - ETA: 0s - loss: 120.8625 - accuracy: 0.3332
+7072/7185 [============================>.] - ETA: 0s - loss: 120.5966 - accuracy: 0.3348
+7185/7185 [==============================] - 1s 189us/step - loss: 120.5903 - accuracy: 0.3361 - val_loss: 50.4675 - val_accuracy: 0.5331
+
+  32/2246 [..............................] - ETA: 0s
+ 576/2246 [======>.......................] - ETA: 0s
+1152/2246 [==============>...............] - ETA: 0s
+1664/2246 [=====================>........] - ETA: 0s
+2208/2246 [============================>.] - ETA: 0s
+2246/2246 [==============================] - 0s 97us/step
+Test loss: 48.69451217447554
+Test accuracy: 0.5445235967636108
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+
+  32/7185 [..............................] - ETA: 16s - loss: 425.4835 - accuracy: 0.0000e+00
+ 224/7185 [..............................] - ETA: 3s - loss: 308.5947 - accuracy: 0.0536     
+ 480/7185 [=>............................] - ETA: 2s - loss: 248.5808 - accuracy: 0.1042
+ 736/7185 [==>...........................] - ETA: 2s - loss: 236.1206 - accuracy: 0.1345
+ 992/7185 [===>..........................] - ETA: 1s - loss: 228.0109 - accuracy: 0.1250
+1248/7185 [====>.........................] - ETA: 1s - loss: 219.9589 - accuracy: 0.1370
+1536/7185 [=====>........................] - ETA: 1s - loss: 209.3357 - accuracy: 0.1413
+1792/7185 [======>.......................] - ETA: 1s - loss: 207.6713 - accuracy: 0.1462
+2080/7185 [=======>......................] - ETA: 1s - loss: 202.5718 - accuracy: 0.1534
+2400/7185 [=========>....................] - ETA: 1s - loss: 201.0548 - accuracy: 0.1633
+2720/7185 [==========>...................] - ETA: 0s - loss: 198.3669 - accuracy: 0.1662
+3040/7185 [===========>..................] - ETA: 0s - loss: 196.4520 - accuracy: 0.1674
+3360/7185 [=============>................] - ETA: 0s - loss: 193.9718 - accuracy: 0.1711
+3680/7185 [==============>...............] - ETA: 0s - loss: 192.4644 - accuracy: 0.1747
+4000/7185 [===============>..............] - ETA: 0s - loss: 192.2642 - accuracy: 0.1743
+4320/7185 [=================>............] - ETA: 0s - loss: 190.3137 - accuracy: 0.1706
+4640/7185 [==================>...........] - ETA: 0s - loss: 189.2377 - accuracy: 0.1754
+4960/7185 [===================>..........] - ETA: 0s - loss: 189.6989 - accuracy: 0.1778
+5280/7185 [=====================>........] - ETA: 0s - loss: 188.8019 - accuracy: 0.1788
+5600/7185 [======================>.......] - ETA: 0s - loss: 187.6791 - accuracy: 0.1814
+5920/7185 [=======================>......] - ETA: 0s - loss: 187.6824 - accuracy: 0.1836
+6240/7185 [=========================>....] - ETA: 0s - loss: 185.8325 - accuracy: 0.1856
+6560/7185 [==========================>...] - ETA: 0s - loss: 184.1666 - accuracy: 0.1869
+6880/7185 [===========================>..] - ETA: 0s - loss: 182.2351 - accuracy: 0.1888
+7185/7185 [==============================] - 2s 213us/step - loss: 181.2335 - accuracy: 0.1932 - val_loss: 82.5761 - val_accuracy: 0.4636
+Epoch 2/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 234.0937 - accuracy: 0.2500
+ 352/7185 [>.............................] - ETA: 1s - loss: 173.4512 - accuracy: 0.2159
+ 704/7185 [=>............................] - ETA: 1s - loss: 158.6993 - accuracy: 0.2443
+1056/7185 [===>..........................] - ETA: 0s - loss: 159.3066 - accuracy: 0.2415
+1376/7185 [====>.........................] - ETA: 0s - loss: 156.7513 - accuracy: 0.2384
+1696/7185 [======>.......................] - ETA: 0s - loss: 157.5748 - accuracy: 0.2423
+2016/7185 [=======>......................] - ETA: 0s - loss: 156.4024 - accuracy: 0.2421
+2336/7185 [========>.....................] - ETA: 0s - loss: 155.0920 - accuracy: 0.2470
+2656/7185 [==========>...................] - ETA: 0s - loss: 154.6859 - accuracy: 0.2462
+2976/7185 [===========>..................] - ETA: 0s - loss: 152.4072 - accuracy: 0.2497
+3296/7185 [============>.................] - ETA: 0s - loss: 151.4226 - accuracy: 0.2549
+3616/7185 [==============>...............] - ETA: 0s - loss: 151.3864 - accuracy: 0.2586
+3936/7185 [===============>..............] - ETA: 0s - loss: 151.3548 - accuracy: 0.2622
+4256/7185 [================>.............] - ETA: 0s - loss: 151.2901 - accuracy: 0.2615
+4544/7185 [=================>............] - ETA: 0s - loss: 151.1622 - accuracy: 0.2610
+4864/7185 [===================>..........] - ETA: 0s - loss: 148.9181 - accuracy: 0.2691
+5184/7185 [====================>.........] - ETA: 0s - loss: 148.1761 - accuracy: 0.2751
+5504/7185 [=====================>........] - ETA: 0s - loss: 147.5021 - accuracy: 0.2767
+5856/7185 [=======================>......] - ETA: 0s - loss: 147.4493 - accuracy: 0.2778
+6208/7185 [========================>.....] - ETA: 0s - loss: 146.4310 - accuracy: 0.2787
+6528/7185 [==========================>...] - ETA: 0s - loss: 146.0609 - accuracy: 0.2791
+6848/7185 [===========================>..] - ETA: 0s - loss: 145.5691 - accuracy: 0.2818
+7185/7185 [==============================] - 1s 187us/step - loss: 144.5737 - accuracy: 0.2811 - val_loss: 48.6274 - val_accuracy: 0.5442
+Epoch 3/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 129.9387 - accuracy: 0.3125
+ 352/7185 [>.............................] - ETA: 1s - loss: 127.3136 - accuracy: 0.2983
+ 672/7185 [=>............................] - ETA: 1s - loss: 134.7983 - accuracy: 0.3021
+ 992/7185 [===>..........................] - ETA: 1s - loss: 128.6999 - accuracy: 0.2954
+1312/7185 [====>.........................] - ETA: 0s - loss: 128.1029 - accuracy: 0.3155
+1600/7185 [=====>........................] - ETA: 0s - loss: 127.7443 - accuracy: 0.3113
+1888/7185 [======>.......................] - ETA: 0s - loss: 125.2919 - accuracy: 0.3151
+2208/7185 [========>.....................] - ETA: 0s - loss: 123.3591 - accuracy: 0.3170
+2560/7185 [=========>....................] - ETA: 0s - loss: 122.9627 - accuracy: 0.3137
+2880/7185 [===========>..................] - ETA: 0s - loss: 122.9903 - accuracy: 0.3111
+3232/7185 [============>.................] - ETA: 0s - loss: 123.6523 - accuracy: 0.3150
+3552/7185 [=============>................] - ETA: 0s - loss: 123.4446 - accuracy: 0.3128
+3904/7185 [===============>..............] - ETA: 0s - loss: 124.3191 - accuracy: 0.3122
+4256/7185 [================>.............] - ETA: 0s - loss: 122.8641 - accuracy: 0.3141
+4576/7185 [==================>...........] - ETA: 0s - loss: 123.2495 - accuracy: 0.3153
+4864/7185 [===================>..........] - ETA: 0s - loss: 121.9195 - accuracy: 0.3168
+5184/7185 [====================>.........] - ETA: 0s - loss: 121.3633 - accuracy: 0.3175
+5504/7185 [=====================>........] - ETA: 0s - loss: 120.5691 - accuracy: 0.3180
+5824/7185 [=======================>......] - ETA: 0s - loss: 120.5664 - accuracy: 0.3182
+6144/7185 [========================>.....] - ETA: 0s - loss: 120.2646 - accuracy: 0.3197
+6464/7185 [=========================>....] - ETA: 0s - loss: 119.7780 - accuracy: 0.3210
+6784/7185 [===========================>..] - ETA: 0s - loss: 118.7596 - accuracy: 0.3221
+7104/7185 [============================>.] - ETA: 0s - loss: 118.8509 - accuracy: 0.3218
+7185/7185 [==============================] - 1s 189us/step - loss: 118.4251 - accuracy: 0.3232 - val_loss: 65.2731 - val_accuracy: 0.4636
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+  32/2246 [..............................] - ETA: 0s
+ 576/2246 [======>.......................] - ETA: 0s
+1120/2246 [=============>................] - ETA: 0s
+1664/2246 [=====================>........] - ETA: 0s
+2208/2246 [============================>.] - ETA: 0s
+2246/2246 [==============================] - 0s 93us/step
+Test loss: 64.42710150551393
+Test accuracy: 0.4888691008090973
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+
+  32/7185 [..............................] - ETA: 16s - loss: 249.3088 - accuracy: 0.0312
+ 256/7185 [>.............................] - ETA: 3s - loss: 243.5024 - accuracy: 0.0625 
+ 512/7185 [=>............................] - ETA: 2s - loss: 223.1713 - accuracy: 0.1309
+ 768/7185 [==>...........................] - ETA: 1s - loss: 206.5913 - accuracy: 0.1458
+1024/7185 [===>..........................] - ETA: 1s - loss: 203.3793 - accuracy: 0.1357
+1280/7185 [====>.........................] - ETA: 1s - loss: 204.3768 - accuracy: 0.1344
+1536/7185 [=====>........................] - ETA: 1s - loss: 201.7561 - accuracy: 0.1452
+1824/7185 [======>.......................] - ETA: 1s - loss: 202.4717 - accuracy: 0.1442
+2144/7185 [=======>......................] - ETA: 1s - loss: 203.9288 - accuracy: 0.1446
+2432/7185 [=========>....................] - ETA: 1s - loss: 202.6219 - accuracy: 0.1554
+2720/7185 [==========>...................] - ETA: 0s - loss: 205.6284 - accuracy: 0.1496
+3040/7185 [===========>..................] - ETA: 0s - loss: 204.5673 - accuracy: 0.1461
+3360/7185 [=============>................] - ETA: 0s - loss: 200.0141 - accuracy: 0.1506
+3680/7185 [==============>...............] - ETA: 0s - loss: 196.7840 - accuracy: 0.1573
+3968/7185 [===============>..............] - ETA: 0s - loss: 195.3647 - accuracy: 0.1595
+4288/7185 [================>.............] - ETA: 0s - loss: 192.9378 - accuracy: 0.1623
+4608/7185 [==================>...........] - ETA: 0s - loss: 190.1952 - accuracy: 0.1673
+4928/7185 [===================>..........] - ETA: 0s - loss: 188.8971 - accuracy: 0.1707
+5248/7185 [====================>.........] - ETA: 0s - loss: 186.3997 - accuracy: 0.1711
+5568/7185 [======================>.......] - ETA: 0s - loss: 185.6561 - accuracy: 0.1726
+5888/7185 [=======================>......] - ETA: 0s - loss: 184.1685 - accuracy: 0.1754
+6208/7185 [========================>.....] - ETA: 0s - loss: 182.6894 - accuracy: 0.1793
+6528/7185 [==========================>...] - ETA: 0s - loss: 181.0937 - accuracy: 0.1812
+6848/7185 [===========================>..] - ETA: 0s - loss: 179.9252 - accuracy: 0.1822
+7168/7185 [============================>.] - ETA: 0s - loss: 178.6204 - accuracy: 0.1879
+7185/7185 [==============================] - 2s 212us/step - loss: 178.6979 - accuracy: 0.1882 - val_loss: 74.0219 - val_accuracy: 0.5136
+Epoch 2/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 141.7729 - accuracy: 0.1875
+ 352/7185 [>.............................] - ETA: 1s - loss: 149.2828 - accuracy: 0.2528
+ 672/7185 [=>............................] - ETA: 1s - loss: 143.2080 - accuracy: 0.2574
+ 992/7185 [===>..........................] - ETA: 1s - loss: 146.7077 - accuracy: 0.2692
+1312/7185 [====>.........................] - ETA: 0s - loss: 154.2525 - accuracy: 0.2584
+1632/7185 [=====>........................] - ETA: 0s - loss: 149.4357 - accuracy: 0.2592
+1952/7185 [=======>......................] - ETA: 0s - loss: 148.1834 - accuracy: 0.2669
+2272/7185 [========>.....................] - ETA: 0s - loss: 144.5015 - accuracy: 0.2733
+2592/7185 [=========>....................] - ETA: 0s - loss: 145.1782 - accuracy: 0.2689
+2912/7185 [===========>..................] - ETA: 0s - loss: 144.9739 - accuracy: 0.2689
+3264/7185 [============>.................] - ETA: 0s - loss: 144.6262 - accuracy: 0.2678
+3584/7185 [=============>................] - ETA: 0s - loss: 144.1008 - accuracy: 0.2684
+3904/7185 [===============>..............] - ETA: 0s - loss: 144.3858 - accuracy: 0.2715
+4224/7185 [================>.............] - ETA: 0s - loss: 143.9534 - accuracy: 0.2720
+4544/7185 [=================>............] - ETA: 0s - loss: 143.5715 - accuracy: 0.2718
+4896/7185 [===================>..........] - ETA: 0s - loss: 142.5373 - accuracy: 0.2745
+5216/7185 [====================>.........] - ETA: 0s - loss: 143.1502 - accuracy: 0.2742
+5536/7185 [======================>.......] - ETA: 0s - loss: 143.1518 - accuracy: 0.2767
+5856/7185 [=======================>......] - ETA: 0s - loss: 143.3945 - accuracy: 0.2782
+6208/7185 [========================>.....] - ETA: 0s - loss: 143.0460 - accuracy: 0.2792
+6528/7185 [==========================>...] - ETA: 0s - loss: 141.3495 - accuracy: 0.2835
+6848/7185 [===========================>..] - ETA: 0s - loss: 141.8135 - accuracy: 0.2808
+7168/7185 [============================>.] - ETA: 0s - loss: 140.9527 - accuracy: 0.2835
+7185/7185 [==============================] - 1s 186us/step - loss: 141.0100 - accuracy: 0.2834 - val_loss: 76.3042 - val_accuracy: 0.4841
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+Epoch 3/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 210.8933 - accuracy: 0.3750
+ 352/7185 [>.............................] - ETA: 1s - loss: 120.1275 - accuracy: 0.3097
+ 672/7185 [=>............................] - ETA: 1s - loss: 121.8266 - accuracy: 0.3304
+ 992/7185 [===>..........................] - ETA: 1s - loss: 124.3100 - accuracy: 0.3387
+1312/7185 [====>.........................] - ETA: 0s - loss: 128.9180 - accuracy: 0.3079
+1632/7185 [=====>........................] - ETA: 0s - loss: 124.3367 - accuracy: 0.3199
+1952/7185 [=======>......................] - ETA: 0s - loss: 124.4109 - accuracy: 0.3171
+2272/7185 [========>.....................] - ETA: 0s - loss: 125.6732 - accuracy: 0.3090
+2592/7185 [=========>....................] - ETA: 0s - loss: 123.6834 - accuracy: 0.3156
+2912/7185 [===========>..................] - ETA: 0s - loss: 123.6336 - accuracy: 0.3159
+3232/7185 [============>.................] - ETA: 0s - loss: 122.6603 - accuracy: 0.3103
+3552/7185 [=============>................] - ETA: 0s - loss: 122.9048 - accuracy: 0.3125
+3872/7185 [===============>..............] - ETA: 0s - loss: 122.0863 - accuracy: 0.3171
+4192/7185 [================>.............] - ETA: 0s - loss: 121.7894 - accuracy: 0.3225
+4512/7185 [=================>............] - ETA: 0s - loss: 120.9590 - accuracy: 0.3231
+4832/7185 [===================>..........] - ETA: 0s - loss: 120.4667 - accuracy: 0.3249
+5152/7185 [====================>.........] - ETA: 0s - loss: 121.5522 - accuracy: 0.3259
+5472/7185 [=====================>........] - ETA: 0s - loss: 121.5432 - accuracy: 0.3275
+5792/7185 [=======================>......] - ETA: 0s - loss: 120.9904 - accuracy: 0.3270
+6112/7185 [========================>.....] - ETA: 0s - loss: 120.9908 - accuracy: 0.3259
+6432/7185 [=========================>....] - ETA: 0s - loss: 120.7360 - accuracy: 0.3245
+6752/7185 [===========================>..] - ETA: 0s - loss: 120.8462 - accuracy: 0.3260
+7072/7185 [============================>.] - ETA: 0s - loss: 119.7548 - accuracy: 0.3293
+7185/7185 [==============================] - 1s 188us/step - loss: 119.2818 - accuracy: 0.3312 - val_loss: 57.5216 - val_accuracy: 0.5214
+
+  32/2246 [..............................] - ETA: 0s
+ 512/2246 [=====>........................] - ETA: 0s
+1056/2246 [=============>................] - ETA: 0s
+1600/2246 [====================>.........] - ETA: 0s
+2144/2246 [===========================>..] - ETA: 0s
+2246/2246 [==============================] - 0s 98us/step
+Test loss: 55.012032862974934
+Test accuracy: 0.5436331033706665
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+
+  32/7185 [..............................] - ETA: 16s - loss: 334.9569 - accuracy: 0.0312
+ 288/7185 [>.............................] - ETA: 3s - loss: 269.1158 - accuracy: 0.1111 
+ 544/7185 [=>............................] - ETA: 2s - loss: 234.5241 - accuracy: 0.1507
+ 800/7185 [==>...........................] - ETA: 1s - loss: 224.0826 - accuracy: 0.1538
+1056/7185 [===>..........................] - ETA: 1s - loss: 212.7471 - accuracy: 0.1411
+1312/7185 [====>.........................] - ETA: 1s - loss: 208.0945 - accuracy: 0.1456
+1568/7185 [=====>........................] - ETA: 1s - loss: 205.3914 - accuracy: 0.1460
+1856/7185 [======>.......................] - ETA: 1s - loss: 203.2584 - accuracy: 0.1466
+2144/7185 [=======>......................] - ETA: 1s - loss: 204.3431 - accuracy: 0.1576
+2400/7185 [=========>....................] - ETA: 1s - loss: 203.5273 - accuracy: 0.1604
+2688/7185 [==========>...................] - ETA: 1s - loss: 198.7241 - accuracy: 0.1600
+3008/7185 [===========>..................] - ETA: 0s - loss: 195.5845 - accuracy: 0.1656
+3328/7185 [============>.................] - ETA: 0s - loss: 193.4539 - accuracy: 0.1728
+3648/7185 [==============>...............] - ETA: 0s - loss: 191.2340 - accuracy: 0.1776
+3968/7185 [===============>..............] - ETA: 0s - loss: 189.8036 - accuracy: 0.1774
+4256/7185 [================>.............] - ETA: 0s - loss: 190.5431 - accuracy: 0.1788
+4576/7185 [==================>...........] - ETA: 0s - loss: 187.7286 - accuracy: 0.1803
+4928/7185 [===================>..........] - ETA: 0s - loss: 186.1670 - accuracy: 0.1794
+5248/7185 [====================>.........] - ETA: 0s - loss: 185.5956 - accuracy: 0.1803
+5568/7185 [======================>.......] - ETA: 0s - loss: 184.0850 - accuracy: 0.1837
+5888/7185 [=======================>......] - ETA: 0s - loss: 183.9177 - accuracy: 0.1846
+6208/7185 [========================>.....] - ETA: 0s - loss: 183.4776 - accuracy: 0.1872
+6528/7185 [==========================>...] - ETA: 0s - loss: 182.1957 - accuracy: 0.1898
+6848/7185 [===========================>..] - ETA: 0s - loss: 181.1607 - accuracy: 0.1893
+7168/7185 [============================>.] - ETA: 0s - loss: 179.2674 - accuracy: 0.1914
+7185/7185 [==============================] - 2s 213us/step - loss: 179.0965 - accuracy: 0.1914 - val_loss: 62.7083 - val_accuracy: 0.5298
+Epoch 2/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 147.8952 - accuracy: 0.2812
+ 384/7185 [>.............................] - ETA: 1s - loss: 137.6432 - accuracy: 0.1979
+ 704/7185 [=>............................] - ETA: 1s - loss: 141.8549 - accuracy: 0.2244
+1024/7185 [===>..........................] - ETA: 0s - loss: 147.2754 - accuracy: 0.2422
+1344/7185 [====>.........................] - ETA: 0s - loss: 153.6045 - accuracy: 0.2448
+1664/7185 [=====>........................] - ETA: 0s - loss: 153.0120 - accuracy: 0.2506
+1984/7185 [=======>......................] - ETA: 0s - loss: 150.7657 - accuracy: 0.2510
+2304/7185 [========>.....................] - ETA: 0s - loss: 151.1205 - accuracy: 0.2543
+2624/7185 [=========>....................] - ETA: 0s - loss: 151.5189 - accuracy: 0.2630
+2944/7185 [===========>..................] - ETA: 0s - loss: 154.8383 - accuracy: 0.2595
+3264/7185 [============>.................] - ETA: 0s - loss: 153.4883 - accuracy: 0.2589
+3584/7185 [=============>................] - ETA: 0s - loss: 155.1676 - accuracy: 0.2623
+3904/7185 [===============>..............] - ETA: 0s - loss: 152.9986 - accuracy: 0.2633
+4192/7185 [================>.............] - ETA: 0s - loss: 152.7733 - accuracy: 0.2660
+4512/7185 [=================>............] - ETA: 0s - loss: 154.2505 - accuracy: 0.2631
+4864/7185 [===================>..........] - ETA: 0s - loss: 153.0882 - accuracy: 0.2658
+5184/7185 [====================>.........] - ETA: 0s - loss: 151.8349 - accuracy: 0.2677
+5504/7185 [=====================>........] - ETA: 0s - loss: 150.6579 - accuracy: 0.2700
+5856/7185 [=======================>......] - ETA: 0s - loss: 148.6358 - accuracy: 0.2737
+6176/7185 [========================>.....] - ETA: 0s - loss: 148.3794 - accuracy: 0.2748
+6496/7185 [==========================>...] - ETA: 0s - loss: 147.1475 - accuracy: 0.2788
+6848/7185 [===========================>..] - ETA: 0s - loss: 145.5839 - accuracy: 0.2824
+7136/7185 [============================>.] - ETA: 0s - loss: 145.5513 - accuracy: 0.2821
+7185/7185 [==============================] - 1s 189us/step - loss: 145.1826 - accuracy: 0.2825 - val_loss: 65.3678 - val_accuracy: 0.4624
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+Epoch 3/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 157.9610 - accuracy: 0.1562
+ 320/7185 [>.............................] - ETA: 1s - loss: 136.8568 - accuracy: 0.2406
+ 640/7185 [=>............................] - ETA: 1s - loss: 125.1733 - accuracy: 0.3156
+ 960/7185 [===>..........................] - ETA: 1s - loss: 123.5965 - accuracy: 0.3260
+1280/7185 [====>.........................] - ETA: 1s - loss: 122.5714 - accuracy: 0.3344
+1600/7185 [=====>........................] - ETA: 0s - loss: 122.6292 - accuracy: 0.3394
+1888/7185 [======>.......................] - ETA: 0s - loss: 122.2011 - accuracy: 0.3411
+2176/7185 [========>.....................] - ETA: 0s - loss: 122.4312 - accuracy: 0.3387
+2528/7185 [=========>....................] - ETA: 0s - loss: 121.8200 - accuracy: 0.3378
+2848/7185 [==========>...................] - ETA: 0s - loss: 120.1497 - accuracy: 0.3381
+3200/7185 [============>.................] - ETA: 0s - loss: 122.1560 - accuracy: 0.3353
+3520/7185 [=============>................] - ETA: 0s - loss: 121.7732 - accuracy: 0.3330
+3872/7185 [===============>..............] - ETA: 0s - loss: 120.7717 - accuracy: 0.3324
+4192/7185 [================>.............] - ETA: 0s - loss: 119.9316 - accuracy: 0.3342
+4512/7185 [=================>............] - ETA: 0s - loss: 118.9169 - accuracy: 0.3342
+4832/7185 [===================>..........] - ETA: 0s - loss: 119.3153 - accuracy: 0.3338
+5152/7185 [====================>.........] - ETA: 0s - loss: 119.6730 - accuracy: 0.3360
+5472/7185 [=====================>........] - ETA: 0s - loss: 119.8360 - accuracy: 0.3359
+5792/7185 [=======================>......] - ETA: 0s - loss: 119.6673 - accuracy: 0.3346
+6112/7185 [========================>.....] - ETA: 0s - loss: 119.9700 - accuracy: 0.3343
+6432/7185 [=========================>....] - ETA: 0s - loss: 120.1621 - accuracy: 0.3347
+6752/7185 [===========================>..] - ETA: 0s - loss: 120.4866 - accuracy: 0.3319
+7040/7185 [============================>.] - ETA: 0s - loss: 119.7721 - accuracy: 0.3328
+7185/7185 [==============================] - 1s 191us/step - loss: 120.0061 - accuracy: 0.3336 - val_loss: 57.4379 - val_accuracy: 0.5225
+
+  32/2246 [..............................] - ETA: 0s
+ 544/2246 [======>.......................] - ETA: 0s
+1056/2246 [=============>................] - ETA: 0s
+1600/2246 [====================>.........] - ETA: 0s
+2016/2246 [=========================>....] - ETA: 0s
+2246/2246 [==============================] - 0s 102us/step
+Test loss: 56.78718315525344
+Test accuracy: 0.5240427255630493
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+
+  32/7185 [..............................] - ETA: 16s - loss: 419.0377 - accuracy: 0.0000e+00
+ 288/7185 [>.............................] - ETA: 3s - loss: 241.6708 - accuracy: 0.1250     
+ 544/7185 [=>............................] - ETA: 2s - loss: 212.2715 - accuracy: 0.1710
+ 800/7185 [==>...........................] - ETA: 1s - loss: 213.6918 - accuracy: 0.1462
+1088/7185 [===>..........................] - ETA: 1s - loss: 209.5779 - accuracy: 0.1572
+1344/7185 [====>.........................] - ETA: 1s - loss: 200.4267 - accuracy: 0.1682
+1600/7185 [=====>........................] - ETA: 1s - loss: 199.6082 - accuracy: 0.1719
+1888/7185 [======>.......................] - ETA: 1s - loss: 200.3863 - accuracy: 0.1642
+2208/7185 [========>.....................] - ETA: 1s - loss: 199.0615 - accuracy: 0.1599
+2528/7185 [=========>....................] - ETA: 1s - loss: 193.7681 - accuracy: 0.1669
+2848/7185 [==========>...................] - ETA: 0s - loss: 194.0254 - accuracy: 0.1699
+3168/7185 [============>.................] - ETA: 0s - loss: 190.9956 - accuracy: 0.1717
+3488/7185 [=============>................] - ETA: 0s - loss: 190.2384 - accuracy: 0.1740
+3808/7185 [==============>...............] - ETA: 0s - loss: 187.7236 - accuracy: 0.1809
+4128/7185 [================>.............] - ETA: 0s - loss: 186.5493 - accuracy: 0.1844
+4416/7185 [=================>............] - ETA: 0s - loss: 186.3766 - accuracy: 0.1832
+4736/7185 [==================>...........] - ETA: 0s - loss: 185.3174 - accuracy: 0.1833
+5056/7185 [====================>.........] - ETA: 0s - loss: 184.5018 - accuracy: 0.1820
+5376/7185 [=====================>........] - ETA: 0s - loss: 184.6955 - accuracy: 0.1851
+5664/7185 [======================>.......] - ETA: 0s - loss: 183.6723 - accuracy: 0.1841
+5984/7185 [=======================>......] - ETA: 0s - loss: 182.4238 - accuracy: 0.1873
+6304/7185 [=========================>....] - ETA: 0s - loss: 182.2681 - accuracy: 0.1873
+6624/7185 [==========================>...] - ETA: 0s - loss: 181.5422 - accuracy: 0.1913
+6944/7185 [===========================>..] - ETA: 0s - loss: 179.8660 - accuracy: 0.1951
+7185/7185 [==============================] - 2s 210us/step - loss: 179.0305 - accuracy: 0.1972 - val_loss: 81.9911 - val_accuracy: 0.4001
+Epoch 2/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 144.4869 - accuracy: 0.3750
+ 352/7185 [>.............................] - ETA: 1s - loss: 156.7865 - accuracy: 0.1960
+ 672/7185 [=>............................] - ETA: 1s - loss: 158.9997 - accuracy: 0.2262
+ 992/7185 [===>..........................] - ETA: 0s - loss: 155.0552 - accuracy: 0.2500
+1312/7185 [====>.........................] - ETA: 0s - loss: 159.9058 - accuracy: 0.2477
+1632/7185 [=====>........................] - ETA: 0s - loss: 158.3119 - accuracy: 0.2463
+1920/7185 [=======>......................] - ETA: 0s - loss: 159.5495 - accuracy: 0.2547
+2240/7185 [========>.....................] - ETA: 0s - loss: 157.6396 - accuracy: 0.2487
+2560/7185 [=========>....................] - ETA: 0s - loss: 154.3915 - accuracy: 0.2492
+2880/7185 [===========>..................] - ETA: 0s - loss: 154.6848 - accuracy: 0.2476
+3200/7185 [============>.................] - ETA: 0s - loss: 152.4910 - accuracy: 0.2469
+3520/7185 [=============>................] - ETA: 0s - loss: 151.1798 - accuracy: 0.2511
+3840/7185 [===============>..............] - ETA: 0s - loss: 151.2619 - accuracy: 0.2516
+4160/7185 [================>.............] - ETA: 0s - loss: 151.3812 - accuracy: 0.2507
+4480/7185 [=================>............] - ETA: 0s - loss: 150.0184 - accuracy: 0.2551
+4800/7185 [===================>..........] - ETA: 0s - loss: 148.1124 - accuracy: 0.2612
+5120/7185 [====================>.........] - ETA: 0s - loss: 146.2575 - accuracy: 0.2641
+5440/7185 [=====================>........] - ETA: 0s - loss: 145.3287 - accuracy: 0.2675
+5792/7185 [=======================>......] - ETA: 0s - loss: 144.4926 - accuracy: 0.2690
+6112/7185 [========================>.....] - ETA: 0s - loss: 143.9370 - accuracy: 0.2711
+6432/7185 [=========================>....] - ETA: 0s - loss: 143.2412 - accuracy: 0.2729
+6752/7185 [===========================>..] - ETA: 0s - loss: 142.5874 - accuracy: 0.2762
+7072/7185 [============================>.] - ETA: 0s - loss: 141.7394 - accuracy: 0.2793
+7185/7185 [==============================] - 1s 187us/step - loss: 141.9222 - accuracy: 0.2803 - val_loss: 58.6901 - val_accuracy: 0.5509
+Epoch 3/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 112.2337 - accuracy: 0.2188
+ 352/7185 [>.............................] - ETA: 1s - loss: 137.7094 - accuracy: 0.2898
+ 672/7185 [=>............................] - ETA: 1s - loss: 147.0425 - accuracy: 0.2827
+ 992/7185 [===>..........................] - ETA: 1s - loss: 140.9350 - accuracy: 0.2974
+1312/7185 [====>.........................] - ETA: 0s - loss: 136.2553 - accuracy: 0.3064
+1632/7185 [=====>........................] - ETA: 0s - loss: 134.5956 - accuracy: 0.3107
+1952/7185 [=======>......................] - ETA: 0s - loss: 133.6408 - accuracy: 0.3135
+2272/7185 [========>.....................] - ETA: 0s - loss: 134.3245 - accuracy: 0.3138
+2592/7185 [=========>....................] - ETA: 0s - loss: 133.8665 - accuracy: 0.3171
+2944/7185 [===========>..................] - ETA: 0s - loss: 132.9815 - accuracy: 0.3196
+3264/7185 [============>.................] - ETA: 0s - loss: 130.1361 - accuracy: 0.3189
+3584/7185 [=============>................] - ETA: 0s - loss: 128.8218 - accuracy: 0.3225
+3904/7185 [===============>..............] - ETA: 0s - loss: 127.1334 - accuracy: 0.3222
+4256/7185 [================>.............] - ETA: 0s - loss: 127.1025 - accuracy: 0.3217
+4608/7185 [==================>...........] - ETA: 0s - loss: 126.0035 - accuracy: 0.3210
+4928/7185 [===================>..........] - ETA: 0s - loss: 125.8176 - accuracy: 0.3174
+5248/7185 [====================>.........] - ETA: 0s - loss: 125.7301 - accuracy: 0.3167
+5568/7185 [======================>.......] - ETA: 0s - loss: 125.2805 - accuracy: 0.3175
+5888/7185 [=======================>......] - ETA: 0s - loss: 124.2503 - accuracy: 0.3183
+6208/7185 [========================>.....] - ETA: 0s - loss: 124.1536 - accuracy: 0.3215
+6528/7185 [==========================>...] - ETA: 0s - loss: 123.0400 - accuracy: 0.3235
+6848/7185 [===========================>..] - ETA: 0s - loss: 122.6629 - accuracy: 0.3237
+7168/7185 [============================>.] - ETA: 0s - loss: 121.8202 - accuracy: 0.3235
+7185/7185 [==============================] - 1s 187us/step - loss: 121.6810 - accuracy: 0.3239 - val_loss: 57.6503 - val_accuracy: 0.5281
+
+  32/2246 [..............................] - ETA: 0s
+ 544/2246 [======>.......................] - ETA: 0s
+1120/2246 [=============>................] - ETA: 0s
+1664/2246 [=====================>........] - ETA: 0s
+2208/2246 [============================>.] - ETA: 0s
+2246/2246 [==============================] - 0s 95us/step
+Test loss: 56.44930538405081
+Test accuracy: 0.5307213068008423
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+
+  32/7185 [..............................] - ETA: 16s - loss: 375.1756 - accuracy: 0.0312
+ 256/7185 [>.............................] - ETA: 3s - loss: 269.7737 - accuracy: 0.0703 
+ 512/7185 [=>............................] - ETA: 2s - loss: 239.0147 - accuracy: 0.1328
+ 768/7185 [==>...........................] - ETA: 1s - loss: 217.2684 - accuracy: 0.1393
+1056/7185 [===>..........................] - ETA: 1s - loss: 203.8815 - accuracy: 0.1496
+1312/7185 [====>.........................] - ETA: 1s - loss: 197.9574 - accuracy: 0.1578
+1568/7185 [=====>........................] - ETA: 1s - loss: 195.2054 - accuracy: 0.1607
+1824/7185 [======>.......................] - ETA: 1s - loss: 194.1942 - accuracy: 0.1628
+2144/7185 [=======>......................] - ETA: 1s - loss: 196.6808 - accuracy: 0.1595
+2464/7185 [=========>....................] - ETA: 1s - loss: 194.2319 - accuracy: 0.1623
+2784/7185 [==========>...................] - ETA: 0s - loss: 193.4573 - accuracy: 0.1659
+3104/7185 [===========>..................] - ETA: 0s - loss: 191.0960 - accuracy: 0.1675
+3424/7185 [=============>................] - ETA: 0s - loss: 187.5116 - accuracy: 0.1717
+3680/7185 [==============>...............] - ETA: 0s - loss: 188.1384 - accuracy: 0.1728
+4000/7185 [===============>..............] - ETA: 0s - loss: 186.0039 - accuracy: 0.1782
+4320/7185 [=================>............] - ETA: 0s - loss: 185.6510 - accuracy: 0.1785
+4640/7185 [==================>...........] - ETA: 0s - loss: 183.6042 - accuracy: 0.1825
+4960/7185 [===================>..........] - ETA: 0s - loss: 182.2928 - accuracy: 0.1873
+5280/7185 [=====================>........] - ETA: 0s - loss: 181.8961 - accuracy: 0.1900
+5600/7185 [======================>.......] - ETA: 0s - loss: 180.7068 - accuracy: 0.1898
+5920/7185 [=======================>......] - ETA: 0s - loss: 180.8808 - accuracy: 0.1916
+6240/7185 [=========================>....] - ETA: 0s - loss: 178.7516 - accuracy: 0.1942
+6560/7185 [==========================>...] - ETA: 0s - loss: 178.7576 - accuracy: 0.1918
+6880/7185 [===========================>..] - ETA: 0s - loss: 176.8224 - accuracy: 0.1932
+7185/7185 [==============================] - 2s 212us/step - loss: 176.5588 - accuracy: 0.1960 - val_loss: 75.6496 - val_accuracy: 0.4814
+Epoch 2/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 157.1927 - accuracy: 0.0625
+ 352/7185 [>.............................] - ETA: 1s - loss: 151.9787 - accuracy: 0.2699
+ 704/7185 [=>............................] - ETA: 1s - loss: 163.8661 - accuracy: 0.2628
+ 992/7185 [===>..........................] - ETA: 1s - loss: 159.9301 - accuracy: 0.2480
+1312/7185 [====>.........................] - ETA: 0s - loss: 154.9489 - accuracy: 0.2546
+1632/7185 [=====>........................] - ETA: 0s - loss: 156.2668 - accuracy: 0.2445
+1952/7185 [=======>......................] - ETA: 0s - loss: 156.5792 - accuracy: 0.2546
+2272/7185 [========>.....................] - ETA: 0s - loss: 157.0761 - accuracy: 0.2491
+2592/7185 [=========>....................] - ETA: 0s - loss: 157.1463 - accuracy: 0.2542
+2912/7185 [===========>..................] - ETA: 0s - loss: 156.5325 - accuracy: 0.2613
+3232/7185 [============>.................] - ETA: 0s - loss: 154.8948 - accuracy: 0.2562
+3552/7185 [=============>................] - ETA: 0s - loss: 153.7030 - accuracy: 0.2576
+3872/7185 [===============>..............] - ETA: 0s - loss: 153.1080 - accuracy: 0.2596
+4224/7185 [================>.............] - ETA: 0s - loss: 152.7161 - accuracy: 0.2609
+4544/7185 [=================>............] - ETA: 0s - loss: 150.3478 - accuracy: 0.2665
+4864/7185 [===================>..........] - ETA: 0s - loss: 150.3697 - accuracy: 0.2708
+5184/7185 [====================>.........] - ETA: 0s - loss: 150.6642 - accuracy: 0.2664
+5504/7185 [=====================>........] - ETA: 0s - loss: 149.9383 - accuracy: 0.2680
+5856/7185 [=======================>......] - ETA: 0s - loss: 149.4924 - accuracy: 0.2698
+6144/7185 [========================>.....] - ETA: 0s - loss: 148.9620 - accuracy: 0.2699
+6464/7185 [=========================>....] - ETA: 0s - loss: 147.9829 - accuracy: 0.2717
+6784/7185 [===========================>..] - ETA: 0s - loss: 146.5647 - accuracy: 0.2731
+7104/7185 [============================>.] - ETA: 0s - loss: 145.4594 - accuracy: 0.2756
+7185/7185 [==============================] - 1s 188us/step - loss: 145.8706 - accuracy: 0.2764 - val_loss: 55.5173 - val_accuracy: 0.5687
+Epoch 3/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 117.6761 - accuracy: 0.2812
+ 352/7185 [>.............................] - ETA: 1s - loss: 129.0635 - accuracy: 0.3011
+ 640/7185 [=>............................] - ETA: 1s - loss: 120.7966 - accuracy: 0.3172
+ 928/7185 [==>...........................] - ETA: 1s - loss: 119.7824 - accuracy: 0.3157
+1248/7185 [====>.........................] - ETA: 1s - loss: 118.2334 - accuracy: 0.3149
+1568/7185 [=====>........................] - ETA: 0s - loss: 115.8893 - accuracy: 0.3240
+1888/7185 [======>.......................] - ETA: 0s - loss: 117.4890 - accuracy: 0.3226
+2144/7185 [=======>......................] - ETA: 0s - loss: 120.6356 - accuracy: 0.3158
+2496/7185 [=========>....................] - ETA: 0s - loss: 117.8727 - accuracy: 0.3201
+2848/7185 [==========>...................] - ETA: 0s - loss: 119.9125 - accuracy: 0.3223
+3168/7185 [============>.................] - ETA: 0s - loss: 118.3730 - accuracy: 0.3213
+3488/7185 [=============>................] - ETA: 0s - loss: 119.9509 - accuracy: 0.3208
+3808/7185 [==============>...............] - ETA: 0s - loss: 118.6331 - accuracy: 0.3251
+4160/7185 [================>.............] - ETA: 0s - loss: 118.4208 - accuracy: 0.3231
+4480/7185 [=================>............] - ETA: 0s - loss: 118.4967 - accuracy: 0.3217
+4800/7185 [===================>..........] - ETA: 0s - loss: 118.4553 - accuracy: 0.3258
+5120/7185 [====================>.........] - ETA: 0s - loss: 118.5938 - accuracy: 0.3264
+5408/7185 [=====================>........] - ETA: 0s - loss: 118.1266 - accuracy: 0.3254
+5728/7185 [======================>.......] - ETA: 0s - loss: 118.9819 - accuracy: 0.3226
+6048/7185 [========================>.....] - ETA: 0s - loss: 118.1127 - accuracy: 0.3229
+6368/7185 [=========================>....] - ETA: 0s - loss: 117.9322 - accuracy: 0.3243
+6688/7185 [==========================>...] - ETA: 0s - loss: 117.9683 - accuracy: 0.3234
+7008/7185 [============================>.] - ETA: 0s - loss: 117.6368 - accuracy: 0.3256
+7185/7185 [==============================] - 1s 191us/step - loss: 117.5016 - accuracy: 0.3268 - val_loss: 63.1433 - val_accuracy: 0.5253
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+  32/2246 [..............................] - ETA: 0s
+ 576/2246 [======>.......................] - ETA: 0s
+1088/2246 [=============>................] - ETA: 0s
+1632/2246 [====================>.........] - ETA: 0s
+2112/2246 [===========================>..] - ETA: 0s
+2246/2246 [==============================] - 0s 99us/step
+Test loss: 62.68997570455658
+Test accuracy: 0.5409616827964783
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+# of Training Samples: 8982
+# of Test Samples: 2246
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+
+  32/7185 [..............................] - ETA: 16s - loss: 296.8694 - accuracy: 0.0000e+00
+ 288/7185 [>.............................] - ETA: 3s - loss: 261.9091 - accuracy: 0.1354     
+ 512/7185 [=>............................] - ETA: 2s - loss: 235.2058 - accuracy: 0.1582
+ 768/7185 [==>...........................] - ETA: 1s - loss: 223.5210 - accuracy: 0.1719
+1024/7185 [===>..........................] - ETA: 1s - loss: 212.2114 - accuracy: 0.1748
+1280/7185 [====>.........................] - ETA: 1s - loss: 206.8928 - accuracy: 0.1758
+1504/7185 [=====>........................] - ETA: 1s - loss: 203.1785 - accuracy: 0.1709
+1760/7185 [======>.......................] - ETA: 1s - loss: 200.9522 - accuracy: 0.1716
+2048/7185 [=======>......................] - ETA: 1s - loss: 201.1768 - accuracy: 0.1655
+2368/7185 [========>.....................] - ETA: 1s - loss: 195.0764 - accuracy: 0.1672
+2656/7185 [==========>...................] - ETA: 1s - loss: 194.3408 - accuracy: 0.1691
+2944/7185 [===========>..................] - ETA: 0s - loss: 193.7761 - accuracy: 0.1732
+3264/7185 [============>.................] - ETA: 0s - loss: 193.5643 - accuracy: 0.1746
+3584/7185 [=============>................] - ETA: 0s - loss: 191.6645 - accuracy: 0.1738
+3904/7185 [===============>..............] - ETA: 0s - loss: 190.4285 - accuracy: 0.1765
+4224/7185 [================>.............] - ETA: 0s - loss: 188.5491 - accuracy: 0.1799
+4544/7185 [=================>............] - ETA: 0s - loss: 190.0092 - accuracy: 0.1794
+4864/7185 [===================>..........] - ETA: 0s - loss: 188.1062 - accuracy: 0.1785
+5216/7185 [====================>.........] - ETA: 0s - loss: 185.6110 - accuracy: 0.1819
+5536/7185 [======================>.......] - ETA: 0s - loss: 183.6136 - accuracy: 0.1821
+5856/7185 [=======================>......] - ETA: 0s - loss: 182.6300 - accuracy: 0.1832
+6176/7185 [========================>.....] - ETA: 0s - loss: 180.4924 - accuracy: 0.1880
+6496/7185 [==========================>...] - ETA: 0s - loss: 178.3233 - accuracy: 0.1898
+6816/7185 [===========================>..] - ETA: 0s - loss: 178.0979 - accuracy: 0.1948
+7168/7185 [============================>.] - ETA: 0s - loss: 178.1395 - accuracy: 0.1970
+7185/7185 [==============================] - 2s 212us/step - loss: 177.9595 - accuracy: 0.1968 - val_loss: 74.3290 - val_accuracy: 0.4914
+Epoch 2/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 162.4276 - accuracy: 0.2812
+ 352/7185 [>.............................] - ETA: 1s - loss: 154.4580 - accuracy: 0.3040
+ 672/7185 [=>............................] - ETA: 1s - loss: 154.6920 - accuracy: 0.2842
+ 992/7185 [===>..........................] - ETA: 1s - loss: 151.4280 - accuracy: 0.2661
+1344/7185 [====>.........................] - ETA: 0s - loss: 154.2695 - accuracy: 0.2582
+1664/7185 [=====>........................] - ETA: 0s - loss: 147.1096 - accuracy: 0.2584
+1984/7185 [=======>......................] - ETA: 0s - loss: 145.8577 - accuracy: 0.2636
+2304/7185 [========>.....................] - ETA: 0s - loss: 145.0784 - accuracy: 0.2609
+2624/7185 [=========>....................] - ETA: 0s - loss: 144.7744 - accuracy: 0.2611
+2944/7185 [===========>..................] - ETA: 0s - loss: 142.9677 - accuracy: 0.2673
+3264/7185 [============>.................] - ETA: 0s - loss: 142.4872 - accuracy: 0.2687
+3584/7185 [=============>................] - ETA: 0s - loss: 140.9369 - accuracy: 0.2690
+3904/7185 [===============>..............] - ETA: 0s - loss: 140.9123 - accuracy: 0.2743
+4224/7185 [================>.............] - ETA: 0s - loss: 141.6301 - accuracy: 0.2772
+4544/7185 [=================>............] - ETA: 0s - loss: 142.1098 - accuracy: 0.2711
+4864/7185 [===================>..........] - ETA: 0s - loss: 141.4008 - accuracy: 0.2745
+5184/7185 [====================>.........] - ETA: 0s - loss: 142.1246 - accuracy: 0.2745
+5504/7185 [=====================>........] - ETA: 0s - loss: 142.9012 - accuracy: 0.2740
+5824/7185 [=======================>......] - ETA: 0s - loss: 143.2168 - accuracy: 0.2740
+6176/7185 [========================>.....] - ETA: 0s - loss: 142.3381 - accuracy: 0.2772
+6496/7185 [==========================>...] - ETA: 0s - loss: 141.9444 - accuracy: 0.2805
+6816/7185 [===========================>..] - ETA: 0s - loss: 142.1693 - accuracy: 0.2799
+7136/7185 [============================>.] - ETA: 0s - loss: 142.2715 - accuracy: 0.2800
+7185/7185 [==============================] - 1s 186us/step - loss: 142.2428 - accuracy: 0.2799 - val_loss: 79.7969 - val_accuracy: 0.4146
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+Epoch 3/3
+
+  32/7185 [..............................] - ETA: 1s - loss: 150.6935 - accuracy: 0.1875
+ 352/7185 [>.............................] - ETA: 1s - loss: 138.3981 - accuracy: 0.2784
+ 672/7185 [=>............................] - ETA: 1s - loss: 139.8234 - accuracy: 0.2842
+ 992/7185 [===>..........................] - ETA: 1s - loss: 134.1907 - accuracy: 0.2853
+1312/7185 [====>.........................] - ETA: 0s - loss: 135.1573 - accuracy: 0.2942
+1632/7185 [=====>........................] - ETA: 0s - loss: 128.4972 - accuracy: 0.3100
+1920/7185 [=======>......................] - ETA: 0s - loss: 128.2100 - accuracy: 0.3130
+2240/7185 [========>.....................] - ETA: 0s - loss: 128.1541 - accuracy: 0.3089
+2560/7185 [=========>....................] - ETA: 0s - loss: 127.1855 - accuracy: 0.3102
+2912/7185 [===========>..................] - ETA: 0s - loss: 125.1184 - accuracy: 0.3080
+3264/7185 [============>.................] - ETA: 0s - loss: 125.0014 - accuracy: 0.3134
+3584/7185 [=============>................] - ETA: 0s - loss: 124.0609 - accuracy: 0.3128
+3936/7185 [===============>..............] - ETA: 0s - loss: 123.4713 - accuracy: 0.3125
+4256/7185 [================>.............] - ETA: 0s - loss: 123.1695 - accuracy: 0.3094
+4576/7185 [==================>...........] - ETA: 0s - loss: 122.0336 - accuracy: 0.3118
+4896/7185 [===================>..........] - ETA: 0s - loss: 121.6448 - accuracy: 0.3117
+5216/7185 [====================>.........] - ETA: 0s - loss: 121.5998 - accuracy: 0.3121
+5536/7185 [======================>.......] - ETA: 0s - loss: 121.1236 - accuracy: 0.3138
+5856/7185 [=======================>......] - ETA: 0s - loss: 121.1857 - accuracy: 0.3135
+6176/7185 [========================>.....] - ETA: 0s - loss: 120.8258 - accuracy: 0.3146
+6496/7185 [==========================>...] - ETA: 0s - loss: 120.5089 - accuracy: 0.3156
+6816/7185 [===========================>..] - ETA: 0s - loss: 119.8997 - accuracy: 0.3154
+7136/7185 [============================>.] - ETA: 0s - loss: 120.3217 - accuracy: 0.3170
+7185/7185 [==============================] - 1s 186us/step - loss: 120.1864 - accuracy: 0.3172 - val_loss: 58.8400 - val_accuracy: 0.5314
+
+  32/2246 [..............................] - ETA: 0s
+ 544/2246 [======>.......................] - ETA: 0s
+1088/2246 [=============>................] - ETA: 0s
+1632/2246 [====================>.........] - ETA: 0s
+2208/2246 [============================>.] - ETA: 0s
+2246/2246 [==============================] - 0s 96us/step
+Test loss: 57.04404895133666
+Test accuracy: 0.5414069294929504
+
+Process finished with exit code 0

@@ -1,0 +1,518 @@
+"Issue 48221692 start
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 48221692 end 4.917738014"
+"Issue 48221692 start
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 48221692 end 5.196113878"
+"Issue 48221692 start
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 48221692 end 4.795034871"
+"Issue 48221692 start
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 48221692 end 5.130643114"
+"Issue 48221692 start
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 48221692 end 4.975706564"
+"Issue 48221692 start
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 48221692 end 4.672405967"
+"Issue 48221692 start
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 48221692 end 4.970485131"
+"Issue 48221692 start
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 48221692 end 4.869863919"
+"Issue 48221692 start
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 48221692 end 4.989026238"
+"Issue 48221692 start
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 48221692 end 5.422408823"
+"Issue 48221692 start
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 48221692 end 4.954846184"
+"Issue 48221692 start
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 48221692 end 4.629713075"
+"Issue 48221692 start
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 48221692 end 5.156228373"
+"Issue 48221692 start
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 48221692 end 5.267426958"
+"Issue 48221692 start
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 48221692 end 5.019057402"
+"Issue 48221692 start
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 48221692 end 5.166751763"
+"Issue 48221692 start
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 48221692 end 5.133936359"
+"Issue 48221692 start
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 48221692 end 4.975417786"
+"Issue 48221692 start
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 48221692 end 4.861070811"
+
+"Issue kerasma end 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>] [<Warning: Possible overfitting>]
+Issue kerasma end 2.184205387"
+"Issue kerasma end 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>] [<Warning: Possible overfitting>]
+Issue kerasma end 2.317356967"
+"Issue kerasma end 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>] [<Warning: Possible overfitting>]
+Issue kerasma end 2.101183822"
+"Issue kerasma end 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>] [<Warning: Possible overfitting>]
+Issue kerasma end 2.281230159"
+"Issue kerasma end 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>] [<Warning: Possible overfitting>]
+Issue kerasma end 2.209276688"
+"Issue kerasma end 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>] [<Warning: Possible overfitting>]
+Issue kerasma end 2.359219411"
+"Issue kerasma end 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>] [<Warning: Possible overfitting>]
+Issue kerasma end 2.27391504"
+"Issue kerasma end 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>] [<Warning: Possible overfitting>]
+Issue kerasma end 2.215687393"
+"Issue kerasma end 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>] [<Warning: Possible overfitting>]
+Issue kerasma end 2.132057936"
+"Issue kerasma end 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>] [<Warning: Possible overfitting>]
+Issue kerasma end 1.807108415"
+"Issue kerasma end 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>] [<Warning: Possible overfitting>]
+Issue kerasma end 2.38498662"
+"Issue kerasma end 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>] [<Warning: Possible overfitting>]
+Issue kerasma end 2.307916973"
+"Issue kerasma end 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>] [<Warning: Possible overfitting>]
+Issue kerasma end 2.245615975"
+"Issue kerasma end 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>] [<Warning: Possible overfitting>]
+Issue kerasma end 1.963083732"
+"Issue kerasma end 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>] [<Warning: Possible overfitting>]
+Issue kerasma end 1.794104004"
+"Issue kerasma end 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>] [<Warning: Possible overfitting>]
+Issue kerasma end 2.063905072"
+"Issue kerasma end 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>] [<Warning: Possible overfitting>]
+Issue kerasma end 1.949375122"
+"Issue kerasma end 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>] [<Warning: Possible overfitting>]
+Issue kerasma end 2.437417187"
+
+
+"Issue 50079585 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinearactivation>]
+Issue 50079585 end 40.3808078"
+"Issue 50079585 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinearactivation>]
+Issue 50079585 end 41.31343921"
+"Issue 50079585 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinearactivation>]
+Issue 50079585 end 40.70058751"
+"Issue 50079585 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinearactivation>]
+Issue 50079585 end 40.00837508"
+"Issue 50079585 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinearactivation>]
+Issue 50079585 end 40.91593834"
+"Issue 50079585 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinearactivation>]
+Issue 50079585 end 40.67772951"
+"Issue 50079585 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinearactivation>]
+Issue 50079585 end 40.07628422"
+"Issue 50079585 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinearactivation>]
+Issue 50079585 end 40.03112117"
+"Issue 50079585 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinearactivation>]
+Issue 50079585 end 40.60293108"
+"Issue 50079585 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinearactivation>]
+Issue 50079585 end 40.8180912"
+"Issue 50079585 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinearactivation>]
+Issue 50079585 end 40.73926303"
+"Issue 50079585 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinearactivation>]
+Issue 50079585 end 40.66562285"
+"Issue 50079585 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinearactivation>]
+Issue 50079585 end 40.93299605"
+"Issue 50079585 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinearactivation>]
+Issue 50079585 end 41.02034052"
+"Issue 50079585 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinearactivation>]
+Issue 50079585 end 40.44312909"
+"Issue 50079585 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinearactivation>]
+Issue 50079585 end 40.85438815"
+"Issue 50079585 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinearactivation>]
+Issue 50079585 end 41.6246961"
+"Issue 50079585 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinearactivation>]
+Issue 50079585 end 40.42209026"
+"Issue 50079585 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinearactivation>]
+Issue 50079585 end 41.0929072"
+
+
+Issue udacity_change_loss_function_mutated0_MP_mean_absolute_percentage_error start 
+<Critical: Missing Softmax layer before loss>]
+[<Error: Image data may have incorrect shape>, <Error: Input data exceeds typical limits>]
+<Warning: Possible overfitting>]
+Issue udacity_change_loss_function_mutated0_MP_mean_absolute_percentage_error end 646.4084815979004 
+
+
+Issue udacity_change_optimisation_function_mutated0_MP_rmsprop start 
+<Critical: Missing Softmax layer before loss>]
+<Error: Image data may have incorrect shape>, <Error: Input data exceeds typical limits>]
+Issue udacity_change_optimisation_function_mutated0_MP_rmsprop end 1434.8501856327057 
+
+
+Issue audio_change_epochs_mutated0_MP_False_1
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+<Error: Input data exceeds typical limits>]
+Issue audio_change_epochs_mutated0_MP_False_1 9.582875490188599 
+
+
+Issue audio_change_loss_function_mutated0_MP_categorical_hinge start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+<Error: Input data exceeds typical limits>]
+Issue audio_change_loss_function_mutated0_MP_categorical_hinge 57.14558219909668 
+
+"Issue 099 start 
+<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Issue 099 end 25.60245448"
+"Issue 099 start 
+<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Issue 099 end 25.55863797"
+"Issue 099 start 
+<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Issue 099 end 26.26664617"
+"Issue 099 start 
+<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Issue 099 end 26.44669184"
+"Issue 099 start 
+<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Issue 099 end 25.77714657"
+"Issue 099 start 
+<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Issue 099 end 25.80953323"
+"Issue 099 start 
+<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Issue 099 end 25.82922883"
+"Issue 099 start 
+<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Issue 099 end 26.07666146"
+"Issue 099 start 
+<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Issue 099 end 25.65498043"
+"Issue 099 start 
+<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Issue 099 end 25.81457901"
+"Issue 099 start 
+<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Issue 099 end 26.02392358"
+"Issue 099 start 
+<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Issue 099 end 26.01288634"
+"Issue 099 start 
+<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Issue 099 end 26.02714363"
+"Issue 099 start 
+<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Issue 099 end 25.5757439"
+"Issue 099 start 
+<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Issue 099 end 26.35572315"
+"Issue 099 start 
+<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Issue 099 end 26.24743287"
+"Issue 099 start 
+<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Issue 099 end 25.7538895"
+"Issue 099 start 
+<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Issue 099 end 25.36760056"
+"Issue 099 start 
+<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Issue 099 end 25.99942367"
+"Issue 099 start 
+<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Issue 099 end 25.39967282"
+
+
+Issue 098
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+<Error: Input data exceeds typical limits>]
+Issue 098 end 49.9290235"
+
+"Issue 098
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+<Error: Input data exceeds typical limits>]
+Issue 098 end 49.60642394"
+
+"Issue 098
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+<Error: Input data exceeds typical limits>]
+Issue 098 end 50.18273758"
+
+"Issue 098
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+<Error: Input data exceeds typical limits>]
+Issue 098 end 50.24878081"
+
+"Issue 098
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+<Error: Input data exceeds typical limits>]
+Issue 098 end 49.68518376"
+
+"Issue 098
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+<Error: Input data exceeds typical limits>]
+Issue 098 end 49.59888174"
+"Issue 098
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+<Error: Input data exceeds typical limits>]
+Issue 098 end 49.39930275"
+"Issue 098
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+<Error: Input data exceeds typical limits>]
+Issue 098 end 49.56175346"
+"Issue 098
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+<Error: Input data exceeds typical limits>]
+Issue 098 end 50.02260576"
+"Issue 098
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+<Error: Input data exceeds typical limits>]
+Issue 098 end 50.20611046"
+"Issue 098
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+<Error: Input data exceeds typical limits>]
+Issue 098 end 49.60303596"
+"Issue 098
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+<Error: Input data exceeds typical limits>]
+Issue 098 end 50.37783905"
+"Issue 098
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+<Error: Input data exceeds typical limits>]
+Issue 098 end 50.44446994"
+"Issue 098
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+<Error: Input data exceeds typical limits>]
+Issue 098 end 49.68467653"
+"Issue 098
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+<Error: Input data exceeds typical limits>]
+Issue 098 end 50.20868584"
+"Issue 098
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+<Error: Input data exceeds typical limits>]
+Issue 098 end 49.7894572"
+"Issue 098
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+<Error: Input data exceeds typical limits>]
+Issue 098 end 49.63040478"
+"Issue 098
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+<Error: Input data exceeds typical limits>]
+Issue 098 end 49.8085761"
+"Issue 098
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+<Error: Input data exceeds typical limits>]
+Issue 098 end 49.88281661"
+"Issue 098
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+<Error: Input data exceeds typical limits>]
+Issue 098 end 50.12923422"
+
+
+"Issue 068 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 068 end 177.383025"
+
+"Issue 068 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 068 end 179.062779"
+
+"Issue 068 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 068 end 178.9124819"
+
+"Issue 068 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 068 end 178.1183382"
+
+"Issue 068 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 068 end 178.8002417"
+
+"Issue 068 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 068 end 178.7781269"
+
+"Issue 068 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 068 end 178.7490965"
+
+"Issue 068 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 068 end 179.3472798"
+
+"Issue 068 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 068 end 178.1763963"
+
+"Issue 068 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 068 end 178.2027206"
+
+"Issue 068 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 068 end 178.1240638"
+
+"Issue 068 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 068 end 178.1697892"
+
+"Issue 068 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 068 end 178.4928034"
+
+"Issue 068 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 068 end 178.6716063"
+
+"Issue 068 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 068 end 178.6555041"
+
+"Issue 068 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 068 end 178.5047876"
+
+"Issue 068 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 068 end 178.03898"
+
+"Issue 068 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+Issue 068 end 178.0478491"
+
+"Issue 024 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>]
+<Warning: Learning Rate is high>]
+Issue 024 end 62.70857741"
+
+"Issue 024 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>]
+<Warning: Learning Rate is high>]
+Issue 024 end 62.69468062"
+
+"Issue 024 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>]
+<Warning: Learning Rate is high>]
+Issue 024 end 62.35744972"
+
+"Issue 024 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>]
+<Warning: Learning Rate is high>]
+Issue 024 end 62.14181443"
+
+"Issue 024 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>]
+<Warning: Learning Rate is high>]
+Issue 024 end 62.47673541"
+
+"Issue 024 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>]
+<Warning: Learning Rate is high>]
+Issue 024 end 61.78803392"
+
+"Issue 024 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>]
+<Warning: Learning Rate is high>]
+Issue 024 end 62.25091748"
+
+"Issue 024 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>]
+<Warning: Learning Rate is high>]
+Issue 024 end 61.41222848"
+
+"Issue 024 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>]
+<Warning: Learning Rate is high>]
+Issue 024 end 61.72947172"
+
+"Issue 024 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>]
+<Warning: Learning Rate is high>]
+Issue 024 end 62.69820778"
+
+"Issue 024 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>]
+<Warning: Learning Rate is high>]
+Issue 024 end 62.54821457"
+
+"Issue 024 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>]
+<Warning: Learning Rate is high>]
+Issue 024 end 62.50754964"
+
+"Issue 024 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>]
+<Warning: Learning Rate is high>]
+Issue 024 end 62.12127725"
+
+"Issue 024 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>]
+<Warning: Learning Rate is high>]
+Issue 024 end 62.48593215"
+
+"Issue 024 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>]
+<Warning: Learning Rate is high>]
+Issue 024 end 62.19437503"
+
+"Issue 024 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>]
+<Warning: Learning Rate is high>]
+Issue 024 end 62.77340187"
+
+"Issue 024 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>]
+<Warning: Learning Rate is high>]
+Issue 024 end 62.51963557"
+
+"Issue 024 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>]
+<Warning: Learning Rate is high>]
+Issue 024 end 61.58966901"
+
+"Issue 024 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>]
+<Warning: Learning Rate is high>]
+Issue 024 end 62.76519759"
+
+"Issue 024 start 
+<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>]
+<Warning: Learning Rate is high>]
+Issue 024 end 62.63663037"
+

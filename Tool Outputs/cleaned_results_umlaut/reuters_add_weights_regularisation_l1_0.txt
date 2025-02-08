@@ -1,0 +1,769 @@
+D:\nargiz\github\umlaut\venvUMLT\Scripts\python.exe D:/nargiz/github/umlaut/reuters_add_weights_regularisation_l1_0.py
+Using TensorFlow backend.
+2023-03-20 07:14:36.036557: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudart64_101.dll
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+46
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+2023-03-20 07:14:39.814563: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library nvcuda.dll
+7185
+mdl model.h5
+2023-03-20 07:14:39.846092: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:0b:00.0 name: NVIDIA GeForce RTX 2060 SUPER computeCapability: 7.5
+coreClock: 1.65GHz coreCount: 34 deviceMemorySize: 8.00GiB deviceMemoryBandwidth: 417.29GiB/s
+2023-03-20 07:14:39.846256: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudart64_101.dll
+2023-03-20 07:14:39.850928: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cublas64_10.dll
+2023-03-20 07:14:39.853365: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cufft64_10.dll
+2023-03-20 07:14:39.854356: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library curand64_10.dll
+2023-03-20 07:14:39.857575: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cusolver64_10.dll
+2023-03-20 07:14:39.860091: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cusparse64_10.dll
+2023-03-20 07:14:39.866776: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudnn64_7.dll
+2023-03-20 07:14:39.866919: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+2023-03-20 07:14:39.867193: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2023-03-20 07:14:39.868020: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:0b:00.0 name: NVIDIA GeForce RTX 2060 SUPER computeCapability: 7.5
+coreClock: 1.65GHz coreCount: 34 deviceMemorySize: 8.00GiB deviceMemoryBandwidth: 417.29GiB/s
+2023-03-20 07:14:39.868208: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudart64_101.dll
+2023-03-20 07:14:39.868340: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cublas64_10.dll
+2023-03-20 07:14:39.868419: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cufft64_10.dll
+2023-03-20 07:14:39.868485: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library curand64_10.dll
+2023-03-20 07:14:39.868556: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cusolver64_10.dll
+2023-03-20 07:14:39.868629: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cusparse64_10.dll
+2023-03-20 07:14:39.868707: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudnn64_7.dll
+2023-03-20 07:14:39.868820: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+2023-03-20 07:14:40.320253: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1096] Device interconnect StreamExecutor with strength 1 edge matrix:
+2023-03-20 07:14:40.320348: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102]      0 
+2023-03-20 07:14:40.320400: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] 0:   N 
+2023-03-20 07:14:40.320552: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1241] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6704 MB memory) -> physical GPU (device: 0, name: NVIDIA GeForce RTX 2060 SUPER, pci bus id: 0000:0b:00.0, compute capability: 7.5)
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+2023-03-20 07:14:41.140744: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cublas64_10.dll
+ - 2s - loss: 37.3203 - accuracy: 0.4785 - val_loss: 8.6933 - val_accuracy: 0.4936
+Epoch 2/3
+ - 1s - loss: 8.6547 - accuracy: 0.5044 - val_loss: 8.6929 - val_accuracy: 0.4997
+Epoch 3/3
+ - 1s - loss: 8.6100 - accuracy: 0.5087 - val_loss: 8.6865 - val_accuracy: 0.5008
+
+  32/2246 [..............................] - ETA: 0s
+ 576/2246 [======>.......................] - ETA: 0s
+1120/2246 [=============>................] - ETA: 0s
+1632/2246 [====================>.........] - ETA: 0s
+2144/2246 [===========================>..] - ETA: 0s
+2246/2246 [==============================] - 0s 98us/step
+Test loss: 8.63881733963135
+Test accuracy: 0.5035619139671326
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+46
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+ - 2s - loss: 37.3015 - accuracy: 0.4689 - val_loss: 8.6905 - val_accuracy: 0.4858
+Epoch 2/3
+ - 1s - loss: 8.6507 - accuracy: 0.5019 - val_loss: 8.6800 - val_accuracy: 0.4953
+Epoch 3/3
+ - 1s - loss: 8.5961 - accuracy: 0.5074 - val_loss: 8.5985 - val_accuracy: 0.5019
+
+  32/2246 [..............................] - ETA: 0s
+ 608/2246 [=======>......................] - ETA: 0s
+1120/2246 [=============>................] - ETA: 0s
+1696/2246 [=====================>........] - ETA: 0s
+2240/2246 [============================>.] - ETA: 0s
+2246/2246 [==============================] - 0s 95us/step
+Test loss: 8.54198835921521
+Test accuracy: 0.5164737105369568
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+46
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+ - 2s - loss: 39.0780 - accuracy: 0.4707 - val_loss: 8.7500 - val_accuracy: 0.4947
+Epoch 2/3
+ - 1s - loss: 8.6833 - accuracy: 0.5041 - val_loss: 8.6295 - val_accuracy: 0.5008
+Epoch 3/3
+ - 1s - loss: 8.6018 - accuracy: 0.5094 - val_loss: 8.6654 - val_accuracy: 0.5103
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+  32/2246 [..............................] - ETA: 0s
+ 512/2246 [=====>........................] - ETA: 0s
+ 992/2246 [============>.................] - ETA: 0s
+1472/2246 [==================>...........] - ETA: 0s
+1920/2246 [========================>.....] - ETA: 0s
+2246/2246 [==============================] - 0s 109us/step
+Test loss: 8.614733907439724
+Test accuracy: 0.5173642039299011
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+46
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+ - 2s - loss: 37.3166 - accuracy: 0.4678 - val_loss: 8.7002 - val_accuracy: 0.4958
+Epoch 2/3
+ - 1s - loss: 8.6648 - accuracy: 0.5063 - val_loss: 8.7078 - val_accuracy: 0.4942
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+Epoch 3/3
+ - 1s - loss: 8.6217 - accuracy: 0.5133 - val_loss: 8.6290 - val_accuracy: 0.5259
+
+  32/2246 [..............................] - ETA: 0s
+ 544/2246 [======>.......................] - ETA: 0s
+1088/2246 [=============>................] - ETA: 0s
+1600/2246 [====================>.........] - ETA: 0s
+2112/2246 [===========================>..] - ETA: 0s
+2246/2246 [==============================] - 0s 99us/step
+Test loss: 8.573387753188557
+Test accuracy: 0.5356189012527466
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+46
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+ - 2s - loss: 39.0768 - accuracy: 0.4800 - val_loss: 8.7318 - val_accuracy: 0.4869
+Epoch 2/3
+ - 1s - loss: 8.6691 - accuracy: 0.5037 - val_loss: 8.6902 - val_accuracy: 0.4914
+Epoch 3/3
+ - 1s - loss: 8.6145 - accuracy: 0.5083 - val_loss: 8.6064 - val_accuracy: 0.4930
+
+  32/2246 [..............................] - ETA: 0s
+ 544/2246 [======>.......................] - ETA: 0s
+1056/2246 [=============>................] - ETA: 0s
+1536/2246 [===================>..........] - ETA: 0s
+2016/2246 [=========================>....] - ETA: 0s
+2246/2246 [==============================] - 0s 107us/step
+Test loss: 8.545549531972313
+Test accuracy: 0.516918957233429
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+46
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+ - 2s - loss: 39.0509 - accuracy: 0.4721 - val_loss: 8.7340 - val_accuracy: 0.5070
+Epoch 2/3
+ - 1s - loss: 8.6752 - accuracy: 0.5012 - val_loss: 8.7125 - val_accuracy: 0.5014
+Epoch 3/3
+ - 1s - loss: 8.6220 - accuracy: 0.5112 - val_loss: 8.6489 - val_accuracy: 0.4891
+
+  32/2246 [..............................] - ETA: 0s
+ 544/2246 [======>.......................] - ETA: 0s
+1088/2246 [=============>................] - ETA: 0s
+1600/2246 [====================>.........] - ETA: 0s
+2112/2246 [===========================>..] - ETA: 0s
+2246/2246 [==============================] - 0s 99us/step
+Test loss: 8.584589861379811
+Test accuracy: 0.5133571028709412
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+46
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+ - 2s - loss: 37.3189 - accuracy: 0.4660 - val_loss: 8.6564 - val_accuracy: 0.4947
+Epoch 2/3
+ - 1s - loss: 8.6467 - accuracy: 0.5047 - val_loss: 8.6438 - val_accuracy: 0.4875
+Epoch 3/3
+ - 1s - loss: 8.5993 - accuracy: 0.5094 - val_loss: 8.6340 - val_accuracy: 0.5231
+
+  32/2246 [..............................] - ETA: 0s
+ 512/2246 [=====>........................] - ETA: 0s
+1056/2246 [=============>................] - ETA: 0s
+1568/2246 [===================>..........] - ETA: 0s
+2048/2246 [==========================>...] - ETA: 0s
+2246/2246 [==============================] - 0s 103us/step
+Test loss: 8.578832108318434
+Test accuracy: 0.5289403200149536
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+46
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+ - 2s - loss: 37.2960 - accuracy: 0.4760 - val_loss: 8.7242 - val_accuracy: 0.4992
+Epoch 2/3
+ - 1s - loss: 8.6509 - accuracy: 0.5040 - val_loss: 8.6885 - val_accuracy: 0.5014
+Epoch 3/3
+ - 1s - loss: 8.5950 - accuracy: 0.5061 - val_loss: 8.5975 - val_accuracy: 0.4992
+
+  32/2246 [..............................] - ETA: 0s
+ 576/2246 [======>.......................] - ETA: 0s
+1088/2246 [=============>................] - ETA: 0s
+1632/2246 [====================>.........] - ETA: 0s
+2144/2246 [===========================>..] - ETA: 0s
+2246/2246 [==============================] - 0s 99us/step
+Test loss: 8.537145991677805
+Test accuracy: 0.5204808712005615
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+46
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+ - 2s - loss: 37.3142 - accuracy: 0.4731 - val_loss: 8.7191 - val_accuracy: 0.4919
+Epoch 2/3
+ - 1s - loss: 8.6670 - accuracy: 0.5026 - val_loss: 8.6798 - val_accuracy: 0.4958
+Epoch 3/3
+ - 1s - loss: 8.5969 - accuracy: 0.5087 - val_loss: 8.6039 - val_accuracy: 0.4975
+
+  32/2246 [..............................] - ETA: 0s
+ 512/2246 [=====>........................] - ETA: 0s
+ 992/2246 [============>.................] - ETA: 0s
+1440/2246 [==================>...........] - ETA: 0s
+1888/2246 [========================>.....] - ETA: 0s
+2246/2246 [==============================] - 0s 114us/step
+Test loss: 8.541858761414607
+Test accuracy: 0.5195903778076172
+# of Training Samples: 8982
+# of Test Samples: 2246
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+46
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+ - 2s - loss: 39.0892 - accuracy: 0.4699 - val_loss: 8.7294 - val_accuracy: 0.4814
+Epoch 2/3
+ - 1s - loss: 8.6711 - accuracy: 0.5023 - val_loss: 8.6758 - val_accuracy: 0.5042
+Epoch 3/3
+ - 1s - loss: 8.6082 - accuracy: 0.5081 - val_loss: 8.5786 - val_accuracy: 0.4886
+
+  32/2246 [..............................] - ETA: 0s
+ 544/2246 [======>.......................] - ETA: 0s
+1056/2246 [=============>................] - ETA: 0s
+1600/2246 [====================>.........] - ETA: 0s
+2144/2246 [===========================>..] - ETA: 0s
+2246/2246 [==============================] - 0s 99us/step
+Test loss: 8.515536939259205
+Test accuracy: 0.512911856174469
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+46
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+ - 2s - loss: 37.3122 - accuracy: 0.4682 - val_loss: 8.6948 - val_accuracy: 0.4841
+Epoch 2/3
+ - 1s - loss: 8.6727 - accuracy: 0.5013 - val_loss: 8.7062 - val_accuracy: 0.4897
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+Epoch 3/3
+ - 1s - loss: 8.6195 - accuracy: 0.5074 - val_loss: 8.6293 - val_accuracy: 0.5014
+
+  32/2246 [..............................] - ETA: 0s
+ 576/2246 [======>.......................] - ETA: 0s
+1088/2246 [=============>................] - ETA: 0s
+1664/2246 [=====================>........] - ETA: 0s
+2176/2246 [============================>.] - ETA: 0s
+2246/2246 [==============================] - 0s 97us/step
+Test loss: 8.568821665015692
+Test accuracy: 0.5164737105369568
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+46
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+ - 2s - loss: 37.3221 - accuracy: 0.4721 - val_loss: 8.6968 - val_accuracy: 0.4891
+Epoch 2/3
+ - 1s - loss: 8.6510 - accuracy: 0.5023 - val_loss: 8.6221 - val_accuracy: 0.4897
+Epoch 3/3
+ - 1s - loss: 8.5919 - accuracy: 0.5084 - val_loss: 8.5652 - val_accuracy: 0.5036
+
+  32/2246 [..............................] - ETA: 0s
+ 576/2246 [======>.......................] - ETA: 0s
+1152/2246 [==============>...............] - ETA: 0s
+1728/2246 [======================>.......] - ETA: 0s
+2246/2246 [==============================] - 0s 91us/step
+Test loss: 8.506182639172113
+Test accuracy: 0.5151380300521851
+# of Training Samples: 8982
+# of Test Samples: 2246
+46
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+ - 2s - loss: 39.0479 - accuracy: 0.4720 - val_loss: 8.7181 - val_accuracy: 0.4814
+Epoch 2/3
+ - 1s - loss: 8.6665 - accuracy: 0.5033 - val_loss: 8.6364 - val_accuracy: 0.4875
+Epoch 3/3
+ - 1s - loss: 8.6022 - accuracy: 0.5080 - val_loss: 8.5395 - val_accuracy: 0.5003
+
+  32/2246 [..............................] - ETA: 0s
+ 576/2246 [======>.......................] - ETA: 0s
+1088/2246 [=============>................] - ETA: 0s
+1600/2246 [====================>.........] - ETA: 0s
+2080/2246 [==========================>...] - ETA: 0s
+2246/2246 [==============================] - 0s 102us/step
+Test loss: 8.481450879987817
+Test accuracy: 0.5182546973228455
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+46
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+ - 2s - loss: 39.0744 - accuracy: 0.4740 - val_loss: 8.6974 - val_accuracy: 0.4808
+Epoch 2/3
+ - 1s - loss: 8.6712 - accuracy: 0.5044 - val_loss: 8.6584 - val_accuracy: 0.4869
+Epoch 3/3
+ - 1s - loss: 8.5998 - accuracy: 0.5106 - val_loss: 8.5488 - val_accuracy: 0.5159
+
+  32/2246 [..............................] - ETA: 0s
+ 544/2246 [======>.......................] - ETA: 0s
+1056/2246 [=============>................] - ETA: 0s
+1376/2246 [=================>............] - ETA: 0s
+1664/2246 [=====================>........] - ETA: 0s
+1952/2246 [=========================>....] - ETA: 0s
+2208/2246 [============================>.] - ETA: 0s
+2246/2246 [==============================] - 0s 142us/step
+Test loss: 8.490545040990026
+Test accuracy: 0.5284950733184814
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+46
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+ - 2s - loss: 39.0759 - accuracy: 0.4754 - val_loss: 8.6892 - val_accuracy: 0.4908
+Epoch 2/3
+ - 1s - loss: 8.6657 - accuracy: 0.5049 - val_loss: 8.6291 - val_accuracy: 0.5064
+Epoch 3/3
+ - 1s - loss: 8.5906 - accuracy: 0.5162 - val_loss: 8.5808 - val_accuracy: 0.5309
+
+  32/2246 [..............................] - ETA: 0s
+ 448/2246 [====>.........................] - ETA: 0s
+ 960/2246 [===========>..................] - ETA: 0s
+1504/2246 [===================>..........] - ETA: 0s
+1984/2246 [=========================>....] - ETA: 0s
+2246/2246 [==============================] - 0s 108us/step
+Test loss: 8.529405813820109
+Test accuracy: 0.5396260023117065
+# of Training Samples: 8982
+# of Test Samples: 2246
+46
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+ - 2s - loss: 37.3135 - accuracy: 0.4760 - val_loss: 8.7425 - val_accuracy: 0.4981
+Epoch 2/3
+ - 1s - loss: 8.6684 - accuracy: 0.5041 - val_loss: 8.7217 - val_accuracy: 0.5092
+Epoch 3/3
+ - 1s - loss: 8.6105 - accuracy: 0.5164 - val_loss: 8.6445 - val_accuracy: 0.5214
+
+  32/2246 [..............................] - ETA: 0s
+ 544/2246 [======>.......................] - ETA: 0s
+1056/2246 [=============>................] - ETA: 0s
+1600/2246 [====================>.........] - ETA: 0s
+2176/2246 [============================>.] - ETA: 0s
+2246/2246 [==============================] - 0s 96us/step
+Test loss: 8.590684793935964
+Test accuracy: 0.5289403200149536
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+46
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+ - 2s - loss: 39.0474 - accuracy: 0.4772 - val_loss: 8.7250 - val_accuracy: 0.4975
+Epoch 2/3
+ - 1s - loss: 8.6666 - accuracy: 0.5023 - val_loss: 8.6204 - val_accuracy: 0.5003
+Epoch 3/3
+ - 1s - loss: 8.6003 - accuracy: 0.5077 - val_loss: 8.6323 - val_accuracy: 0.5097
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+  32/2246 [..............................] - ETA: 0s
+ 576/2246 [======>.......................] - ETA: 0s
+1152/2246 [==============>...............] - ETA: 0s
+1696/2246 [=====================>........] - ETA: 0s
+2246/2246 [==============================] - 0s 92us/step
+Test loss: 8.577875344538837
+Test accuracy: 0.5186998844146729
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+46
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+ - 2s - loss: 37.2991 - accuracy: 0.4688 - val_loss: 8.6832 - val_accuracy: 0.4947
+Epoch 2/3
+ - 1s - loss: 8.6615 - accuracy: 0.5030 - val_loss: 8.7054 - val_accuracy: 0.4997
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+Epoch 3/3
+ - 1s - loss: 8.6096 - accuracy: 0.5119 - val_loss: 8.5969 - val_accuracy: 0.5114
+
+  32/2246 [..............................] - ETA: 0s
+ 544/2246 [======>.......................] - ETA: 0s
+1056/2246 [=============>................] - ETA: 0s
+1568/2246 [===================>..........] - ETA: 0s
+2080/2246 [==========================>...] - ETA: 0s
+2246/2246 [==============================] - 0s 100us/step
+Test loss: 8.540781504324475
+Test accuracy: 0.5240427255630493
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+# of Training Samples: 8982
+# of Test Samples: 2246
+46
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+ - 2s - loss: 37.3425 - accuracy: 0.4775 - val_loss: 8.7073 - val_accuracy: 0.4875
+Epoch 2/3
+ - 1s - loss: 8.6565 - accuracy: 0.5037 - val_loss: 8.6858 - val_accuracy: 0.5136
+Epoch 3/3
+ - 1s - loss: 8.5989 - accuracy: 0.5100 - val_loss: 8.6124 - val_accuracy: 0.5081
+
+  32/2246 [..............................] - ETA: 0s
+ 576/2246 [======>.......................] - ETA: 0s
+1088/2246 [=============>................] - ETA: 0s
+1600/2246 [====================>.........] - ETA: 0s
+2112/2246 [===========================>..] - ETA: 0s
+2246/2246 [==============================] - 0s 98us/step
+Test loss: 8.551651941063355
+Test accuracy: 0.5182546973228455
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:85: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_train, y_train = np.array(xs[:idx]), np.array(labels[:idx])
+D:\nargiz\github\umlaut\venvUMLT\lib\site-packages\keras\datasets\reuters.py:86: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  x_test, y_test = np.array(xs[idx:]), np.array(labels[idx:])
+# of Training Samples: 8982
+# of Test Samples: 2246
+46
+# of Classes: 46
+the an brazil vs reuter 68 vs 2 lt index countries 18 000 reuter all number 000 lt oper site consumption 000 reuter considerably reserves 000 an 784 vs reuter holiday vs some 100 hit our forward up indexes share countries 624 writedown index tonnes income a but reuter countries 624 627 a exchange half be 9 dlrs on bond 07 said in all 100 hit our japanese indexes two as before on tonnes said oper half be in hit our japanese pct dlrs
+3
+[0. 1. 0. ... 0. 0. 0.]
+10000
+[0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+46
+7185
+mdl model.h5
+['loss', 'accuracy']
+Train on 7185 samples, validate on 1797 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/3
+ - 2s - loss: 39.1007 - accuracy: 0.4664 - val_loss: 8.6992 - val_accuracy: 0.4858
+Epoch 2/3
+ - 1s - loss: 8.6805 - accuracy: 0.5027 - val_loss: 8.6929 - val_accuracy: 0.5003
+Epoch 3/3
+ - 1s - loss: 8.6201 - accuracy: 0.5136 - val_loss: 8.6795 - val_accuracy: 0.5064
+
+  32/2246 [..............................] - ETA: 0s
+ 544/2246 [======>.......................] - ETA: 0s
+1056/2246 [=============>................] - ETA: 0s
+1568/2246 [===================>..........] - ETA: 0s
+2080/2246 [==========================>...] - ETA: 0s
+2246/2246 [==============================] - 0s 100us/step
+Test loss: 8.625198440687633
+Test accuracy: 0.5253784656524658
+
+Process finished with exit code 0

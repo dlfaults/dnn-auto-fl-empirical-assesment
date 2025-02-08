@@ -1,0 +1,3 @@
+﻿C1,1,OCH | HLR | ACH | LCH,optimizer,lr,act,loss
+C2,0,OCH | ACH | LCH,optimizer,act,loss,
+C3,0,OCH | ACH | LCH | HNE,optimizer,act,loss,epochs

@@ -1,0 +1,619 @@
+D:\nargiz\github\umlaut\venvUMLT\Scripts\python.exe D:/nargiz/github/umlaut/48385830.py
+
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+dense_1 (Dense)              (None, 30)                23550     
+_________________________________________________________________
+dense_2 (Dense)              (None, 10)                310       
+=================================================================
+Total params: 23,860
+Trainable params: 23,860
+Non-trainable params: 0
+_________________________________________________________________
+Train on 60000 samples, validate on 10000 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>]
+Epoch 1/30
+2023-03-19 16:17:41.976653: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cublas64_10.dll
+ - 11s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 2/30
+ - 13s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 3/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 4/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 5/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 6/30
+ - 13s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 7/30
+ - 13s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 8/30
+ - 13s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 9/30
+ - 13s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 10/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 11/30
+ - 13s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 12/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 13/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 14/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 15/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 16/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 17/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 18/30
+ - 13s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 19/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 20/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 21/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 22/30
+ - 13s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 23/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 24/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 25/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 26/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 27/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 28/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 29/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 30/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+   32/10000 [..............................] - ETA: 0s
+ 1408/10000 [===>..........................] - ETA: 0s
+ 2784/10000 [=======>......................] - ETA: 0s
+ 4160/10000 [===========>..................] - ETA: 0s
+ 5536/10000 [===============>..............] - ETA: 0s
+ 6752/10000 [===================>..........] - ETA: 0s
+ 7072/10000 [====================>.........] - ETA: 0s
+ 7776/10000 [======================>.......] - ETA: 0s
+ 9120/10000 [==========================>...] - ETA: 0s
+10000/10000 [==============================] - 0s 45us/step
+Model: "sequential_2"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+dense_3 (Dense)              (None, 30)                23550     
+_________________________________________________________________
+dense_4 (Dense)              (None, 10)                310       
+=================================================================
+Total params: 23,860
+Trainable params: 23,860
+Non-trainable params: 0
+_________________________________________________________________
+Train on 60000 samples, validate on 10000 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>]
+Epoch 1/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 2/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 3/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 4/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 5/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 6/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 7/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 8/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 9/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 10/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 11/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 12/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 13/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 14/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 15/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 16/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 17/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 18/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 19/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 20/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 21/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 22/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 23/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 24/30
+ - 13s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 25/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 26/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 27/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 28/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 29/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 30/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+   32/10000 [..............................] - ETA: 0s
+ 1376/10000 [===>..........................] - ETA: 0s
+ 2752/10000 [=======>......................] - ETA: 0s
+ 4096/10000 [===========>..................] - ETA: 0s
+ 5440/10000 [===============>..............] - ETA: 0s
+ 6656/10000 [==================>...........] - ETA: 0s
+ 6976/10000 [===================>..........] - ETA: 0s
+ 7648/10000 [=====================>........] - ETA: 0s
+ 8992/10000 [=========================>....] - ETA: 0s
+10000/10000 [==============================] - 0s 45us/step
+Model: "sequential_3"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+dense_5 (Dense)              (None, 30)                23550     
+_________________________________________________________________
+dense_6 (Dense)              (None, 10)                310       
+=================================================================
+Total params: 23,860
+Trainable params: 23,860
+Non-trainable params: 0
+_________________________________________________________________
+Train on 60000 samples, validate on 10000 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>]
+Epoch 1/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 2/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 3/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 4/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 5/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 6/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 7/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 8/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 9/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 10/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 11/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 12/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 13/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 14/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 15/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 16/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 17/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 18/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 19/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 20/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 21/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 22/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 23/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 24/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 25/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 26/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 27/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 28/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 29/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 30/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+   32/10000 [..............................] - ETA: 0s
+ 1408/10000 [===>..........................] - ETA: 0s
+ 2816/10000 [=======>......................] - ETA: 0s
+ 4224/10000 [===========>..................] - ETA: 0s
+ 5664/10000 [===============>..............] - ETA: 0s
+ 6688/10000 [===================>..........] - ETA: 0s
+ 7104/10000 [====================>.........] - ETA: 0s
+ 7616/10000 [=====================>........] - ETA: 0s
+ 9056/10000 [==========================>...] - ETA: 0s
+10000/10000 [==============================] - 0s 44us/step
+Model: "sequential_4"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+dense_7 (Dense)              (None, 30)                23550     
+_________________________________________________________________
+dense_8 (Dense)              (None, 10)                310       
+=================================================================
+Total params: 23,860
+Trainable params: 23,860
+Non-trainable params: 0
+_________________________________________________________________
+Train on 60000 samples, validate on 10000 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>]
+Epoch 1/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 2/30
+ - 13s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 3/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 4/30
+ - 13s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 5/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 6/30
+ - 13s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 7/30
+ - 13s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 8/30
+ - 13s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 9/30
+ - 13s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 10/30
+ - 13s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 11/30
+ - 13s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 12/30
+ - 13s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 13/30
+ - 13s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 14/30
+ - 12s - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0980
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 15/30
+
+Process finished with exit code -1

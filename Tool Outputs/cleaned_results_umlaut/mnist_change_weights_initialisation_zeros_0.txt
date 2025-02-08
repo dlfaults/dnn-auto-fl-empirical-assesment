@@ -1,0 +1,1337 @@
+D:\nargiz\github\umlaut\venvUMLT\Scripts\python.exe D:/nargiz/github/umlaut/mnist_change_weights_initialisation_zeros_0.py
+2023-03-19 19:37:49.719658: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudart64_101.dll
+Using TensorFlow backend.
+2023-03-19 19:37:51.456305: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library nvcuda.dll
+2023-03-19 19:37:51.484871: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:0b:00.0 name: NVIDIA GeForce RTX 2060 SUPER computeCapability: 7.5
+coreClock: 1.65GHz coreCount: 34 deviceMemorySize: 8.00GiB deviceMemoryBandwidth: 417.29GiB/s
+2023-03-19 19:37:51.485043: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudart64_101.dll
+2023-03-19 19:37:51.489615: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cublas64_10.dll
+2023-03-19 19:37:51.492080: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cufft64_10.dll
+2023-03-19 19:37:51.493107: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library curand64_10.dll
+2023-03-19 19:37:51.496244: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cusolver64_10.dll
+2023-03-19 19:37:51.498466: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cusparse64_10.dll
+2023-03-19 19:37:51.504857: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudnn64_7.dll
+2023-03-19 19:37:51.504993: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+2023-03-19 19:37:51.505273: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2023-03-19 19:37:51.506083: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:0b:00.0 name: NVIDIA GeForce RTX 2060 SUPER computeCapability: 7.5
+coreClock: 1.65GHz coreCount: 34 deviceMemorySize: 8.00GiB deviceMemoryBandwidth: 417.29GiB/s
+2023-03-19 19:37:51.506262: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudart64_101.dll
+2023-03-19 19:37:51.506339: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cublas64_10.dll
+2023-03-19 19:37:51.506416: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cufft64_10.dll
+2023-03-19 19:37:51.506487: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library curand64_10.dll
+2023-03-19 19:37:51.506562: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cusolver64_10.dll
+2023-03-19 19:37:51.506633: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cusparse64_10.dll
+2023-03-19 19:37:51.506715: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudnn64_7.dll
+2023-03-19 19:37:51.506792: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+2023-03-19 19:37:51.936909: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1096] Device interconnect StreamExecutor with strength 1 edge matrix:
+2023-03-19 19:37:51.937009: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102]      0 
+2023-03-19 19:37:51.937060: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] 0:   N 
+2023-03-19 19:37:51.937210: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1241] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6704 MB memory) -> physical GPU (device: 0, name: NVIDIA GeForce RTX 2060 SUPER, pci bus id: 0000:0b:00.0, compute capability: 7.5)
+Train on 60000 samples, validate on 10000 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/12
+2023-03-19 19:37:52.965440: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cublas64_10.dll
+2023-03-19 19:37:53.138043: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudnn64_7.dll
+2023-03-19 19:37:53.850114: W tensorflow/stream_executor/gpu/redzone_allocator.cc:312] Internal: Invoking GPU asm compilation is supported on Cuda non-Windows platforms only
+Relying on driver to perform ptx compilation. This message will be only logged once.
+ - 4s - loss: 2.3016 - accuracy: 0.1120 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 2/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 3/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 4/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 5/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 6/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 7/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 8/12
+ - 3s - loss: 2.3012 - accuracy: 0.1124 - val_loss: 2.3012 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 9/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 10/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 11/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 12/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Test loss: 2.3010263942718505
+Test accuracy: 0.11349999904632568
+Train on 60000 samples, validate on 10000 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/12
+ - 3s - loss: 2.3016 - accuracy: 0.1116 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 2/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 3/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 4/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 5/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 6/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 7/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 8/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 9/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 10/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 11/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 12/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Test loss: 2.3010460342407226
+Test accuracy: 0.11349999904632568
+Train on 60000 samples, validate on 10000 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/12
+ - 3s - loss: 2.3017 - accuracy: 0.1121 - val_loss: 2.3012 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 2/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 3/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 4/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 5/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 6/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 7/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 8/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 9/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 10/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 11/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 12/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Test loss: 2.3010237144470214
+Test accuracy: 0.11349999904632568
+Train on 60000 samples, validate on 10000 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/12
+ - 3s - loss: 2.3016 - accuracy: 0.1121 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 2/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 3/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 4/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 5/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 6/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 7/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 8/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 9/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 10/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 11/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 12/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Test loss: 2.3009971580505373
+Test accuracy: 0.11349999904632568
+Train on 60000 samples, validate on 10000 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/12
+ - 3s - loss: 2.3016 - accuracy: 0.1120 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 2/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 3/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 4/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 5/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 6/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 7/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 8/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 9/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 10/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 11/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 12/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Test loss: 2.3010357711791993
+Test accuracy: 0.11349999904632568
+Train on 60000 samples, validate on 10000 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/12
+ - 3s - loss: 2.3015 - accuracy: 0.1123 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 2/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 3/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 4/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 5/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 6/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 7/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 8/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 9/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 10/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 11/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 12/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Test loss: 2.3010161956787107
+Test accuracy: 0.11349999904632568
+Train on 60000 samples, validate on 10000 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/12
+ - 3s - loss: 2.3016 - accuracy: 0.1115 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 2/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 3/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 4/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 5/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 6/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 7/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 8/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 9/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 10/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 11/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 12/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Test loss: 2.301012139892578
+Test accuracy: 0.11349999904632568
+Train on 60000 samples, validate on 10000 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/12
+ - 3s - loss: 2.3017 - accuracy: 0.1117 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 2/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 3/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 4/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 5/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 6/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 7/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 8/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3009 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 9/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 10/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 11/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 12/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Test loss: 2.3010465923309327
+Test accuracy: 0.11349999904632568
+Train on 60000 samples, validate on 10000 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/12
+ - 3s - loss: 2.3017 - accuracy: 0.1105 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 2/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 3/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 4/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 5/12
+ - 3s - loss: 2.3012 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 6/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 7/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 8/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 9/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 10/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 11/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 12/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Test loss: 2.301033369445801
+Test accuracy: 0.11349999904632568
+Train on 60000 samples, validate on 10000 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/12
+ - 3s - loss: 2.3016 - accuracy: 0.1116 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 2/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 3/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3009 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 4/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 5/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 6/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 7/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 8/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 9/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 10/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 11/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 12/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Test loss: 2.30104217376709
+Test accuracy: 0.11349999904632568
+Train on 60000 samples, validate on 10000 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/12
+ - 3s - loss: 2.3016 - accuracy: 0.1122 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 2/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 3/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 4/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 5/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 6/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 7/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 8/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 9/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 10/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 11/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 12/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Test loss: 2.301038384628296
+Test accuracy: 0.11349999904632568
+Train on 60000 samples, validate on 10000 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/12
+ - 3s - loss: 2.3016 - accuracy: 0.1121 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 2/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 3/12
+ - 3s - loss: 2.3012 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 4/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3012 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 5/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 6/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 7/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 8/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 9/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 10/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 11/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 12/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Test loss: 2.3009944801330566
+Test accuracy: 0.11349999904632568
+Train on 60000 samples, validate on 10000 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/12
+ - 3s - loss: 2.3016 - accuracy: 0.1116 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 2/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 3/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 4/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 5/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 6/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 7/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 8/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 9/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 10/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 11/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 12/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Test loss: 2.301028881072998
+Test accuracy: 0.11349999904632568
+Train on 60000 samples, validate on 10000 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/12
+ - 3s - loss: 2.3017 - accuracy: 0.1123 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 2/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 3/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 4/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 5/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 6/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 7/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 8/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 9/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 10/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 11/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 12/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Test loss: 2.301085291671753
+Test accuracy: 0.11349999904632568
+Train on 60000 samples, validate on 10000 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/12
+ - 3s - loss: 2.3016 - accuracy: 0.1122 - val_loss: 2.3012 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 2/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 3/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 4/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 5/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 6/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 7/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 8/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 9/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 10/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 11/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 12/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Test loss: 2.301033695602417
+Test accuracy: 0.11349999904632568
+Train on 60000 samples, validate on 10000 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/12
+ - 3s - loss: 2.3016 - accuracy: 0.1117 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 2/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 3/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 4/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 5/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 6/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 7/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 8/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 9/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 10/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 11/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 12/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Test loss: 2.3009949630737303
+Test accuracy: 0.11349999904632568
+Train on 60000 samples, validate on 10000 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/12
+ - 3s - loss: 2.3016 - accuracy: 0.1121 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 2/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 3/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 4/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 5/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 6/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 7/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 8/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 9/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 10/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 11/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 12/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Test loss: 2.300998614501953
+Test accuracy: 0.11349999904632568
+Train on 60000 samples, validate on 10000 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/12
+ - 3s - loss: 2.3017 - accuracy: 0.1112 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 2/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 3/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 4/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 5/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 6/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 7/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 8/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 9/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 10/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 11/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 12/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Test loss: 2.30104896774292
+Test accuracy: 0.11349999904632568
+Train on 60000 samples, validate on 10000 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/12
+ - 3s - loss: 2.3016 - accuracy: 0.1116 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 2/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 3/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 4/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 5/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 6/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 7/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 8/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 9/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 10/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 11/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 12/12
+ - 3s - loss: 2.3012 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Test loss: 2.3011068687438967
+Test accuracy: 0.11349999904632568
+Train on 60000 samples, validate on 10000 samples
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+Epoch 1/12
+ - 3s - loss: 2.3015 - accuracy: 0.1117 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 2/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 3/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 4/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 5/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 6/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 7/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 8/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 9/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 10/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Epoch 11/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3011 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Epoch 12/12
+ - 3s - loss: 2.3013 - accuracy: 0.1124 - val_loss: 2.3010 - val_accuracy: 0.1135
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Test loss: 2.301040768814087
+Test accuracy: 0.11349999904632568
+
+Process finished with exit code 0

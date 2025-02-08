@@ -1,0 +1,913 @@
+Issue 48594888.py 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 10.098947500000001 seconds ---	 	 change the activation function to softmax 	
+Issue 48594888.py 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 9.9596308 seconds ---	 	 change the activation function to softmax 	
+Issue 48594888.py 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 9.961087299999999 seconds ---	 	 change the activation function to softmax 	
+Issue 48594888.py 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 10.0045696 seconds ---	 	 change the activation function to softmax 	
+Issue 48594888.py 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 10.018521799999998 seconds ---	 	 change the activation function to softmax 	
+Issue 48594888.py 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 10.315547 seconds ---	 	 change the activation function to softmax 	
+Issue 48594888.py 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 10.048871199999999 seconds ---	 	 change the activation function to softmax 	
+Issue 48594888.py 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 10.034788500000001 seconds ---	 	 change the activation function to softmax 	
+Issue 48594888.py 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 10.1847078 seconds ---	 	 change the activation function to softmax 	
+Issue 48594888.py 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 10.112434700000001 seconds ---	 	 change the activation function to softmax 	
+Issue 48594888.py 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 10.185651400000001 seconds ---	 	 change the activation function to softmax 	
+Issue 48594888.py 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 10.1016701 seconds ---	 	 change the activation function to softmax 	
+Issue 48594888.py 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 10.1169499 seconds ---	 	 change the activation function to softmax 	
+Issue 48594888.py 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 10.1910755 seconds ---	 	 change the activation function to softmax 	
+Issue 48594888.py 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 10.0334605 seconds ---	 	 change the activation function to softmax 	
+Issue 48594888.py 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 10.0436565 seconds ---	 	 change the activation function to softmax 	
+Issue 48594888.py 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 10.079350300000002 seconds ---	 	 change the activation function to softmax 	
+Issue 48594888.py 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 10.128492399999999 seconds ---	 	 change the activation function to softmax 	
+Issue 48594888.py 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 10.0891673 seconds ---	 	 change the activation function to softmax 	
+Issue 48594888.py 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 10.268885599999999 seconds ---	 	 change the activation function to softmax 	
+Issue runner.py 
+	Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 --- 19.0973486 seconds ---	
+Issue runner.py 
+	Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 --- 19.943514399999998 seconds ---	
+Issue runner.py 
+	Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 --- 19.4879639 seconds ---	
+Issue runner.py 
+	Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 --- 20.002200600000002 seconds ---	
+Issue runner.py 
+	Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 --- 20.161049199999994 seconds ---	
+Issue runner.py 
+	Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 --- 20.521763300000003 seconds ---	
+Issue runner.py 
+	Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 --- 21.063053100000005 seconds ---	
+Issue runner.py 
+	Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 --- 21.666337 seconds ---	
+Issue runner.py 
+	Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 --- 21.825080900000017 seconds ---	
+Issue runner.py 
+	Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 --- 22.628783499999997 seconds ---	
+Issue runner.py 
+	Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 --- 22.5200203 seconds ---	
+Issue runner.py 
+	Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 --- 22.689800600000012 seconds ---	
+Issue 41600519.py 
+	Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 --- 18.9650853 seconds ---	
+Issue 41600519.py 
+	Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 --- 19.5521537 seconds ---	
+Issue 41600519.py 
+	Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 --- 18.8969058 seconds ---	
+Issue 41600519.py 
+	Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 --- 19.0942418 seconds ---	
+Issue 41600519.py 
+	Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 --- 18.784233800000003 seconds ---	
+Issue 41600519.py 
+	Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 --- 18.837350200000003 seconds ---	
+Issue 41600519.py 
+	Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 --- 19.087961 seconds ---	
+Issue 41600519.py 
+	Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 --- 19.145998900000002 seconds ---	
+Issue 41600519.py 
+	Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 --- 19.2486314 seconds ---	
+Issue 41600519.py 
+	Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 --- 18.9080255 seconds ---	
+Issue 41600519.py 
+	Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 --- 19.2115937 seconds ---	
+Issue 41600519.py 
+	Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 --- 19.5333544 seconds ---	
+Issue 41600519.py 
+	Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 --- 19.8775117 seconds ---	
+Issue 41600519.py 
+	Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 --- 20.0376792 seconds ---	
+Issue 41600519.py 
+	Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 --- 18.9895211 seconds ---	
+Issue 41600519.py 
+	Batch 0 layer 6: Numerical Error in delta Weights, terminating training		 --- 19.3748683 seconds ---	
+Issue 50306988.py 
+	Batch 0 layer 1:  Out of Rang Problem, terminating training		 --- 1.1847355 seconds ---	 	 change the activation function to softmax 	
+Issue 50306988.py 
+	Batch 0 layer 1:  Out of Rang Problem, terminating training		 --- 1.1941671 seconds ---	 	 change the activation function to softmax 	
+Issue 50306988.py 
+	Batch 0 layer 1:  Out of Rang Problem, terminating training		 --- 1.1951777 seconds ---	 	 change the activation function to softmax 	
+Issue 50306988.py 
+	Batch 0 layer 1:  Out of Rang Problem, terminating training		 --- 1.1902095 seconds ---	 	 change the activation function to softmax 	
+Issue 50306988.py 
+	Batch 0 layer 1:  Out of Rang Problem, terminating training		 --- 1.1872159999999998 seconds ---	 	 change the activation function to softmax 	
+Issue 50306988.py 
+	Batch 0 layer 1:  Out of Rang Problem, terminating training		 --- 1.184164 seconds ---	 	 change the activation function to softmax 	
+Issue 50306988.py 
+	Batch 0 layer 1:  Out of Rang Problem, terminating training		 --- 1.1885221000000001 seconds ---	 	 change the activation function to softmax 	
+Issue 50306988.py 
+	Batch 0 layer 1:  Out of Rang Problem, terminating training		 --- 1.1918723 seconds ---	 	 change the activation function to softmax 	
+Issue 50306988.py 
+	Batch 0 layer 1:  Out of Rang Problem, terminating training		 --- 1.1877177000000003 seconds ---	 	 change the activation function to softmax 	
+Issue 50306988.py 
+	Batch 0 layer 1:  Out of Rang Problem, terminating training		 --- 1.1871158999999998 seconds ---	 	 change the activation function to softmax 	
+Issue 50306988.py 
+	Batch 0 layer 1:  Out of Rang Problem, terminating training		 --- 1.1755921000000003 seconds ---	 	 change the activation function to softmax 	
+Issue 50306988.py 
+	Batch 0 layer 1:  Out of Rang Problem, terminating training		 --- 1.1903132000000003 seconds ---	 	 change the activation function to softmax 	
+Issue 50306988.py 
+	Batch 0 layer 1:  Out of Rang Problem, terminating training		 --- 1.1869378 seconds ---	 	 change the activation function to softmax 	
+Issue 50306988.py 
+	Batch 0 layer 1:  Out of Rang Problem, terminating training		 --- 1.1973468 seconds ---	 	 change the activation function to softmax 	
+Issue 50306988.py 
+	Batch 0 layer 1:  Out of Rang Problem, terminating training		 --- 1.2017977000000002 seconds ---	 	 change the activation function to softmax 	
+Issue 50306988.py 
+	Batch 0 layer 1:  Out of Rang Problem, terminating training		 --- 1.1867748000000002 seconds ---	 	 change the activation function to softmax 	
+Issue 50306988.py 
+	Batch 0 layer 1:  Out of Rang Problem, terminating training		 --- 1.1897886 seconds ---	 	 change the activation function to softmax 	
+Issue 50306988.py 
+	Batch 0 layer 1:  Out of Rang Problem, terminating training		 --- 1.1960576 seconds ---	 	 change the activation function to softmax 	
+Issue 50306988.py 
+	Batch 0 layer 1:  Out of Rang Problem, terminating training		 --- 1.1905019000000001 seconds ---	 	 change the activation function to softmax 	
+Issue 50306988.py 
+	Batch 0 layer 1:  Out of Rang Problem, terminating training		 --- 1.1948105 seconds ---	 	 change the activation function to softmax 	
+Issue 31880720.py 
+	Batch 0 layer 1: Dead Node Problem, terminating training		 --- 3.1172902 seconds ---		 Learning Rate 	
+Issue 31880720.py 
+	Batch 0 layer 1: Dead Node Problem, terminating training		 --- 3.1408278999999997 seconds ---		 Learning Rate 	
+Issue 31880720.py 
+	Batch 0 layer 1: Dead Node Problem, terminating training		 --- 3.0484795 seconds ---		 Learning Rate 	
+Issue 31880720.py 
+	Batch 0 layer 1: Dead Node Problem, terminating training		 --- 3.1188523000000004 seconds ---		 Learning Rate 	
+Issue 31880720.py 
+	Batch 0 layer 4: Dead Node Problem, terminating training		 --- 3.1177616999999995 seconds ---		 Learning Rate 	
+Issue 31880720.py 
+	Batch 0 layer 1: Dead Node Problem, terminating training		 --- 3.0643442000000003 seconds ---		 Learning Rate 	
+Issue 31880720.py 
+	Batch 0 layer 4: Dead Node Problem, terminating training		 --- 3.0553775 seconds ---		 Learning Rate 	
+Issue 31880720.py 
+	Batch 0 layer 1: Dead Node Problem, terminating training		 --- 3.0829324 seconds ---		 Learning Rate 	
+Issue 31880720.py 
+	Batch 0 layer 1: Dead Node Problem, terminating training		 --- 3.1398729999999997 seconds ---		 Learning Rate 	
+Issue 31880720.py 
+	Batch 0 layer 1: Dead Node Problem, terminating training		 --- 3.0839743000000004 seconds ---		 Learning Rate 	
+Issue 31880720.py 
+	Batch 0 layer 1: Dead Node Problem, terminating training		 --- 3.0915182 seconds ---		 Learning Rate 	
+Issue 31880720.py 
+	Batch 0 layer 1: Dead Node Problem, terminating training		 --- 3.0762183 seconds ---		 Learning Rate 	
+Issue 31880720.py 
+	Batch 0 layer 1: Dead Node Problem, terminating training		 --- 3.1070808999999997 seconds ---		 Learning Rate 	
+Issue 31880720.py 
+	Batch 0 layer 1: Dead Node Problem, terminating training		 --- 3.1036044999999994 seconds ---		 Learning Rate 	
+Issue 31880720.py 
+	Batch 0 layer 1: Dead Node Problem, terminating training		 --- 3.073303 seconds ---		 Learning Rate 	
+Issue 31880720.py 
+	Batch 0 layer 4: Dead Node Problem, terminating training		 --- 3.0851234 seconds ---		 Learning Rate 	
+Issue 31880720.py 
+	Batch 0 layer 1: Dead Node Problem, terminating training		 --- 3.0810043999999994 seconds ---		 Learning Rate 	
+Issue 31880720.py 
+	Batch 0 layer 1: Dead Node Problem, terminating training		 --- 3.0763884 seconds ---		 Learning Rate 	
+Issue 31880720.py 
+	Batch 0 layer 4: Dead Node Problem, terminating training		 --- 3.257796 seconds ---		 Learning Rate 	
+Issue 31880720.py 
+	Batch 0 layer 1: Dead Node Problem, terminating training		 --- 3.0844358000000005 seconds ---		 Learning Rate 	
+Issue 31880720.py 
+	Batch 0 layer 1: Dead Node Problem, terminating training		 --- 3.1170644999999997 seconds ---		 Learning Rate 	
+Issue 31880720.py 
+	Batch 0 layer 1: Dead Node Problem, terminating training		 --- 3.0654682000000006 seconds ---		 Learning Rate 	
+Issue 31880720.py 
+	Batch 0 layer 1: Dead Node Problem, terminating training		 --- 3.1124832 seconds ---		 Learning Rate 	
+Issue 45442843.py 
+	Batch 6 layer 2: Numerical Error in delta Weights, terminating training		 --- 2.8516563 seconds ---	
+Issue 45442843.py 
+	Batch 6 layer 2: Numerical Error in delta Weights, terminating training		 --- 2.7459637 seconds ---	
+Issue 45442843.py 
+	Batch 0 layer 2: Numerical Error in delta Weights, terminating training		 --- 1.1276814 seconds ---	
+Issue 45442843.py 
+	Batch 0 layer 2: Numerical Error in delta Weights, terminating training		 --- 1.1410691 seconds ---	
+Issue 45442843.py 
+	Batch 0 layer 2: Numerical Error in delta Weights, terminating training		 --- 1.1412212 seconds ---	
+Issue 45442843.py 
+	Batch 1 layer 2: Numerical Error in delta Weights, terminating training		 --- 1.397756 seconds ---	
+Issue 45442843.py 
+	Batch 0 layer 2: Numerical Error in delta Weights, terminating training		 --- 1.144974 seconds ---	
+Issue 45442843.py 
+	Batch 0 layer 2: Numerical Error in delta Weights, terminating training		 --- 1.1315919 seconds ---	
+Issue 45442843.py 
+	Batch 0 layer 2: Numerical Error in delta Weights, terminating training		 --- 1.1422232 seconds ---	
+Issue 45442843.py 
+	Batch 0 layer 2: Numerical Error in delta Weights, terminating training		 --- 1.1471042000000002 seconds ---	
+Issue 45442843.py 
+	Batch 1 layer 2: Numerical Error in delta Weights, terminating training		 --- 1.3758509 seconds ---	
+Issue 45442843.py 
+	Batch 0 layer 2: Numerical Error in delta Weights, terminating training		 --- 1.1483330000000003 seconds ---	
+Issue 45442843.py 
+	Batch 0 layer 2: Numerical Error in delta Weights, terminating training		 --- 1.1223176999999998 seconds ---	
+Issue 45442843.py 
+	Batch 2 layer 2: Numerical Error in delta Weights, terminating training		 --- 1.6326631 seconds ---	
+Issue 45442843.py 
+	Batch 2 layer 2: Numerical Error in delta Weights, terminating training		 --- 1.6585511 seconds ---	
+Issue 45442843.py 
+	Batch 2 layer 2: Numerical Error in delta Weights, terminating training		 --- 1.6665569 seconds ---	
+Issue 45442843.py 
+	Batch 0 layer 2: Numerical Error in delta Weights, terminating training		 --- 1.1435067 seconds ---	
+Issue 45442843.py 
+	Batch 0 layer 2: Numerical Error in delta Weights, terminating training		 --- 1.1269503 seconds ---	
+Issue 45442843.py 
+	Batch 1 layer 2: Numerical Error in delta Weights, terminating training		 --- 1.3895244 seconds ---	
+Issue 45442843.py 
+	Batch 1 layer 2: Numerical Error in delta Weights, terminating training		 --- 1.4107592000000002 seconds ---	
+Issue 48385830.py 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 10.925653 seconds ---		Please change the activaton function at layer: 1	
+Issue 48385830.py 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 11.1887601 seconds ---		Please change the activaton function at layer: 1	
+Issue 48385830.py 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 11.1042955 seconds ---		Please change the activaton function at layer: 1	
+Issue 48385830.py 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 11.221067900000001 seconds ---		Please change the activaton function at layer: 1	
+Issue 48385830.py 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 11.361225899999999 seconds ---		Please change the activaton function at layer: 1	
+Issue 48385830.py 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 11.2088359 seconds ---		Please change the activaton function at layer: 1	
+Issue 48385830.py 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 11.0050391 seconds ---		Please change the activaton function at layer: 1	
+Issue 48385830.py 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 11.2069823 seconds ---		Please change the activaton function at layer: 1	
+Issue 48385830.py 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 11.0236575 seconds ---		Please change the activaton function at layer: 1	
+Issue 48385830.py 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 11.3802953 seconds ---		Please change the activaton function at layer: 1	
+Issue 48385830.py 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 10.614324100000001 seconds ---		Please change the activaton function at layer: 1	
+Issue 48385830.py 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 10.5547594 seconds ---		Please change the activaton function at layer: 1	
+Issue 48385830.py 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 10.9156938 seconds ---		Please change the activaton function at layer: 1	
+Issue 48385830.py 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 11.742147000000001 seconds ---		Please change the activaton function at layer: 1	
+Issue 48385830.py 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 11.0455054 seconds ---		Please change the activaton function at layer: 1	
+Issue 48385830.py 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 10.866226 seconds ---		Please change the activaton function at layer: 1	
+Issue 48385830.py 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 10.5108094 seconds ---		Please change the activaton function at layer: 1	
+Issue 48385830.py 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 10.630177900000001 seconds ---		Please change the activaton function at layer: 1	
+Issue 48385830.py 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 10.283150399999998 seconds ---		Please change the activaton function at layer: 1	
+Issue 48385830.py 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 10.752112799999999 seconds ---		Please change the activaton function at layer: 1	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.453977 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.4623242 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.626097499999999 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.507782199999999 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.472423900000001 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	 Batch 0 layer 4: Numerical Problem Forward, terminating training 		 --- 5.508919700000001 seconds ---		Learning Rate 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.562439400000001 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.4781955 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.4322696 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.437232300000001 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.458395900000001 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.469481 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.6389579 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.4741205 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.4518134 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.5196822 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.4225124000000005 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.468302399999999 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.401972800000001 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.498057 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 6.1783241 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.5960304 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_epochs_1 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.357645400000001 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_epochs_1 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.3919576 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_epochs_1 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.2572453999999995 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_epochs_1 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.3636664 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_epochs_1 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.402984699999999 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_epochs_1 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.3006226 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_epochs_1 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.2631824 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_epochs_1 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.3143861 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_epochs_1 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.2463491 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_epochs_1 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.3052581000000005 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_epochs_1 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.275216800000001 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_epochs_1 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.3089716000000005 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_epochs_1 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.274483699999999 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_epochs_1 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.2116573 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_epochs_1 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.290019500000001 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_epochs_1 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.240489999999999 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_epochs_1 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.27782 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_epochs_1 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.3246064 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_epochs_1 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.470835299999999 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_epochs_1 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.3270064999999995 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.3493894 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 4.1855727 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 4.605721300000003 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 4.9719254 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.443191999999996 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.938064599999997 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.227277599999999 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.1953450000000005 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.257661800000001 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.193424599999999 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.161394100000001 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.206536 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.162221199999999 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.169764999999999 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.298510799999999 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.2342459 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.2897856999999995 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.310872 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.3244552999999994 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.3302112 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.334054500000001 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_activation_function_hard_sigmoid_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.5665399 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_change_weights_initialisation_zeros_0 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 6.0115184 seconds ---		Learning Rate 	
+Issue mnist_change_weights_initialisation_zeros_0 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 4.757054500000001 seconds ---		Learning Rate 	
+Issue mnist_change_weights_initialisation_zeros_0 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 5.0658058000000015 seconds ---		Learning Rate 	
+Issue mnist_change_weights_initialisation_zeros_0 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 5.4460619 seconds ---		Learning Rate 	
+Issue mnist_change_weights_initialisation_zeros_0 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 5.776766600000002 seconds ---		Learning Rate 	
+Issue mnist_change_weights_initialisation_zeros_0 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 6.178827499999997 seconds ---		Learning Rate 	
+Issue mnist_change_weights_initialisation_zeros_0 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 6.592478300000003 seconds ---		Learning Rate 	
+Issue mnist_change_weights_initialisation_zeros_0 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 7.2151481 seconds ---		Learning Rate 	
+Issue mnist_change_weights_initialisation_zeros_0 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 6.120899799999999 seconds ---		Learning Rate 	
+Issue mnist_change_weights_initialisation_zeros_0 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 6.0828557 seconds ---		Learning Rate 	
+Issue mnist_change_weights_initialisation_zeros_0 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 6.0014261 seconds ---		Learning Rate 	
+Issue mnist_change_weights_initialisation_zeros_0 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 6.1288999 seconds ---		Learning Rate 	
+Issue mnist_change_weights_initialisation_zeros_0 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 5.9046726000000005 seconds ---		Learning Rate 	
+Issue mnist_change_weights_initialisation_zeros_0 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 6.0763228 seconds ---		Learning Rate 	
+Issue mnist_change_weights_initialisation_zeros_0 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 5.9700277 seconds ---		Learning Rate 	
+Issue mnist_change_weights_initialisation_zeros_0 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 5.8400558 seconds ---		Learning Rate 	
+Issue mnist_change_weights_initialisation_zeros_0 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 5.8966069 seconds ---		Learning Rate 	
+Issue mnist_change_weights_initialisation_zeros_0 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 6.0340214 seconds ---		Learning Rate 	
+Issue mnist_change_weights_initialisation_zeros_0 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 6.0142226 seconds ---		Learning Rate 	
+Issue mnist_change_weights_initialisation_zeros_0 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 5.8742848 seconds ---		Learning Rate 	
+Issue mnist_change_weights_initialisation_zeros_0 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 5.9314841000000005 seconds ---		Learning Rate 	
+Issue mnist_change_weights_initialisation_zeros_0 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 5.876698299999999 seconds ---		Learning Rate 	
+Issue mnist_change_weights_initialisation_zeros_0 
+	 Batch 0 layer 0: Numerical Problem Forward, terminating training 		 --- 5.9525313 seconds ---		Learning Rate 	
+Issue mnist_change_learning_rate_0.001 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 6.0353909 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_change_learning_rate_0.001 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 6.0744956 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_change_learning_rate_0.001 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 6.046770199999999 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_change_learning_rate_0.001 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 5.9816585 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_change_learning_rate_0.001 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 5.9923475 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_change_learning_rate_0.001 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 6.092411599999999 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_change_learning_rate_0.001 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 6.221881499999999 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_change_learning_rate_0.001 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 6.4159558 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_change_learning_rate_0.001 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 6.1124864 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_change_learning_rate_0.001 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 6.081711199999999 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_change_learning_rate_0.001 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 6.132287999999999 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_change_learning_rate_0.001 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 6.1392901 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_change_learning_rate_0.001 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 6.0604791 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_change_learning_rate_0.001 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 6.115362800000001 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_change_learning_rate_0.001 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 6.0158409 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_change_learning_rate_0.001 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 5.914032199999999 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_change_learning_rate_0.001 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 5.9922783 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_change_learning_rate_0.001 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 6.1893327 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_change_learning_rate_0.001 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 5.9816209 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_change_learning_rate_0.001 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 6.0146047 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_remove_actvation_function_7 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 6.0432687000000005 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_remove_actvation_function_7 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 5.969742 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_remove_actvation_function_7 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 5.9829299 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_remove_actvation_function_7 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 5.9183152 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_remove_actvation_function_7 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 5.9213091 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_remove_actvation_function_7 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 6.0140394 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_remove_actvation_function_7 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 6.0277478 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_remove_actvation_function_7 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 5.9761764 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_remove_actvation_function_7 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 6.0039283 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_remove_actvation_function_7 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 5.9682154 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_remove_actvation_function_7 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 6.100901199999999 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_remove_actvation_function_7 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 6.146089199999999 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_remove_actvation_function_7 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 6.556483000000001 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_remove_actvation_function_7 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 6.049404300000001 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_remove_actvation_function_7 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 6.1173219 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_remove_actvation_function_7 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 5.9816579 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_remove_actvation_function_7 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 6.0410086 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_remove_actvation_function_7 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 6.2019878 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_remove_actvation_function_7 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 5.9807074 seconds ---	 	 change the activation function to softmax 	
+Issue mnist_remove_actvation_function_7 
+	Batch 0 layer 7:  Out of Rang Problem, terminating training		 --- 6.0929508000000006 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_add_weights_regularisation_l1_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 3.6735821 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_add_weights_regularisation_l1_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 3.6524711 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_add_weights_regularisation_l1_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 3.7906961 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_add_weights_regularisation_l1_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.606379200000001 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_add_weights_regularisation_l1_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 3.0109915999999988 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_add_weights_regularisation_l1_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 3.0316902999999975 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_add_weights_regularisation_l1_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.986467300000001 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_add_weights_regularisation_l1_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 3.023755900000001 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_add_weights_regularisation_l1_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.989060600000002 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_add_weights_regularisation_l1_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.946626799999997 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_add_weights_regularisation_l1_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.9604031000000006 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_add_weights_regularisation_l1_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 3.0563932999999963 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_add_weights_regularisation_l1_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.958571499999998 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_add_weights_regularisation_l1_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.952507500000003 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_add_weights_regularisation_l1_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 3.064739799999998 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_add_weights_regularisation_l1_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.9463427000000024 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_add_weights_regularisation_l1_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.992490799999999 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_add_weights_regularisation_l1_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.9942125999999973 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_add_weights_regularisation_l1_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.984206400000005 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_add_weights_regularisation_l1_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 3.0027412999999967 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_activation_function_softsign_2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 3.1102538 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_activation_function_softsign_2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.550550900000001 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_activation_function_softsign_2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.3140523999999996 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_activation_function_softsign_2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.528971500000001 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_activation_function_softsign_2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.457284900000001 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_activation_function_softsign_2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.339485400000001 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_activation_function_softsign_2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.298775899999999 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_activation_function_softsign_2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.312120499999999 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_activation_function_softsign_2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.3384438000000003 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_activation_function_softsign_2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.3320699000000005 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_activation_function_softsign_2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.3100465999999997 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_activation_function_softsign_2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.349247399999996 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_activation_function_softsign_2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.295429300000002 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_activation_function_softsign_2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.1943795999999978 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_activation_function_softsign_2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.2368364000000014 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_activation_function_softsign_2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.2700539000000077 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_activation_function_softsign_2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.3027321 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_activation_function_softsign_2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.3239711000000085 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_activation_function_softsign_2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.2546351000000016 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_activation_function_softsign_2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.2905327 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_learning_rate_1.0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.9953130000000003 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_learning_rate_1.0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.2394454999999995 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_learning_rate_1.0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.3846252999999997 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_learning_rate_1.0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.3460368999999996 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_learning_rate_1.0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.246272900000001 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_learning_rate_1.0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.2825925 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_learning_rate_1.0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.3171989999999987 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_learning_rate_1.0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.3367125999999985 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_learning_rate_1.0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.3232704000000055 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_learning_rate_1.0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.280588899999998 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_learning_rate_1.0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.293960399999996 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_learning_rate_1.0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.3163510999999986 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_learning_rate_1.0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.3198837000000054 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_learning_rate_1.0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.300679599999995 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_learning_rate_1.0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.3295233999999994 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_learning_rate_1.0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.352805400000001 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_learning_rate_1.0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.296401599999996 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_learning_rate_1.0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.351819700000007 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_learning_rate_1.0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.3400343999999933 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_learning_rate_1.0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.32627149999999 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_loss_function_hinge.py 
+	Batch 0 layer 0: Vanishing Gradient Problem in delta Weights, terminating training		 --- 3.0171986 seconds ---		 Add/delete layer or change sigmoid activation function 	
+Issue reuters_change_loss_function_hinge.py 
+	Batch 0 layer 0: Vanishing Gradient Problem in delta Weights, terminating training		 --- 1.9959198999999996 seconds ---		 Add/delete layer or change sigmoid activation function 	
+Issue reuters_change_loss_function_hinge.py 
+	Batch 0 layer 0: Vanishing Gradient Problem in delta Weights, terminating training		 --- 2.2462125000000004 seconds ---		 Add/delete layer or change sigmoid activation function 	
+Issue reuters_change_loss_function_hinge.py 
+	Batch 0 layer 0: Vanishing Gradient Problem in delta Weights, terminating training		 --- 2.2668418 seconds ---		 Add/delete layer or change sigmoid activation function 	
+Issue reuters_change_loss_function_hinge.py 
+	Batch 0 layer 0: Vanishing Gradient Problem in delta Weights, terminating training		 --- 2.2313611999999985 seconds ---		 Add/delete layer or change sigmoid activation function 	
+Issue reuters_change_loss_function_hinge.py 
+	Batch 0 layer 0: Vanishing Gradient Problem in delta Weights, terminating training		 --- 2.245853499999999 seconds ---		 Add/delete layer or change sigmoid activation function 	
+Issue reuters_change_loss_function_hinge.py 
+	Batch 0 layer 0: Vanishing Gradient Problem in delta Weights, terminating training		 --- 2.2750909999999998 seconds ---		 Add/delete layer or change sigmoid activation function 	
+Issue reuters_change_loss_function_hinge.py 
+	Batch 0 layer 0: Vanishing Gradient Problem in delta Weights, terminating training		 --- 2.2331398000000036 seconds ---		 Add/delete layer or change sigmoid activation function 	
+Issue reuters_change_loss_function_hinge.py 
+	Batch 0 layer 0: Vanishing Gradient Problem in delta Weights, terminating training		 --- 2.249057400000005 seconds ---		 Add/delete layer or change sigmoid activation function 	
+Issue reuters_change_loss_function_hinge.py 
+	Batch 0 layer 0: Vanishing Gradient Problem in delta Weights, terminating training		 --- 2.2738931999999963 seconds ---		 Add/delete layer or change sigmoid activation function 	
+Issue reuters_change_loss_function_hinge.py 
+	Batch 0 layer 0: Vanishing Gradient Problem in delta Weights, terminating training		 --- 2.2176469000000054 seconds ---		 Add/delete layer or change sigmoid activation function 	
+Issue reuters_change_loss_function_hinge.py 
+	Batch 0 layer 0: Vanishing Gradient Problem in delta Weights, terminating training		 --- 2.2749517000000026 seconds ---		 Add/delete layer or change sigmoid activation function 	
+Issue reuters_change_loss_function_hinge.py 
+	Batch 0 layer 0: Vanishing Gradient Problem in delta Weights, terminating training		 --- 2.2790569999999946 seconds ---		 Add/delete layer or change sigmoid activation function 	
+Issue reuters_change_loss_function_hinge.py 
+	Batch 0 layer 0: Vanishing Gradient Problem in delta Weights, terminating training		 --- 2.285944999999998 seconds ---		 Add/delete layer or change sigmoid activation function 	
+Issue reuters_change_loss_function_hinge.py 
+	Batch 0 layer 0: Vanishing Gradient Problem in delta Weights, terminating training		 --- 2.2342001999999965 seconds ---		 Add/delete layer or change sigmoid activation function 	
+Issue reuters_change_loss_function_hinge.py 
+	Batch 0 layer 0: Vanishing Gradient Problem in delta Weights, terminating training		 --- 2.2875887000000006 seconds ---		 Add/delete layer or change sigmoid activation function 	
+Issue reuters_change_loss_function_hinge.py 
+	Batch 0 layer 0: Vanishing Gradient Problem in delta Weights, terminating training		 --- 2.289433900000006 seconds ---		 Add/delete layer or change sigmoid activation function 	
+Issue reuters_change_loss_function_hinge.py 
+	Batch 0 layer 0: Vanishing Gradient Problem in delta Weights, terminating training		 --- 2.240015200000002 seconds ---		 Add/delete layer or change sigmoid activation function 	
+Issue reuters_change_loss_function_hinge.py 
+	Batch 0 layer 0: Vanishing Gradient Problem in delta Weights, terminating training		 --- 2.271897199999998 seconds ---		 Add/delete layer or change sigmoid activation function 	
+Issue reuters_change_loss_function_hinge.py 
+	Batch 0 layer 0: Vanishing Gradient Problem in delta Weights, terminating training		 --- 2.2812945999999954 seconds ---		 Add/delete layer or change sigmoid activation function 	
+Issue reuters_change_optimisation_function_sgd.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.4923757 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_optimisation_function_sgd.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.7247079000000003 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_optimisation_function_sgd.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.821081099999999 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_optimisation_function_sgd.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.9184123999999994 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_optimisation_function_sgd.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.943197699999999 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_optimisation_function_sgd.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.9095277999999993 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_optimisation_function_sgd.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.9193415999999992 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_optimisation_function_sgd.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.9609697999999973 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_optimisation_function_sgd.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.998738699999997 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_optimisation_function_sgd.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.8627031999999986 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_optimisation_function_sgd.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.8631029000000012 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_optimisation_function_sgd.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.9177108999999959 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_optimisation_function_sgd.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.936353699999998 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_optimisation_function_sgd.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.8923874999999981 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_optimisation_function_sgd.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.8829346999999999 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_optimisation_function_sgd.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.9154484999999966 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_optimisation_function_sgd.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.894730199999998 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_optimisation_function_sgd.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.8890129999999914 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_optimisation_function_sgd.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.8783090000000016 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_optimisation_function_sgd.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.9803171000000077 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_weights_initialisation_ones_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 3.1283873 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_weights_initialisation_ones_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.2962559999999996 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_weights_initialisation_ones_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.3886833999999997 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_weights_initialisation_ones_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.372679699999999 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_weights_initialisation_ones_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.3922676000000003 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_weights_initialisation_ones_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.396606400000003 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_weights_initialisation_ones_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.3496591000000002 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_weights_initialisation_ones_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.4085877000000018 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_weights_initialisation_ones_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.4190252 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_weights_initialisation_ones_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.4611743000000033 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_weights_initialisation_ones_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.4625910000000033 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_weights_initialisation_ones_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.453077499999999 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_weights_initialisation_ones_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.4225271000000035 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_weights_initialisation_ones_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.426712100000003 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_weights_initialisation_ones_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.4206602000000004 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_weights_initialisation_ones_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.4090396 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_weights_initialisation_ones_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.444341399999999 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_weights_initialisation_ones_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.4465632 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_weights_initialisation_ones_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.429516899999996 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_change_weights_initialisation_ones_0.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.4286857999999967 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_remove_activation_function__2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.9589743000000004 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_remove_activation_function__2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.1790234999999996 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_remove_activation_function__2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.3041594000000014 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_remove_activation_function__2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.2512670999999997 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_remove_activation_function__2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.3090618999999997 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_remove_activation_function__2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.295904199999999 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_remove_activation_function__2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.3001623 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_remove_activation_function__2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.2491960999999954 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_remove_activation_function__2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.3024957999999955 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_remove_activation_function__2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.2976031000000035 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_remove_activation_function__2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.3101197999999954 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_remove_activation_function__2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.310403199999996 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_remove_activation_function__2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.331191599999997 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_remove_activation_function__2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.2676634999999976 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_remove_activation_function__2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.3243756999999974 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_remove_activation_function__2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.2938292000000047 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_remove_activation_function__2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.324837499999987 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_remove_activation_function__2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.2906871999999936 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_remove_activation_function__2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.3197355000000073 seconds ---	 	 change the activation function to softmax 	
+Issue reuters_remove_activation_function__2.py 
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 2.3445474000000104 seconds ---	 	 change the activation function to softmax 	
+Issue 56380303.py
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.5246779 seconds ---	 	 change the activation function to softmax
+Issue 56380303.py
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.5112398999999996 seconds ---	 	 change the activation function to softmax
+Issue 56380303.py
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.4943667 seconds ---	 	 change the activation function to softmax
+Issue 56380303.py
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.5069112999999996 seconds ---	 	 change the activation function to softmax
+Issue 56380303.py
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.5081095999999996 seconds ---	 	 change the activation function to softmax
+Issue 56380303.py
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.5032736999999998 seconds ---	 	 change the activation function to softmax
+Issue 56380303.py
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.4788676 seconds ---	 	 change the activation function to softmax
+Issue 56380303.py
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.5010309999999998 seconds ---	 	 change the activation function to softmax
+Issue 56380303.py
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.4974545000000004 seconds ---	 	 change the activation function to softmax
+Issue 56380303.py
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.4983743 seconds ---	 	 change the activation function to softmax
+Issue 56380303.py
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.5048999000000003 seconds ---	 	 change the activation function to softmax
+Issue 56380303.py
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.5035795000000003 seconds ---	 	 change the activation function to softmax
+Issue 56380303.py
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.5045933000000002 seconds ---	 	 change the activation function to softmax
+Issue 56380303.py
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.5064378 seconds ---	 	 change the activation function to softmax
+Issue 56380303.py
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.5011291 seconds ---	 	 change the activation function to softmax
+Issue 56380303.py
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.5090690000000002 seconds ---	 	 change the activation function to softmax
+Issue 56380303.py
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.5167867000000004 seconds ---	 	 change the activation function to softmax
+Issue 56380303.py
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.4796080999999996 seconds ---	 	 change the activation function to softmax
+Issue 56380303.py
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.4804752999999997 seconds ---	 	 change the activation function to softmax
+Issue 56380303.py
+	Batch 0 layer 2:  Out of Rang Problem, terminating training		 --- 1.4979620000000002 seconds ---	 	 change the activation function to softmax
+Issue 59325381.py 
+Issue cifar10_change_weights_initialisation_ones_2
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.4985921 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_weights_initialisation_ones_2
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.8662913 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_weights_initialisation_ones_2
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 3.8132614999999994 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_weights_initialisation_ones_2
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 3.8897803999999994 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_weights_initialisation_ones_2
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 3.803960700000001 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_weights_initialisation_ones_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 5.6380497 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_weights_initialisation_ones_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 4.1268966 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_weights_initialisation_ones_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 3.9541645999999986 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_weights_initialisation_ones_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 3.887017 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_weights_initialisation_ones_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 3.9186943999999997 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_weights_initialisation_ones_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 3.927839800000001 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_weights_initialisation_ones_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 3.991019999999999 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_weights_initialisation_ones_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 4.0320575000000005 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_weights_initialisation_ones_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 3.8947046999999984 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_weights_initialisation_ones_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 3.949586199999999 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_weights_initialisation_ones_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 3.9271412999999953 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_weights_initialisation_ones_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 3.979181099999991 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_weights_initialisation_ones_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 3.919495699999999 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_weights_initialisation_ones_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 3.890698299999997 seconds ---	 	 change the activation function to softmax 	
+Issue cifar10_change_weights_initialisation_ones_2 
+	Batch 0 layer 9:  Out of Rang Problem, terminating training		 --- 3.9032114999999976 seconds ---	 	 change the activation function to softmax 	
+Issue 51181393.py 
+
+Issue 51181393.py 
+
+Issue 51181393.py 
+
+Issue 51181393.py 
+
+Issue 51181393.py 
+
+Issue 51181393.py 
+
+Issue 51181393.py 
+
+Issue 51181393.py 
+
+Issue 51181393.py 
+
+Issue 51181393.py 
+
+Issue 51181393.py 
+
+Issue 51181393.py 
+
+Issue 51181393.py 
+
+Issue 51181393.py 
+
+Issue 51181393.py 
+
+Issue 51181393.py 
+
+Issue 51181393.py 
+
+Issue 51181393.py 
+

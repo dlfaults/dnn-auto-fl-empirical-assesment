@@ -1,0 +1,62 @@
+D:\nargiz\github\umlaut\venvUMLT\Scripts\python.exe D:/nargiz/github/umlaut/31880720.py
+
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Critical: Missing activation functions>, <Warning: Last model layer has nonlinear activation>]
+

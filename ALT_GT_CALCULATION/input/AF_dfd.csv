@@ -1,0 +1,10 @@
+﻿M1,0,HLR | ACH | LCH | HNE,lr,act,loss,epochs
+M2,0,OCH | HLR | HNE,optimizer,lr,epochs,
+M3,1,OCH | HLR | LCH,optimizer,lr,loss,
+R1,0,HLR | LCH | HNE,lr,loss,epochs,
+R2,0,OCH | LCH | HNE,optimizer,loss,epochs,
+R3,0,OCH | LCH | HNE,optimizer,loss,epochs,
+R4,1,ACH | LCH,act,loss,,
+R5,1,OCH | ACH | HNE,optimizer,act,epochs,
+R6,0,OCH | ACH| LCH | HNE,optimizer,act,loss,epochs
+R7,0,OCH | LCH | HNE,optimizer,loss,epochs,

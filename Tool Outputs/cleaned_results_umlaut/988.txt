@@ -1,0 +1,203 @@
+D:\nargiz\github\umlaut\venvUMLT\Scripts\python.exe D:/nargiz/github/umlaut/50306988.py
+
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+2023-03-19 16:58:59.951895: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cublas64_10.dll
+
+32/40 [=======================>......] - ETA: 0s
+40/40 [==============================] - 0s 50us/step
+[0.913615083694458, 0.4000000059604645]
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+32/40 [=======================>......] - ETA: 0s
+40/40 [==============================] - 0s 50us/step
+[0.6587329387664795, 0.6000000238418579]
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+32/40 [=======================>......] - ETA: 0s
+40/40 [==============================] - 0s 50us/step
+[0.7562216877937317, 0.4000000059604645]
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+32/40 [=======================>......] - ETA: 0s
+40/40 [==============================] - 0s 50us/step
+[0.6906602621078491, 0.6000000238418579]
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+32/40 [=======================>......] - ETA: 0s
+40/40 [==============================] - 0s 50us/step
+[0.6457364201545716, 0.6000000238418579]
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+32/40 [=======================>......] - ETA: 0s
+40/40 [==============================] - 0s 50us/step
+[0.7742555618286133, 0.4000000059604645]
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+32/40 [=======================>......] - ETA: 0s
+40/40 [==============================] - 0s 50us/step
+[0.7001258134841919, 0.4000000059604645]
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+32/40 [=======================>......] - ETA: 0s
+40/40 [==============================] - 0s 50us/step
+[0.7266374349594116, 0.4000000059604645]
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+32/40 [=======================>......] - ETA: 0s
+40/40 [==============================] - 0s 50us/step
+[0.8267565131187439, 0.4000000059604645]
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+32/40 [=======================>......] - ETA: 0s
+40/40 [==============================] - 0s 50us/step
+[0.6739712238311768, 0.6000000238418579]
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+32/40 [=======================>......] - ETA: 0s
+40/40 [==============================] - 0s 25us/step
+[0.6538142323493957, 0.42500001192092896]
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+32/40 [=======================>......] - ETA: 0s
+40/40 [==============================] - 0s 50us/step
+[0.7064554810523986, 0.4000000059604645]
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Possible overfitting>, <Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Possible overfitting>, <Warning: Check validation accuracy>]
+
+32/40 [=======================>......] - ETA: 0s
+40/40 [==============================] - 0s 50us/step
+[0.6930430412292481, 0.6000000238418579]
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Possible overfitting>, <Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Possible overfitting>, <Warning: Check validation accuracy>]
+
+32/40 [=======================>......] - ETA: 0s
+40/40 [==============================] - 0s 50us/step
+[0.6941786408424377, 0.6000000238418579]
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+32/40 [=======================>......] - ETA: 0s
+40/40 [==============================] - 0s 50us/step
+[0.8017466902732849, 0.4000000059604645]
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+32/40 [=======================>......] - ETA: 0s
+40/40 [==============================] - 0s 50us/step
+[0.6489650964736938, 0.6000000238418579]
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+32/40 [=======================>......] - ETA: 0s
+40/40 [==============================] - 0s 75us/step
+[0.7148168325424195, 0.6000000238418579]
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+32/40 [=======================>......] - ETA: 0s
+40/40 [==============================] - 0s 50us/step
+[0.8523022651672363, 0.4000000059604645]
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+32/40 [=======================>......] - ETA: 0s
+40/40 [==============================] - 0s 50us/step
+[0.6760644912719727, 0.6000000238418579]
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>, <Warning: Last model layer has nonlinear activation>]
+
+Umlaut results:
+[<Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Check validation accuracy>]
+
+32/40 [=======================>......] - ETA: 0s
+40/40 [==============================] - 0s 100us/step
+[0.6848670959472656, 1.0]
+
+Process finished with exit code 0

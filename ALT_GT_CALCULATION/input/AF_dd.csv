@@ -1,0 +1,10 @@
+﻿M1,0,HLR,lr
+M2,1,ACH(7),act4
+M3,0,,
+R1,0,,
+R2,1,ACH(2),act2
+R3,0,,
+R4,0,LRM/LAD/ACH(0),act1
+R5,0,,
+R6,0,,
+R7,1,ACH(2),act2

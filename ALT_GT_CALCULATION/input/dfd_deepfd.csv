@@ -1,0 +1,9 @@
+﻿31880720,1,ACH,act,,,
+41600519,0,ACH,act,,,
+45442843,0.2,OCH | HLR,optimizer,lr,,
+48385830,0,OCH,optimizer,,,
+48594888,0,OCH | ACH,optimizer,act,,
+50306988,0.5,OCH | HLR | HNE,optimizer,lr,epochs,
+51181393,0,LCH,loss,,,
+56380303,1,OCH | HLR | LCH | HNE,optimizer,lr,loss,epochs
+59325381,0,,,,,

@@ -10,10 +10,10 @@ result_types = ["O", "OA"]
 tools = ["DFD", "DD", "NL", "UM"]
 metrics = ["RC"]#, "PR", "F3"
 
-df = pd.read_csv("results_old_new.csv")
-# print(df)
+df = pd.read_csv("STAT_TEST_RC/results_old_new.csv")
 
-res_file = "results_stat_test_power.csv"
+
+res_file = "STAT_TEST_RC/results_stat_test_power.csv"
 stat_results = [["TYPE", "TOOL_1", "TOOL_2", "METRIC", "IS_STS", "P_VALUE", "EFFECT_SIZE", "POWER"]]
 
 for r_type in result_types:

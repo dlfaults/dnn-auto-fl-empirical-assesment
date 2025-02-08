@@ -1,0 +1,837 @@
+D:\nargiz\github\umlaut\venvUMLT\Scripts\python.exe D:/nargiz/github/umlaut/mnist_remove_actvation_function_7.py
+Using TensorFlow backend.
+2023-03-20 06:58:31.002291: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudart64_101.dll
+2023-03-20 06:58:33.843513: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library nvcuda.dll
+2023-03-20 06:58:33.875015: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:0b:00.0 name: NVIDIA GeForce RTX 2060 SUPER computeCapability: 7.5
+coreClock: 1.65GHz coreCount: 34 deviceMemorySize: 8.00GiB deviceMemoryBandwidth: 417.29GiB/s
+2023-03-20 06:58:33.875183: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudart64_101.dll
+2023-03-20 06:58:34.267234: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cublas64_10.dll
+2023-03-20 06:58:34.309118: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cufft64_10.dll
+2023-03-20 06:58:34.331688: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library curand64_10.dll
+2023-03-20 06:58:34.539912: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cusolver64_10.dll
+2023-03-20 06:58:34.725642: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cusparse64_10.dll
+2023-03-20 06:58:34.922477: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudnn64_7.dll
+2023-03-20 06:58:34.922599: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+2023-03-20 06:58:34.922908: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2023-03-20 06:58:34.923559: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:0b:00.0 name: NVIDIA GeForce RTX 2060 SUPER computeCapability: 7.5
+coreClock: 1.65GHz coreCount: 34 deviceMemorySize: 8.00GiB deviceMemoryBandwidth: 417.29GiB/s
+2023-03-20 06:58:34.923829: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudart64_101.dll
+2023-03-20 06:58:34.923937: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cublas64_10.dll
+2023-03-20 06:58:34.924017: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cufft64_10.dll
+2023-03-20 06:58:34.924088: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library curand64_10.dll
+2023-03-20 06:58:34.924160: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cusolver64_10.dll
+2023-03-20 06:58:34.924235: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cusparse64_10.dll
+2023-03-20 06:58:34.924309: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudnn64_7.dll
+2023-03-20 06:58:34.924414: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+2023-03-20 06:58:35.351049: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1096] Device interconnect StreamExecutor with strength 1 edge matrix:
+2023-03-20 06:58:35.351146: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102]      0 
+2023-03-20 06:58:35.351198: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] 0:   N 
+2023-03-20 06:58:35.351357: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1241] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6704 MB memory) -> physical GPU (device: 0, name: NVIDIA GeForce RTX 2060 SUPER, pci bus id: 0000:0b:00.0, compute capability: 7.5)
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>]
+2023-03-20 06:58:36.455283: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cublas64_10.dll
+2023-03-20 06:58:36.633329: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudnn64_7.dll
+2023-03-20 06:58:37.357917: W tensorflow/stream_executor/gpu/redzone_allocator.cc:312] Internal: Invoking GPU asm compilation is supported on Cuda non-Windows platforms only
+Relying on driver to perform ptx compilation. This message will be only logged once.
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Test loss: 9.915852322387694
+Test accuracy: 0.08049999922513962
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Test loss: 1.1920930376163597e-07
+Test accuracy: 0.09799999743700027
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Test loss: 1.1920930376163597e-07
+Test accuracy: 0.09799999743700027
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Test loss: 8.04454153137207
+Test accuracy: 0.0957999974489212
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Test loss: 1.1920930376163597e-07
+Test accuracy: 0.09799999743700027
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Test loss: 6.5921077613830565
+Test accuracy: 0.10279999673366547
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Test loss: 1.1920930376163597e-07
+Test accuracy: 0.09799999743700027
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Test loss: 1.1920930376163597e-07
+Test accuracy: 0.09799999743700027
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Test loss: 1.1920930376163597e-07
+Test accuracy: 0.09799999743700027
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Test loss: 8.236346816253661
+Test accuracy: 0.10090000182390213
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Test loss: 8.023587969970704
+Test accuracy: 0.09799999743700027
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Test loss: 1.1920930376163597e-07
+Test accuracy: 0.09799999743700027
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Test loss: 1.1920930376163597e-07
+Test accuracy: 0.09799999743700027
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Test loss: 9.841709101867675
+Test accuracy: 0.10320000350475311
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Test loss: 8.226675980377196
+Test accuracy: 0.08919999748468399
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Test loss: 1.1920930376163597e-07
+Test accuracy: 0.09799999743700027
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Check validation accuracy>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Test loss: 1.1920930376163597e-07
+Test accuracy: 0.09799999743700027
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+Test loss: 7.841453478240966
+Test accuracy: 0.11349999904632568
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Test loss: 1.1920930376163597e-07
+Test accuracy: 0.09799999743700027
+Umlaut results:
+[<Critical: Missing Softmax layer before loss>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>, <Warning: Possible overfitting>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+
+Umlaut results:
+[<Warning: Learning Rate is high>]
+Test loss: 5.989484285736084
+Test accuracy: 0.0957999974489212
+
+Process finished with exit code 0

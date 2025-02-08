@@ -1,0 +1,75 @@
+
+====================
+Working on case: 
+working on subject:  48221692
+The ground truth faults: []
+Diagnosed / Localized by DeepFD:
+Fault 1: [lr], Lines: []
+Fault 2: [act], Lines: []
+Fault 3: [loss], Lines: [27]
+Fault 4: [epoch], Lines: [28]
+case end 
+====================
+
+
+====================
+Working on case: 
+working on subject:  50079585
+The ground truth faults: []
+Diagnosed / Localized by DeepFD:
+Fault 1: [optimizer], Lines: [55]
+Fault 2: [act], Lines: []
+Fault 3: [loss], Lines: [55]
+Fault 4: [epoch], Lines: [83]
+case end 
+====================
+
+
+====================
+Working on case: 
+working on subject:  kerasma
+The ground truth faults: []
+Diagnosed / Localized by DeepFD:
+Fault 1: [optimizer], Lines: [30]
+Fault 2: [act], Lines: []
+Fault 3: [loss], Lines: [30]
+Fault 4: [epoch], Lines: [35]
+case end 
+====================
+
+
+====================
+Working on case: 
+working on subject:  68
+The ground truth faults: []
+Diagnosed / Localized by DeepFD:
+Fault 1: [optimizer], Lines: [47]
+Fault 2: [act], Lines: [38]
+Fault 3: [loss], Lines: [47]
+case end 
+====================
+
+
+====================
+Working on case: 
+working on subject:  99
+The ground truth faults: []
+Diagnosed / Localized by DeepFD:
+Fault 1: [optimizer], Lines: [41]
+Fault 2: [lr], Lines: []
+Fault 3: [epoch], Lines: [49]
+case end 
+====================
+
+
+====================
+Working on case: 
+working on subject:  24
+The ground truth faults: []
+Diagnosed / Localized by DeepFD:
+Fault 1: [optimizer], Lines: []
+Fault 2: [act], Lines: []
+Fault 3: [epoch], Lines: [72]
+case end 
+====================
+
