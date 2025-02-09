@@ -28,7 +28,7 @@ File ‘FL Results.xlsx’ contains all the main results of the paper:
 - Sheet 'Timing RAW': contains all timing results for 20 tools runs (one for DFD and NL) over whole benchmark
 - Sheet 'STAT RESULTS': contains statistical test results for timing results comparison
 
-File 'FL Tables.xlsx': contains tables used in the publication
+File 'FL Tables.xlsx': contains tables used in the publication: Table 1, Tables 5-13
 
 Folder 'STAT_TEST_RC':
 - File 'results_old_new.csv': Contains FL tools results that are used as input for statistical test of tools' performance
